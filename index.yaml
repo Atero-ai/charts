@@ -761,7 +761,7 @@ entries:
     version: 0.1.10
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2025-03-24T14:53:26.335410708Z"
+    created: "2025-03-24T15:21:57.306657859Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -775,11 +775,11 @@ entries:
       - fluent-bit
       version: 0.48.4
     description: Atero helm chart
-    digest: 4187c2d3d4e8c3e462abfa31fe81ec0577fe60f17c98e0524f4094bbb8eb2c7d
+    digest: fe628cbfeb6318b4e1c9a0dd677fd93236c942471a8ab0daf4f259bbee14e40a
     home: https://atero.ai/
     name: atero
     type: application
     urls:
     - https://atero-ai.github.io/charts/atero-charts/atero-0.0.0.tgz
     version: 0.0.0
-generated: "2025-03-24T14:53:26.329314543Z"
+generated: "2025-03-24T15:21:57.300376314Z"
