@@ -2,6 +2,30 @@ apiVersion: v1
 entries:
   atero:
   - apiVersion: v2
+    appVersion: v0.1.58
+    created: "2025-04-21T10:53:23.532873259Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 7bf3e689df7a4ad7caa0fdb7afb99f67c170ab17ac9ec4b5605b9c62ae832e8c
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.58.tgz
+    version: v0.1.58
+  - apiVersion: v2
     appVersion: v0.1.57
     created: "2025-04-17T09:52:38.196079722Z"
     dependencies:
@@ -1060,4 +1084,4 @@ entries:
     urls:
     - https://atero-ai.github.io/charts/atero-charts/atero-0.0.0.tgz
     version: 0.0.0
-generated: "2025-04-17T09:52:38.190555712Z"
+generated: "2025-04-21T10:53:23.52513282Z"
