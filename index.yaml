@@ -1449,7 +1449,7 @@ entries:
     version: 0.1.10
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2025-06-10T23:38:02.336907861Z"
+    created: "2025-06-11T06:10:40.77929259Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1464,7 +1464,7 @@ entries:
       - fluent-bit
       version: 0.48.4
     description: Atero helm chart
-    digest: f94e29480ad1ad0f2910580d0ffc309c61176ef82debe2e5a600248712d73641
+    digest: bd6ab4f6fa1aa8edf276ec2bcfcd0d9e36e5c1ef19b9fbfd9f399d2b6705a77b
     home: https://atero.ai/
     maintainers:
     - name: Atero
@@ -1496,4 +1496,4 @@ entries:
     urls:
     - https://atero-ai.github.io/charts/atero-charts/atero-0.0.0.tgz
     version: 0.0.0
-generated: "2025-06-10T23:38:02.33076033Z"
+generated: "2025-06-11T06:10:40.77339963Z"
