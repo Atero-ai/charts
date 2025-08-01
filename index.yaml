@@ -2,6 +2,32 @@ apiVersion: v1
 entries:
   atero:
   - apiVersion: v2
+    appVersion: v0.1.98
+    created: "2025-08-01T21:40:10.988891266Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 2c4e680ea80e524074eba4a1aa5f70f6799e3bfc99ecca60b15af808c2c19e75
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.98.tgz
+    version: v0.1.98
+  - apiVersion: v2
     appVersion: v0.1.97
     created: "2025-07-30T08:49:30.605938336Z"
     dependencies:
@@ -2044,6 +2070,19 @@ entries:
     version: 0.0.0
   atero-kvcache-model:
   - apiVersion: v2
+    appVersion: v0.1.98
+    created: "2025-08-01T21:40:10.982859872Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 23d2709fb7dccb0f776021a6fc29ac9bff78613d468905e37544df640d0452e3
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.98.tgz
+    version: v0.1.98
+  - apiVersion: v2
     appVersion: v0.1.97
     created: "2025-07-30T08:49:30.599755121Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
@@ -2316,4 +2355,4 @@ entries:
     urls:
     - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.76.tgz
     version: v0.1.76
-generated: "2025-07-30T08:49:30.59914049Z"
+generated: "2025-08-01T21:40:10.982225296Z"
