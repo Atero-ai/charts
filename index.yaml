@@ -2408,7 +2408,7 @@ entries:
     version: 0.0.0
   - apiVersion: v2
     appVersion: 0.0.0-nightly
-    created: "2025-08-21T07:25:00.048242922Z"
+    created: "2025-08-22T00:14:31.01516344Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2423,7 +2423,7 @@ entries:
       - fluent-bit
       version: 0.48.4
     description: Atero helm chart
-    digest: 3f3eb37ec300ed3b75825c6dbcf10d7ebba623a37be3c01f87c2407e058084b0
+    digest: d3fe3c7339c69cb6ed2716270b4d939d92b6dd4c53938ad11fbc1d7fb7239e48
     home: https://atero.ai/
     maintainers:
     - name: Atero
@@ -2890,9 +2890,9 @@ entries:
     version: v0.1.76
   - apiVersion: v2
     appVersion: 0.0.0-nightly
-    created: "2025-08-21T07:25:00.048582438Z"
+    created: "2025-08-22T00:14:31.015470436Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
-    digest: a51890114809a14cd38d3e976f011552f3af06cffca9c14290b05d1513a1d5ca
+    digest: 2caf3b0d470a3e726f3bc770800b8d990703fd046c76c2483ab4b99eeab23667
     home: https://atero.ai/
     maintainers:
     - name: Atero
@@ -2901,4 +2901,4 @@ entries:
     urls:
     - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-0.0.0-nightly.tgz
     version: 0.0.0-nightly
-generated: "2025-08-21T07:25:00.043066511Z"
+generated: "2025-08-22T00:14:31.010461275Z"
