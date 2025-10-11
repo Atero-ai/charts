@@ -2694,7 +2694,7 @@ entries:
     version: 0.0.0
   - apiVersion: v2
     appVersion: 0.0.0-nightly
-    created: "2025-10-10T00:12:30.337148899Z"
+    created: "2025-10-11T00:12:12.058839777Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2709,7 +2709,7 @@ entries:
       - fluent-bit
       version: 0.48.4
     description: Atero helm chart
-    digest: 16212094d3437bd3894a64ec033ea3c1d13c83e9b8cb0e2c3438f86fa9b37ecf
+    digest: 8421dbb48f618c1a780ef2a5f4ae521b1f4c621ff7ef628b6832e5754e31a373
     home: https://atero.ai/
     maintainers:
     - name: Atero
@@ -3319,9 +3319,9 @@ entries:
     version: v0.1.76
   - apiVersion: v2
     appVersion: 0.0.0-nightly
-    created: "2025-10-10T00:12:30.337594258Z"
+    created: "2025-10-11T00:12:12.059339998Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
-    digest: 2845b9221337983fd1a1de2a0904664de6ac814958bbb7d66c33e39ebc25a1a5
+    digest: 18885b89e39b198c144346e1fde23bf98f0ed140f3ac9ac1545cddc18bd6597e
     home: https://atero.ai/
     maintainers:
     - name: Atero
@@ -3433,12 +3433,12 @@ entries:
     version: v0.1.126
   - apiVersion: v2
     appVersion: 0.0.0-nightly
-    created: "2025-10-10T00:12:30.33929393Z"
+    created: "2025-10-11T00:12:12.059605426Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
-    digest: 83892237b6f6f12d18666cd16d6b3c7612e6be23c2f00082b02e0ec394c042f2
+    digest: bfb60286e82b93ba95d71a0573d5513a4011066207eda0b7e59abb542d1769eb
     name: vllm
     type: application
     urls:
     - https://atero-ai.github.io/charts/atero-charts/vllm-0.0.0-nightly.tgz
     version: 0.0.0-nightly
-generated: "2025-10-10T17:40:13.782854947Z"
+generated: "2025-10-11T00:12:12.05256053Z"
