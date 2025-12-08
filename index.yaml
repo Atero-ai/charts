@@ -3708,7 +3708,7 @@ entries:
     version: 0.0.0
   - apiVersion: v2
     appVersion: 0.0.0-nightly
-    created: "2025-12-07T00:14:41.589669896Z"
+    created: "2025-12-08T05:10:35.378019776Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -3723,7 +3723,7 @@ entries:
       - fluent-bit
       version: 0.48.4
     description: Atero helm chart
-    digest: 998580007361023a8d7e529aec394f919a0e1e56fb5e7e75e4a6f46afb6b74e8
+    digest: 9aa903cb8797cdcca4c556c3722591fa8de8973f1cbcd0f2ce2ae669ce396ee1
     home: https://atero.ai/
     maintainers:
     - name: Atero
@@ -4840,9 +4840,9 @@ entries:
     version: v0.1.76
   - apiVersion: v2
     appVersion: 0.0.0-nightly
-    created: "2025-12-07T00:14:41.590274078Z"
+    created: "2025-12-08T05:10:35.378516115Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
-    digest: 987a0da1865ba877b8d9e7b2e7eb79c047df2e5eab957a836e3fb465e538572d
+    digest: e0cc9f32637856864b10ae32ae3c3014aacb8a5b03180c5935c0a165627902ee
     home: https://atero.ai/
     maintainers:
     - name: Atero
@@ -4864,9 +4864,9 @@ entries:
     version: v0.1.175
   - apiVersion: v2
     appVersion: 0.0.0-nightly
-    created: "2025-12-07T00:14:41.59060707Z"
+    created: "2025-12-08T05:10:35.378857762Z"
     description: Minimal Helm chart to deploy an SGLang OpenAI-compatible server
-    digest: b226b2291299fb99b8d57e3e7b972c45885b30851bb4a05eb0c86c51b3846fff
+    digest: 3e357c2c8a7a219d71ae57c36f1129aebde304c70b694e02861a52163c455fe7
     name: sglang
     type: application
     urls:
@@ -5365,12 +5365,12 @@ entries:
     version: v0.1.126
   - apiVersion: v2
     appVersion: 0.0.0-nightly
-    created: "2025-12-07T00:14:41.590955686Z"
+    created: "2025-12-08T05:10:35.379230745Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
-    digest: 15e6083d2d5f8fb2d5648f3374715e97d0bc4363eedeae681a46fc91f2f68b4e
+    digest: 37fb24ef1453314803f0342b7fd0af261840edd784b956494b3194771663dc0c
     name: vllm
     type: application
     urls:
     - https://atero-ai.github.io/charts/atero-charts/vllm-0.0.0-nightly.tgz
     version: 0.0.0-nightly
-generated: "2025-12-07T00:14:41.58301127Z"
+generated: "2025-12-08T05:10:35.371512033Z"
