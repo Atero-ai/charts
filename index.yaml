@@ -2,6 +2,32 @@ apiVersion: v1
 entries:
   atero:
   - apiVersion: v2
+    appVersion: v0.1.177
+    created: "2025-12-10T07:27:09.059359707Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 5ee32829f15f4731785d3a15fcefe2b8fe595af20f5326fefc75a443dee69182
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.177.tgz
+    version: v0.1.177
+  - apiVersion: v2
     appVersion: v0.1.176
     created: "2025-12-08T10:53:08.735551382Z"
     dependencies:
@@ -3760,6 +3786,19 @@ entries:
     version: 0.0.0-nightly
   atero-kvcache-model:
   - apiVersion: v2
+    appVersion: v0.1.177
+    created: "2025-12-10T07:27:09.052865271Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 67c3d5158d0cb648963a32c3cd6c75c506424ce9a33acf51538b6d31fb8538ac
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.177.tgz
+    version: v0.1.177
+  - apiVersion: v2
     appVersion: v0.1.176
     created: "2025-12-08T10:53:08.730219673Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
@@ -4892,6 +4931,16 @@ entries:
     version: 0.0.0-nightly
   sglang:
   - apiVersion: v2
+    appVersion: v0.1.177
+    created: "2025-12-10T07:27:09.059713666Z"
+    description: Minimal Helm chart to deploy an SGLang OpenAI-compatible server
+    digest: 7a4a64033cc01023cb9c705cdbc4d0261872614ae7a7297948a6de7eb22478ef
+    name: sglang
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/sglang-v0.1.177.tgz
+    version: v0.1.177
+  - apiVersion: v2
     appVersion: v0.1.176
     created: "2025-12-08T10:53:08.735896369Z"
     description: Minimal Helm chart to deploy an SGLang OpenAI-compatible server
@@ -4922,6 +4971,16 @@ entries:
     - https://atero-ai.github.io/charts/atero-charts/sglang-0.0.0-nightly.tgz
     version: 0.0.0-nightly
   vllm:
+  - apiVersion: v2
+    appVersion: v0.1.177
+    created: "2025-12-10T07:27:09.06005784Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: 876ba54c786fd51cd638b0faf74a77fa462d95582f21e256d3107f49d16cfb92
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.177.tgz
+    version: v0.1.177
   - apiVersion: v2
     appVersion: v0.1.176
     created: "2025-12-08T10:53:08.736244732Z"
@@ -5432,4 +5491,4 @@ entries:
     urls:
     - https://atero-ai.github.io/charts/atero-charts/vllm-0.0.0-nightly.tgz
     version: 0.0.0-nightly
-generated: "2025-12-10T00:21:36.932647724Z"
+generated: "2025-12-10T07:27:09.052106557Z"
