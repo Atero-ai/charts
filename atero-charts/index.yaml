@@ -1,0 +1,5553 @@
+apiVersion: v1
+entries:
+  atero:
+  - apiVersion: v2
+    appVersion: v0.1.178
+    created: "2025-12-16T20:57:09.546740634Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 2381e1e9ff5c80f42ccb141406a58a632bf6c5197fa6689fda1aae24d4dd0725
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.178.tgz
+    version: v0.1.178
+  - apiVersion: v2
+    appVersion: v0.1.177
+    created: "2025-12-16T20:57:09.541579865Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 5ee32829f15f4731785d3a15fcefe2b8fe595af20f5326fefc75a443dee69182
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.177.tgz
+    version: v0.1.177
+  - apiVersion: v2
+    appVersion: v0.1.176
+    created: "2025-12-16T20:57:09.535609586Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 2c30fcc54efe71104cf0de4c221bb0504a7bbd27ec3ae015ad373e574d5fe0e5
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.176.tgz
+    version: v0.1.176
+  - apiVersion: v2
+    appVersion: v0.1.175
+    created: "2025-12-16T20:57:09.53046324Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 4cc21f5c293eb9707467816ab990240914ac5270107c48b12deda8ed9e9abf6a
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.175.tgz
+    version: v0.1.175
+  - apiVersion: v2
+    appVersion: v0.1.174
+    created: "2025-12-16T20:57:09.524771913Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 63e180f75b291643ce393d8b15f09fddcf0fdf274baccaddc149953924f7fa71
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.174.tgz
+    version: v0.1.174
+  - apiVersion: v2
+    appVersion: v0.1.172
+    created: "2025-12-16T20:57:09.519586968Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: c0bec379062f7136d47fb4cd11bb9e811cf007f259c1c74c967f8011775d5ded
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.172.tgz
+    version: v0.1.172
+  - apiVersion: v2
+    appVersion: v0.1.171
+    created: "2025-12-16T20:57:09.513988096Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: b1281ad9732d34b91029d9d72e66aeb922b057fa9f664df8a63323b4955a2e6f
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.171.tgz
+    version: v0.1.171
+  - apiVersion: v2
+    appVersion: v0.1.170
+    created: "2025-12-16T20:57:09.508221656Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: e61ccdc0344b7a6b14236ada3201139668b6ce1b049923846b7660ef5a696850
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.170.tgz
+    version: v0.1.170
+  - apiVersion: v2
+    appVersion: v0.1.169
+    created: "2025-12-16T20:57:09.50310804Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: d94ed43334ecc17b427f88489a54e44cb73489583599c827ec5e483c9016f870
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.169.tgz
+    version: v0.1.169
+  - apiVersion: v2
+    appVersion: v0.1.168
+    created: "2025-12-16T20:57:09.497402656Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 3ca5af2f78486f74ca4e949c45f5426521d7e2abfe936609d57913fbeda9335d
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.168.tgz
+    version: v0.1.168
+  - apiVersion: v2
+    appVersion: v0.1.167
+    created: "2025-12-16T20:57:09.491615449Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: b9cbcf0104cf39b465c68a77e805e1362ff9c5768842f7788c04f5d8058d7f90
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.167.tgz
+    version: v0.1.167
+  - apiVersion: v2
+    appVersion: v0.1.166
+    created: "2025-12-16T20:57:09.486646126Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 8218cf8fc8faafeccefc9b1501409d3ad83c8215d4d7051224a2d5903ce84fdd
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.166.tgz
+    version: v0.1.166
+  - apiVersion: v2
+    appVersion: v0.1.165
+    created: "2025-12-16T20:57:09.480661779Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 9230b07a22af4c56cd417f163542ddcd861bbc3bccfd450b62d8c3862f32a386
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.165.tgz
+    version: v0.1.165
+  - apiVersion: v2
+    appVersion: v0.1.164
+    created: "2025-12-16T20:57:09.475540281Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: afc66531e2243eaafbbf68065cffea7515120c01c426c5fcab9aea85657408ab
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.164.tgz
+    version: v0.1.164
+  - apiVersion: v2
+    appVersion: v0.1.163
+    created: "2025-12-16T20:57:09.46973851Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: f509619e6e422d3e53e147a3f50b73e26599cb2d4998edabc53cda52f256623d
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.163.tgz
+    version: v0.1.163
+  - apiVersion: v2
+    appVersion: v0.1.162
+    created: "2025-12-16T20:57:09.464671277Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 7bcdab30cddb7f3345c30e008584a2d7e9dc81586c8effd33bc9c8fe24fb5af1
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.162.tgz
+    version: v0.1.162
+  - apiVersion: v2
+    appVersion: v0.1.161
+    created: "2025-12-16T20:57:09.459282047Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 8fb7d00150f725301c46488aec1bc1cb2e6d0298dfa5105e2771e5178f1fa13d
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.161.tgz
+    version: v0.1.161
+  - apiVersion: v2
+    appVersion: v0.1.160
+    created: "2025-12-16T20:57:09.454140921Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 84dfdbb3d40adecb49a104096340f5f67b9dfc421b2c3f245900c8c41ddce0d3
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.160.tgz
+    version: v0.1.160
+  - apiVersion: v2
+    appVersion: v0.1.159
+    created: "2025-12-16T20:57:09.448529403Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 7cc6c2a99276b6715169d6de48c0042338ac65c7c6ce9749c0a4a56a8d5a708e
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.159.tgz
+    version: v0.1.159
+  - apiVersion: v2
+    appVersion: v0.1.158
+    created: "2025-12-16T20:57:09.442736684Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 41ae2e6884bc9f600c3dffbbd4f818201c25a81f24c52e16fc9cbfb5a84b822f
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.158.tgz
+    version: v0.1.158
+  - apiVersion: v2
+    appVersion: v0.1.157
+    created: "2025-12-16T20:57:09.437643Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 1ab1e2c69fac598a79fac5e14776f3afbba161dc4c03a6b2eca9c8df467f14fd
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.157.tgz
+    version: v0.1.157
+  - apiVersion: v2
+    appVersion: v0.1.156
+    created: "2025-12-16T20:57:09.432054936Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 2c988bc572db92e793f43f7f84b98e5071df3e468f3540d9bb8d7e3adba2dff4
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.156.tgz
+    version: v0.1.156
+  - apiVersion: v2
+    appVersion: v0.1.155
+    created: "2025-12-16T20:57:09.426998994Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 58b6648ae6849914ec80aac667c2cddded30b30ec7e6458d30edeaa082e35a6f
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.155.tgz
+    version: v0.1.155
+  - apiVersion: v2
+    appVersion: v0.1.154
+    created: "2025-12-16T20:57:09.421481721Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 06c629f9f908f7b939f1a497792e109c0ea18230ccee451f5afbb83e861a5171
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.154.tgz
+    version: v0.1.154
+  - apiVersion: v2
+    appVersion: v0.1.153
+    created: "2025-12-16T20:57:09.416162572Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: f34f657d24f1d2021db6cb037eb06d5ab1e32bb14f5d814e5e103bddb44718ce
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.153.tgz
+    version: v0.1.153
+  - apiVersion: v2
+    appVersion: v0.1.152
+    created: "2025-12-16T20:57:09.410935933Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: a4caae9b268f2af1920f38ff3242714ef7f00678606053df3f1be64949d3c4f9
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.152.tgz
+    version: v0.1.152
+  - apiVersion: v2
+    appVersion: v0.1.151
+    created: "2025-12-16T20:57:09.405375495Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 2a2c16f95b2654e361d75ac00d54c9cf25abd242c2123c902efbe21999e9becc
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.151.tgz
+    version: v0.1.151
+  - apiVersion: v2
+    appVersion: v0.1.150
+    created: "2025-12-16T20:57:09.400331473Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 00037d535dfd7c6d3bf23b771c839964ca73ba0eadf1a29d8c617883946fc5a7
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.150.tgz
+    version: v0.1.150
+  - apiVersion: v2
+    appVersion: v0.1.149
+    created: "2025-12-16T20:57:09.394711911Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: b0ead5a94f64da274761d099c483c4d51ca23087a42330e78c94f7c60968805e
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.149.tgz
+    version: v0.1.149
+  - apiVersion: v2
+    appVersion: v0.1.148
+    created: "2025-12-16T20:57:09.389655415Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 2053397ae6a601ac3c980b565f481e16647ee015dd6a4d2f243805708b20c8ce
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.148.tgz
+    version: v0.1.148
+  - apiVersion: v2
+    appVersion: v0.1.147
+    created: "2025-12-16T20:57:09.383905984Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: ea73e2ab037c3d274dc9ddc5816fe3234ac7e2e42ed1968e64e6c0765804cb71
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.147.tgz
+    version: v0.1.147
+  - apiVersion: v2
+    appVersion: v0.1.146
+    created: "2025-12-16T20:57:09.378406023Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: a55d5dbdf2736dba2fa9f9824e72a4da3cf372db12ced8830fc359ff08a87a2a
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.146.tgz
+    version: v0.1.146
+  - apiVersion: v2
+    appVersion: v0.1.145
+    created: "2025-12-16T20:57:09.373271992Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: d01a39f5c10f9c0e1021d92be45a9c423d5846b02221bfe03acab2e428944504
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.145.tgz
+    version: v0.1.145
+  - apiVersion: v2
+    appVersion: v0.1.144
+    created: "2025-12-16T20:57:09.367637405Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: fc1aa4b792a67afb396b34bf311a4e3085a9f1b496553c740c450bf6ef5835df
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.144.tgz
+    version: v0.1.144
+  - apiVersion: v2
+    appVersion: v0.1.143
+    created: "2025-12-16T20:57:09.362552895Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 817862023c70d06d238274d96995ecc6296f1f024cce95577dc6d44b44385db5
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.143.tgz
+    version: v0.1.143
+  - apiVersion: v2
+    appVersion: v0.1.142
+    created: "2025-12-16T20:57:09.356665711Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: dbfccd51ec8e16df625c80d109318fc73a1658aa02caadc165a2b7e9583983be
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.142.tgz
+    version: v0.1.142
+  - apiVersion: v2
+    appVersion: v0.1.141
+    created: "2025-12-16T20:57:09.350843973Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: ef89ab9036ca28900ecac28a12925b29a8463eae93b8988e2372d4a27024af75
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.141.tgz
+    version: v0.1.141
+  - apiVersion: v2
+    appVersion: v0.1.140
+    created: "2025-12-16T20:57:09.345784623Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: e4fd7f7130ff249b550689625dc4fd08556f9239e0bd85e644ebdbfaa38c0feb
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.140.tgz
+    version: v0.1.140
+  - apiVersion: v2
+    appVersion: v0.1.139
+    created: "2025-12-16T20:57:09.340178Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: b021f90b26802a9e054082fb5a05f52e58c4dbe96f36911be7a4f81804f73096
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.139.tgz
+    version: v0.1.139
+  - apiVersion: v2
+    appVersion: v0.1.138
+    created: "2025-12-16T20:57:09.334592691Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: e3494fe5a61557d4d00d157ee3e93704503d2be98d8e740f2cfeed2b6484f2ba
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.138.tgz
+    version: v0.1.138
+  - apiVersion: v2
+    appVersion: v0.1.137
+    created: "2025-12-16T20:57:09.329560188Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: e14e4c057fef9d24875682608b662b4bd2f0c4743d35df29c2dd42efdddd2f95
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.137.tgz
+    version: v0.1.137
+  - apiVersion: v2
+    appVersion: v0.1.136
+    created: "2025-12-16T20:57:09.323915043Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 8dbe5bae56ab50442a2e4128f7529fd3c56c29567f4b6101416b7bff513dbce0
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.136.tgz
+    version: v0.1.136
+  - apiVersion: v2
+    appVersion: v0.1.135
+    created: "2025-12-16T20:57:09.318827178Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: f41aa7234919caa307d8a6901b16c996a52907c80b7da026135a137204dddf36
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.135.tgz
+    version: v0.1.135
+  - apiVersion: v2
+    appVersion: v0.1.134
+    created: "2025-12-16T20:57:09.313107332Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 4399af2958f2e04fa3406ccef3f31a7c3fcea3bf8d59248a39a61575391167a0
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.134.tgz
+    version: v0.1.134
+  - apiVersion: v2
+    appVersion: v0.1.133
+    created: "2025-12-16T20:57:09.307492115Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 4f19e528532fb24ee6e130916068257af27dc5a2fe6733058fded621e5f4b5ca
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.133.tgz
+    version: v0.1.133
+  - apiVersion: v2
+    appVersion: v0.1.132
+    created: "2025-12-16T20:57:09.302127245Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: a7f4d5c1c006f092dff13634ef289176f6445c9dfce8eaf672aa3ca4c8f5972c
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.132.tgz
+    version: v0.1.132
+  - apiVersion: v2
+    appVersion: v0.1.131
+    created: "2025-12-16T20:57:09.296132876Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 070e289499a63d51688be70df40bfa9b022cf68cd70749ef985d1dab770442d6
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.131.tgz
+    version: v0.1.131
+  - apiVersion: v2
+    appVersion: v0.1.130
+    created: "2025-12-16T20:57:09.290491376Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 29e85d27f745301b9932fabbf9d4dc5092cdc201c5ac036abc7d0b06e612e410
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.130.tgz
+    version: v0.1.130
+  - apiVersion: v2
+    appVersion: v0.1.129
+    created: "2025-12-16T20:57:09.285502627Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 3a6d8191db90f85fb5669d75537dd20e413c4a1f2affaa2f1ece37f4d4c58b31
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.129.tgz
+    version: v0.1.129
+  - apiVersion: v2
+    appVersion: v0.1.128
+    created: "2025-12-16T20:57:09.280053135Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 7fb2fff517878a98eada2bf72657b79cc2564a098141a351d00b7a550d2a9b67
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.128.tgz
+    version: v0.1.128
+  - apiVersion: v2
+    appVersion: v0.1.127
+    created: "2025-12-16T20:57:09.274961406Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 94452a1bb39056623863da7151247a2ee7a6daebe4169a21628b5fa3ee8376cd
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.127.tgz
+    version: v0.1.127
+  - apiVersion: v2
+    appVersion: v0.1.126
+    created: "2025-12-16T20:57:09.269318413Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 9086d9170b26c9d608b5852873a05596a52e48f04ac35109739e050aab178137
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.126.tgz
+    version: v0.1.126
+  - apiVersion: v2
+    appVersion: v0.1.125
+    created: "2025-12-16T20:57:09.26420348Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 493901060b7026c7480b9ef9ed2a1720224d52590980522ee6b9f7f942feb522
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.125.tgz
+    version: v0.1.125
+  - apiVersion: v2
+    appVersion: v0.1.123
+    created: "2025-12-16T20:57:09.258529499Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 8b9e2d100b84c6968c9f2ce4040e6cc203e89aaf87c088f49703673547a9db1f
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.123.tgz
+    version: v0.1.123
+  - apiVersion: v2
+    appVersion: v0.1.121
+    created: "2025-12-16T20:57:09.252803102Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: da50529eab9e1b7aff0422de6e0c1b37784ebf9966b32860dc5552590229e541
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.121.tgz
+    version: v0.1.121
+  - apiVersion: v2
+    appVersion: v0.1.118
+    created: "2025-12-16T20:57:09.247707086Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 869e8fd9b5fd6c56e29c467a187b1f585ebe4a479cf9110592ed14c44ba0d1b2
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.118.tgz
+    version: v0.1.118
+  - apiVersion: v2
+    appVersion: v0.1.112
+    created: "2025-12-16T20:57:09.241757435Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: c079b962ec5e1f830e22abab6856df3af314d63b8e5762a8862c7cc98ae33576
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.112.tgz
+    version: v0.1.112
+  - apiVersion: v2
+    appVersion: v0.1.109
+    created: "2025-12-16T20:57:09.23679172Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: aa49ff9877eadeaff59758b15540c4fd2fcece8ba175ff1f5b5fd5473e0d19dc
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.109.tgz
+    version: v0.1.109
+  - apiVersion: v2
+    appVersion: v0.1.106
+    created: "2025-12-16T20:57:09.231249134Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 463dfd4992b17a20e029ba5b0aca86dfcf89d934ff211cbb3e0a234bb78ab265
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.106.tgz
+    version: v0.1.106
+  - apiVersion: v2
+    appVersion: v0.1.105
+    created: "2025-12-16T20:57:09.225889072Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 1788fbb5eca095808db66f92f0ca0ca25c69193fe6eee9aebe4c25ffb5e52a12
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.105.tgz
+    version: v0.1.105
+  - apiVersion: v2
+    appVersion: v0.1.104
+    created: "2025-12-16T20:57:09.220873805Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: f568aadcd504b8a084b746514c654730a260e1d32c05f7d1a9bfb52888d9ceb1
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.104.tgz
+    version: v0.1.104
+  - apiVersion: v2
+    appVersion: v0.1.103
+    created: "2025-12-16T20:57:09.215281753Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 3c987514fabe569dbacf94fcb7d33ea73e4a2721f9a089c87fbdc8de7aeb833c
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.103.tgz
+    version: v0.1.103
+  - apiVersion: v2
+    appVersion: v0.1.102
+    created: "2025-12-16T20:57:09.20977936Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: fbd96f734c8f48c2904809c0722ea4b49603adbbee0d31c6f3f8740015baedc0
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.102.tgz
+    version: v0.1.102
+  - apiVersion: v2
+    appVersion: v0.1.101
+    created: "2025-12-16T20:57:09.204791916Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: a1bbb5fe980199702865f29c5bee9b856b53678f91945230fe96e031b1bb2de2
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.101.tgz
+    version: v0.1.101
+  - apiVersion: v2
+    appVersion: v0.1.100
+    created: "2025-12-16T20:57:09.199195317Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 22c15bc9f9db018fa778b9cdab9ba7e921856ccd82385e4a1a89cecaeddc2a6e
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.100.tgz
+    version: v0.1.100
+  - apiVersion: v2
+    appVersion: v0.1.99
+    created: "2025-12-16T20:57:09.807719966Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 5c421aaf2c2e99a79bbeed3e1711c8f5e133ae5106c59e7b562b09cf3181730f
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.99.tgz
+    version: v0.1.99
+  - apiVersion: v2
+    appVersion: v0.1.98
+    created: "2025-12-16T20:57:09.802701273Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 2c4e680ea80e524074eba4a1aa5f70f6799e3bfc99ecca60b15af808c2c19e75
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.98.tgz
+    version: v0.1.98
+  - apiVersion: v2
+    appVersion: v0.1.97
+    created: "2025-12-16T20:57:09.797460216Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 846603949219319a26d5fde7c4292fa33df86a8cada3bd89a5cd87fb704e388d
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.97.tgz
+    version: v0.1.97
+  - apiVersion: v2
+    appVersion: v0.1.96
+    created: "2025-12-16T20:57:09.792462291Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 6dbf567a50164d7a0d1af6660c9090d459340c5953404e30919e4ee01cb70375
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.96.tgz
+    version: v0.1.96
+  - apiVersion: v2
+    appVersion: v0.1.95
+    created: "2025-12-16T20:57:09.786620478Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 322beed79c08a2d26b80ec5ef74ff3b7cb6a4920c6f89e1ea41ecd8f9293a624
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.95.tgz
+    version: v0.1.95
+  - apiVersion: v2
+    appVersion: v0.1.94
+    created: "2025-12-16T20:57:09.781580744Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: e6ae8a8c58b6d39544ec79ee4be5b919c01d54454dec7164303b62f0109c5c35
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.94.tgz
+    version: v0.1.94
+  - apiVersion: v2
+    appVersion: v0.1.93
+    created: "2025-12-16T20:57:09.775952953Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 925cb5d3bc788e7f5288e904b7762197162778c63e3de1ac66b3bf9d725dd19f
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.93.tgz
+    version: v0.1.93
+  - apiVersion: v2
+    appVersion: v0.1.91-gw-c6e260e
+    created: "2025-12-16T20:57:09.770891655Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 2f4743655748cd63fbc2215b46ed436883f8982708baaff0d785bded21631c84
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.91-gw-c6e260e.tgz
+    version: v0.1.91-gw-c6e260e
+  - apiVersion: v2
+    appVersion: v0.1.90-gw-c6e260e
+    created: "2025-12-16T20:57:09.765228193Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 4581cbd451071a677b0b6563174f3ce2c79d7a007f26443efd6003dd3c2f6828
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.90-gw-c6e260e.tgz
+    version: v0.1.90-gw-c6e260e
+  - apiVersion: v2
+    appVersion: v0.1.89-gw-37816fc
+    created: "2025-12-16T20:57:09.759747471Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 439feeeaeb61df66469944befccb1ac0afb07be6df6fc62e34262cd01bc2e4f1
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.89-gw-37816fc.tgz
+    version: v0.1.89-gw-37816fc
+  - apiVersion: v2
+    appVersion: v0.1.88-gw-37816fc
+    created: "2025-12-16T20:57:09.754775172Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 87bc7c75eaeac3a030187bff8f93b836cc7bf09c84183b9d36a0f513445e5d51
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.88-gw-37816fc.tgz
+    version: v0.1.88-gw-37816fc
+  - apiVersion: v2
+    appVersion: v0.1.87
+    created: "2025-12-16T20:57:09.749106744Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 8786d23038bddbbae9e51e26847ef8f485923e65b8efbc4cf9a80a919c6cfe7c
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.87.tgz
+    version: v0.1.87
+  - apiVersion: v2
+    appVersion: v0.1.86
+    created: "2025-12-16T20:57:09.74410352Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 1ef1c5653c3481046de71e83e18327e45d62a67f3c15aeec3dfede2ac83ea861
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.86.tgz
+    version: v0.1.86
+  - apiVersion: v2
+    appVersion: v0.1.85
+    created: "2025-12-16T20:57:09.738511073Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: c5b21739998207c6d7cbc714c65be723ecfb1d4d0bd30c207c936da197ca1c47
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.85.tgz
+    version: v0.1.85
+  - apiVersion: v2
+    appVersion: v0.1.84
+    created: "2025-12-16T20:57:09.733384157Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: b0f74261f66afe8d1fd3cc63bd20162bd103ba8bf08819cf81871d8ac8aaea8a
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.84.tgz
+    version: v0.1.84
+  - apiVersion: v2
+    appVersion: v0.1.83
+    created: "2025-12-16T20:57:09.728090357Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: d752843700f8ca012b7ca713103c78560e20e979eba8ef44900bd66567719fac
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.83.tgz
+    version: v0.1.83
+  - apiVersion: v2
+    appVersion: v0.1.82
+    created: "2025-12-16T20:57:09.722616817Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 7fd1e3053bd0fe092bc41d5a2733d47c4c99af98044da900142914ecf1079849
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.82.tgz
+    version: v0.1.82
+  - apiVersion: v2
+    appVersion: v0.1.81
+    created: "2025-12-16T20:57:09.717636383Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: cc44a8c79a2e6b9a19587ae1cc785f39ff723916959ca691545e705fdcb82e90
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.81.tgz
+    version: v0.1.81
+  - apiVersion: v2
+    appVersion: v0.1.80
+    created: "2025-12-16T20:57:09.712052211Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 4de860c6181184745808a3e6e5ad83ce6834ebebee5653a6ceccaf6f7db8888f
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.80.tgz
+    version: v0.1.80
+  - apiVersion: v2
+    appVersion: v0.1.79
+    created: "2025-12-16T20:57:09.707009728Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 1d97e9d1ada5c8c3688f1b095298528fa3254e121bf9191230800ab88c0f8046
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.79.tgz
+    version: v0.1.79
+  - apiVersion: v2
+    appVersion: v0.1.78
+    created: "2025-12-16T20:57:09.701453408Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 7351b96082ca1b5a12a7d4ba9e47276c814d3c69cfade4631e14041fc1cf9129
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.78.tgz
+    version: v0.1.78
+  - apiVersion: v2
+    appVersion: v0.1.77
+    created: "2025-12-16T20:57:09.696438445Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: bd9bbe2c8f716ab53c4aa32099fde55b701dfc895e9a57f47aca8c5b051e98b4
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.77.tgz
+    version: v0.1.77
+  - apiVersion: v2
+    appVersion: v0.1.76
+    created: "2025-12-16T20:57:09.691028295Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: de2a63c8625fe65960bf6ac3304bc9c054d377c4b235f6f9d8f9ee2d7f736dce
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.76.tgz
+    version: v0.1.76
+  - apiVersion: v2
+    appVersion: v0.1.75
+    created: "2025-12-16T20:57:09.685558015Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: c774401214bef94993fc5949a699ddceebb323ab88fc647958b62d3594f280aa
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.75.tgz
+    version: v0.1.75
+  - apiVersion: v2
+    appVersion: v0.1.74
+    created: "2025-12-16T20:57:09.680619896Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 32261694de29a1f62f7e50469c04ed10faafae2ae190adface82d9ed43e010b9
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.74.tgz
+    version: v0.1.74
+  - apiVersion: v2
+    appVersion: v0.1.73
+    created: "2025-12-16T20:57:09.675193233Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 4b647b1abd93a575ac962bb3c593398dbf13d9f79aa8e062bd2df7b5f35b443a
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.73.tgz
+    version: v0.1.73
+  - apiVersion: v2
+    appVersion: v0.1.72
+    created: "2025-12-16T20:57:09.670345852Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 7e30397ac1ef5aa5dcbb6936cfd36656258b28f1fbb37449946e214b9a9788bd
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.72.tgz
+    version: v0.1.72
+  - apiVersion: v2
+    appVersion: v0.1.71
+    created: "2025-12-16T20:57:09.664551655Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 622f384b6c7f6b901f7000854625896f24b659c1b1948dae29b68a09a7348792
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.71.tgz
+    version: v0.1.71
+  - apiVersion: v2
+    appVersion: v0.1.70
+    created: "2025-12-16T20:57:09.659659047Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 2dd244ce4eaf23748309352f90c3484b51d4a07089190a6dd9c27338b33dd7e6
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.70.tgz
+    version: v0.1.70
+  - apiVersion: v2
+    appVersion: v0.1.69
+    created: "2025-12-16T20:57:09.654245748Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 76a629ebf5b8c671639cef839e3f10b5b77efd900818665884d93946a28675e6
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.69.tgz
+    version: v0.1.69
+  - apiVersion: v2
+    appVersion: v0.1.68
+    created: "2025-12-16T20:57:09.64894756Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 9cb38b249a7e3ddd788491f5d687be67f266e2a1f375131f5acf1f644f55b116
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.68.tgz
+    version: v0.1.68
+  - apiVersion: v2
+    appVersion: v0.1.67
+    created: "2025-12-16T20:57:09.644137147Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 381d12093e4137bb900b237076de36ef58cfb69001b62d669c8e07fe5a4abfc2
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.67.tgz
+    version: v0.1.67
+  - apiVersion: v2
+    appVersion: v0.1.66
+    created: "2025-12-16T20:57:09.638597707Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 80fe4a421718818cbc0558874032a0acbb5fe496e25b206c0a91ce21064653c6
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.66.tgz
+    version: v0.1.66
+  - apiVersion: v2
+    appVersion: v0.1.65
+    created: "2025-12-16T20:57:09.633813026Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: ed82565d074732a2064ac41dc89cdb98edd149406b53f9bc52be2cfcd2255521
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.65.tgz
+    version: v0.1.65
+  - apiVersion: v2
+    appVersion: v0.1.64
+    created: "2025-12-16T20:57:09.628586913Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 85d69d09a833e10decbb1323e5b58dda5488ce1bec50a6b1f14dd11c9f67075a
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.64.tgz
+    version: v0.1.64
+  - apiVersion: v2
+    appVersion: v0.1.63
+    created: "2025-12-16T20:57:09.623736697Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: f39c6d9464a92df26bc3d881005f52ad7eb7ab0b0c0ea8e5cd908c55fa677536
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.63.tgz
+    version: v0.1.63
+  - apiVersion: v2
+    appVersion: v0.1.62
+    created: "2025-12-16T20:57:09.618387309Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 7c68726192e75efb65de550484d5f4730a2b87b1eda39888a1245e2017ba799b
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.62.tgz
+    version: v0.1.62
+  - apiVersion: v2
+    appVersion: v0.1.61
+    created: "2025-12-16T20:57:09.613602073Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: c9b87a407f5dcbba262c01fed0ba74cfd4d4a31da675dc8036f10bacd6896c66
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.61.tgz
+    version: v0.1.61
+  - apiVersion: v2
+    appVersion: v0.1.60
+    created: "2025-12-16T20:57:09.607998044Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 962f1d2e3a6ce78c5f89641f1cfe83caae8ff4afc7476135e8644cf5b6a67b8d
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.60.tgz
+    version: v0.1.60
+  - apiVersion: v2
+    appVersion: v0.1.58
+    created: "2025-12-16T20:57:09.603263304Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 7bf3e689df7a4ad7caa0fdb7afb99f67c170ab17ac9ec4b5605b9c62ae832e8c
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.58.tgz
+    version: v0.1.58
+  - apiVersion: v2
+    appVersion: v0.1.57
+    created: "2025-12-16T20:57:09.598108572Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 0c1675dd3667cf6562fa2d20efc269fa854b4137699b523f3ac9088d8a48ba0f
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.57.tgz
+    version: v0.1.57
+  - apiVersion: v2
+    appVersion: v0.1.56
+    created: "2025-12-16T20:57:09.592478773Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: afbe638bf23380b3addc0709de0b99857d0f178ae54d9b56a49ee2fc1601ac83
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.56.tgz
+    version: v0.1.56
+  - apiVersion: v2
+    appVersion: v0.1.55
+    created: "2025-12-16T20:57:09.587657035Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 7e57b87a39e97a98500e69738692ca15ed35e3c988752ad8f54fe0388e4c8f22
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.55.tgz
+    version: v0.1.55
+  - apiVersion: v2
+    appVersion: v0.1.54
+    created: "2025-12-16T20:57:09.582291854Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 751753e91d0ab2b4dc8c6c9ede65f3b0314c9768215216270c5246e805471eda
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.54.tgz
+    version: v0.1.54
+  - apiVersion: v2
+    appVersion: v0.1.53
+    created: "2025-12-16T20:57:09.577394659Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 159a745acb9360f6e8e5c645ffcede7b477ec7e104bf9bea9ef12a83db7b8dfa
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.53.tgz
+    version: v0.1.53
+  - apiVersion: v2
+    appVersion: v0.1.52
+    created: "2025-12-16T20:57:09.571859218Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 2002c8ca63de21585a7ad4f4a3bc2633284bc79264514d8e4924322d7a3c4412
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.52.tgz
+    version: v0.1.52
+  - apiVersion: v2
+    appVersion: v0.1.50
+    created: "2025-12-16T20:57:09.567122826Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 2b38fb6b964b826910cfb891679c8157a72119fdf28860e70bf85a21a2ee2094
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.50.tgz
+    version: v0.1.50
+  - apiVersion: v2
+    appVersion: v0.1.49
+    created: "2025-12-16T20:57:09.561725022Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: bdf141185bcf90ed56e2728db018736a7ca840e4e0dcc01c86a7f01fc6514634
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.49.tgz
+    version: v0.1.49
+  - apiVersion: v2
+    appVersion: v0.1.47
+    created: "2025-12-16T20:57:09.556670878Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 53b4d847f6e80c0e34c232f01c180abf9137c57104b2768bb1672fb03bb0fed3
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.47.tgz
+    version: v0.1.47
+  - apiVersion: v2
+    appVersion: v0.1.46
+    created: "2025-12-16T20:57:09.551888697Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 1a7366db632388c3b40d5cd5f078f9ce50ac058a9af948fcf575f86992e8ecca
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.46.tgz
+    version: v0.1.46
+  - apiVersion: v2
+    appVersion: 0.1.44
+    created: "2025-12-16T20:57:09.159459281Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 7c7cc630df3d39d7186fe13911830a35df190da51927b85bd31201a024ba9d9d
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.44.tgz
+    version: 0.1.44
+  - apiVersion: v2
+    appVersion: 0.1.43
+    created: "2025-12-16T20:57:09.154109424Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 8d08df0b68d799361dab940e55e47fc2dda0ce38fd400862980fee93930d3cae
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.43.tgz
+    version: 0.1.43
+  - apiVersion: v2
+    appVersion: 0.1.42
+    created: "2025-12-16T20:57:09.148919804Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 04c56678f9138eca04477968cc992535b8de1cbc589a7d72215d4b26f6d53b6a
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.42.tgz
+    version: 0.1.42
+  - apiVersion: v2
+    appVersion: 0.1.41
+    created: "2025-12-16T20:57:09.144221972Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: f0487438d3742526a405e9218117923cbb75195cb0357efe268d20236b45028b
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.41.tgz
+    version: 0.1.41
+  - apiVersion: v2
+    appVersion: 0.1.40
+    created: "2025-12-16T20:57:09.138932295Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: abd3d4a22674e520a8049e17ebfe6db0fd7feb26f980721e7d4252ad160629d0
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.40.tgz
+    version: 0.1.40
+  - apiVersion: v2
+    appVersion: 0.1.39
+    created: "2025-12-16T20:57:09.134260464Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 6d07982245a1f0a3315a04d1b849581536b37023ce6c9ce1c7d8804c002ee83d
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.39.tgz
+    version: 0.1.39
+  - apiVersion: v2
+    appVersion: 0.1.38
+    created: "2025-12-16T20:57:09.129010191Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: b8bfc408062ee3c8b9a0723a5cf4ca366080769e785cab6df08ffdf2f0cabb6e
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.38.tgz
+    version: 0.1.38
+  - apiVersion: v2
+    appVersion: 0.1.37
+    created: "2025-12-16T20:57:09.124321005Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: aacf4ad2eef9144a5eda827e82b4d3e73bff9481cd7d4d462f49ea05d5917d8b
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.37.tgz
+    version: 0.1.37
+  - apiVersion: v2
+    appVersion: 0.1.36
+    created: "2025-12-16T20:57:09.119128541Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 47658cb97974c2174d1d168e23cf34b20ca168595d509e493f685970d5a36478
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.36.tgz
+    version: 0.1.36
+  - apiVersion: v2
+    appVersion: 0.1.35
+    created: "2025-12-16T20:57:09.113954852Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: bde5d4d22b7062c01123a83dbe416c7af9841de0a5497eda46580f7b5875f732
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.35.tgz
+    version: 0.1.35
+  - apiVersion: v2
+    appVersion: 0.1.34
+    created: "2025-12-16T20:57:09.109317897Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 09f0e26cb89d8740f884f971ce254c7598494d1f38c2ddde325ab4cde590a6c6
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.34.tgz
+    version: 0.1.34
+  - apiVersion: v2
+    appVersion: 0.1.33
+    created: "2025-12-16T20:57:09.104137105Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 9532624cf5203b182c865a2a68469c25bd7a1dddb5264588a210e5cc44b9fcd5
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.33.tgz
+    version: 0.1.33
+  - apiVersion: v2
+    appVersion: 0.1.32
+    created: "2025-12-16T20:57:09.099629428Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: cd72f51838247cf535e1512d57669285259a5e0a002ec6ffdd20cd887d39124d
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.32.tgz
+    version: 0.1.32
+  - apiVersion: v2
+    appVersion: 0.1.31
+    created: "2025-12-16T20:57:09.094684244Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 30bf68d92d46bb9d2bcd59ee3d2d65ba91b7b5ec02799afc33ac17ad08a99451
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.31.tgz
+    version: 0.1.31
+  - apiVersion: v2
+    appVersion: 0.1.30
+    created: "2025-12-16T20:57:09.090200933Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: abc60c487d836b0393a9ac8e5a804d6e72796d567cc367f3c0df000f3fd286c8
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.30.tgz
+    version: 0.1.30
+  - apiVersion: v2
+    appVersion: 0.1.29
+    created: "2025-12-16T20:57:09.085008129Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: f232b6764d14e75ba13b0a529bf817241f9ec47361174bca1236b041c3126f27
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.29.tgz
+    version: 0.1.29
+  - apiVersion: v2
+    appVersion: 0.1.28
+    created: "2025-12-16T20:57:09.080423595Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: cd545a256c9481ce20459a4ec12962a09c0df0286d7619eb31afd5adc3fc232d
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.28.tgz
+    version: 0.1.28
+  - apiVersion: v2
+    appVersion: 0.1.27
+    created: "2025-12-16T20:57:09.075422602Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 5112fc2afea481bb5ac29cad3dda4ea99d414a794987548d81903ae326d62a89
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.27.tgz
+    version: 0.1.27
+  - apiVersion: v2
+    appVersion: 0.1.26
+    created: "2025-12-16T20:57:09.07030151Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 72ba2d148df072d28b01785fc33d07da82ea6677fc8c85f430666573e0d38179
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.26.tgz
+    version: 0.1.26
+  - apiVersion: v2
+    appVersion: 0.1.25
+    created: "2025-12-16T20:57:09.065982356Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 8ab5baefb2e86f8993ecbaa74d4d5b206474b492aef8020cf4e7971d7123167b
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.25.tgz
+    version: 0.1.25
+  - apiVersion: v2
+    appVersion: 0.1.24
+    created: "2025-12-16T20:57:09.061101149Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: e23f1c2cb01b1a1db95d4cf5526bf16d5f3674adba50168c762901c2a0c89819
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.24.tgz
+    version: 0.1.24
+  - apiVersion: v2
+    appVersion: 0.1.23
+    created: "2025-12-16T20:57:09.056560379Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: ec2103eabd5b4e61d47c157fde52cf176b9a74d02027cb801f97d182ebca345f
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.23.tgz
+    version: 0.1.23
+  - apiVersion: v2
+    appVersion: 0.1.22
+    created: "2025-12-16T20:57:09.051313534Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: e7a9650ca7a6249807782ba25a445c582305ad9b92e33a51453d02d2b03ddea6
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.22.tgz
+    version: 0.1.22
+  - apiVersion: v2
+    appVersion: 0.1.21
+    created: "2025-12-16T20:57:09.046545516Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 4908cfc95e99582b22090971410cde3af710238afa440eb2598c80b74c723919
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.21.tgz
+    version: 0.1.21
+  - apiVersion: v2
+    appVersion: 0.1.20
+    created: "2025-12-16T20:57:09.041723733Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 343ca27012614a732ba52c05b8d6d552075fa72f2429c011b0ab67edb2585f27
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.20.tgz
+    version: 0.1.20
+  - apiVersion: v2
+    appVersion: 0.1.19
+    created: "2025-12-16T20:57:09.037438387Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 363e358bd587d69ff462c64475e433e7cb009f2285bf40ecf636167cebe86817
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.19.tgz
+    version: 0.1.19
+  - apiVersion: v2
+    appVersion: 0.1.18
+    created: "2025-12-16T20:57:09.032373701Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 9de210d5142a57059aac2f08d3cd8d8c33bc21a6362c95692e3ca8c7d90fb647
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.18.tgz
+    version: 0.1.18
+  - apiVersion: v2
+    appVersion: 0.1.17
+    created: "2025-12-16T20:57:09.02804508Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 92dc890106cbe907a9c5ae113198fb12421f9a8b8448a01ba7799cd710713471
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.17.tgz
+    version: 0.1.17
+  - apiVersion: v2
+    appVersion: 0.1.16
+    created: "2025-12-16T20:57:09.022877474Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: e5c00290744f606c3d115d9312f1cd4c234fe24c426fc5b45d81d7e9f1921792
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.16.tgz
+    version: 0.1.16
+  - apiVersion: v2
+    appVersion: 0.1.15
+    created: "2025-12-16T20:57:09.017802717Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 49151558056ddeff4842cbd4d9e12b683d5130042ef10ef6f16d48fe9e34d3d8
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.15.tgz
+    version: 0.1.15
+  - apiVersion: v2
+    appVersion: 0.1.14
+    created: "2025-12-16T20:57:09.013255282Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 2c46164a0190fe20ad968a4f3b657bb40ce26a6688199a9ccdb6896569e76f67
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.14.tgz
+    version: 0.1.14
+  - apiVersion: v2
+    appVersion: 0.1.13
+    created: "2025-12-16T20:57:09.008235606Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: a1508a21dc1dc2a15fed30d3e81ee5b6060590e5801ec8eb13b619acc62a4fc2
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.13.tgz
+    version: 0.1.13
+  - apiVersion: v2
+    appVersion: 0.1.12
+    created: "2025-12-16T20:57:09.003705698Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 419e34c4a7a7a6f8930db07452ef427933bb2b451a613b574ed5cf60571fb2f9
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.12.tgz
+    version: 0.1.12
+  - apiVersion: v2
+    appVersion: 0.1.11
+    created: "2025-12-16T20:57:08.998812957Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: b917d442a05933d57370ee1606e61a2065e9e189f058bfa0a77052e8ab9a497b
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.11.tgz
+    version: 0.1.11
+  - apiVersion: v2
+    appVersion: 0.1.10
+    created: "2025-12-16T20:57:08.994531003Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 9056ccef9062db7e45a1e493b1827a5c6e4649dbeeaf18cb5e5d7b29dd754bd0
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.1.10.tgz
+    version: 0.1.10
+  - apiVersion: v2
+    appVersion: 0.0.3
+    created: "2025-12-16T20:57:08.989635977Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: b58eb66c1e1f2b7306ec3841c3a7eacfdb168c471d37284a35cf0e84173d213d
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2025-12-16T20:57:08.984396973Z"
+    dependencies:
+    - name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 569449631ba25bcd1ac0822efb59992db6b6418a6acb4d9a49dc69eae0611267
+    home: https://atero.ai/
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.0.0.tgz
+    version: 0.0.0
+  - apiVersion: v2
+    appVersion: 0.0.0-nightly
+    created: "2025-12-16T20:57:08.979655801Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 1c871142414e6d63ffc6c7cd2b882182f3cd0c625ca5ea6191ef93acd75752ee
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-0.0.0-nightly.tgz
+    version: 0.0.0-nightly
+  atero-kvcache-model:
+  - apiVersion: v2
+    appVersion: v0.1.178
+    created: "2025-12-16T20:57:09.18551527Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 031ccd0865b2502ed6c42a1f3610e870a11ae9e4bff54421a8412fd99616352b
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.178.tgz
+    version: v0.1.178
+  - apiVersion: v2
+    appVersion: v0.1.177
+    created: "2025-12-16T20:57:09.185044412Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 67c3d5158d0cb648963a32c3cd6c75c506424ce9a33acf51538b6d31fb8538ac
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.177.tgz
+    version: v0.1.177
+  - apiVersion: v2
+    appVersion: v0.1.176
+    created: "2025-12-16T20:57:09.184584142Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 94fbbafaa319fdeb998c33b64301af7b4c5a78476185e29467c00953c4a24388
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.176.tgz
+    version: v0.1.176
+  - apiVersion: v2
+    appVersion: v0.1.175
+    created: "2025-12-16T20:57:09.184183329Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: ab5f86ae748089ab096a28d6379c205aada727430c92b4704ac0b216e68ba1a6
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.175.tgz
+    version: v0.1.175
+  - apiVersion: v2
+    appVersion: v0.1.174
+    created: "2025-12-16T20:57:09.183773378Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: f1d13ac4e153790585068419ac9d5640a1da82767ce3bcdc284153dde0194d17
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.174.tgz
+    version: v0.1.174
+  - apiVersion: v2
+    appVersion: v0.1.172
+    created: "2025-12-16T20:57:09.18337366Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 4371ff527ba50142df3b8b7382ea38a7757a8cfd5a31a5a06c09b05306ddb537
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.172.tgz
+    version: v0.1.172
+  - apiVersion: v2
+    appVersion: v0.1.171
+    created: "2025-12-16T20:57:09.182956812Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: bf0d0145bfd45c732a2d80dd12bda97993fa31506cfe475eb98eb2f395c2b975
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.171.tgz
+    version: v0.1.171
+  - apiVersion: v2
+    appVersion: v0.1.170
+    created: "2025-12-16T20:57:09.182614543Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: df3ba60cdb7696caf5d64d4ec184a866616f829a232052fe1ff0222c335b2ac4
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.170.tgz
+    version: v0.1.170
+  - apiVersion: v2
+    appVersion: v0.1.169
+    created: "2025-12-16T20:57:09.18228414Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 3db47716fbf13b39385b78405dfabe72ddf25cc608f002386867836a681ac885
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.169.tgz
+    version: v0.1.169
+  - apiVersion: v2
+    appVersion: v0.1.168
+    created: "2025-12-16T20:57:09.181931244Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 06e55f3b2a9e9410a2950086d520d8f7195fb7bb71ad9985ecbe6c5559a1294a
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.168.tgz
+    version: v0.1.168
+  - apiVersion: v2
+    appVersion: v0.1.167
+    created: "2025-12-16T20:57:09.181601384Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: a04151f524f203e7f1815660a9eaefdf3162d89c6d0587c48d76f98941952da0
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.167.tgz
+    version: v0.1.167
+  - apiVersion: v2
+    appVersion: v0.1.166
+    created: "2025-12-16T20:57:09.181263328Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 0b15539b2923cc6196ac3488bdfff5adf9047b4bfcff5fc8c97ebfb456d6f79a
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.166.tgz
+    version: v0.1.166
+  - apiVersion: v2
+    appVersion: v0.1.165
+    created: "2025-12-16T20:57:09.18087479Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: de63fbe217b4ff5b3f0fca2c077821959da0527d8ee0427636d34788654d10a9
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.165.tgz
+    version: v0.1.165
+  - apiVersion: v2
+    appVersion: v0.1.164
+    created: "2025-12-16T20:57:09.180469Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 0165d7f280c0f51c51e1d99e2a23e9e5667c6f46f2c32869ec4184eaa8378606
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.164.tgz
+    version: v0.1.164
+  - apiVersion: v2
+    appVersion: v0.1.163
+    created: "2025-12-16T20:57:09.180046537Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: b947817ef594c3e23f75a54f148ed879cd267c2135b9c48b08bb425cc199f036
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.163.tgz
+    version: v0.1.163
+  - apiVersion: v2
+    appVersion: v0.1.162
+    created: "2025-12-16T20:57:09.17961866Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 11ba7ad427a1cc7c344d86ad718609af35ac9a986d1a2ac910a136a76a02a74f
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.162.tgz
+    version: v0.1.162
+  - apiVersion: v2
+    appVersion: v0.1.161
+    created: "2025-12-16T20:57:09.179168447Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: e94256582f197fd8fed51773ca4c98bbb774036997949abff93064a9181c2f75
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.161.tgz
+    version: v0.1.161
+  - apiVersion: v2
+    appVersion: v0.1.160
+    created: "2025-12-16T20:57:09.178349195Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 5026f1eaf9be9142d4c021e4595883161fea63cb940387cc08bde8b2a50ca185
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.160.tgz
+    version: v0.1.160
+  - apiVersion: v2
+    appVersion: v0.1.159
+    created: "2025-12-16T20:57:09.177963512Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: b2ae2f7ecf7f7f11238cb84d31d363c923fea22b502db80ab6acc0af171663ec
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.159.tgz
+    version: v0.1.159
+  - apiVersion: v2
+    appVersion: v0.1.158
+    created: "2025-12-16T20:57:09.17759701Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: e8bd4392f984d45646835faa8526b1e1e4a24437054539be0b764a98fda2f58e
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.158.tgz
+    version: v0.1.158
+  - apiVersion: v2
+    appVersion: v0.1.157
+    created: "2025-12-16T20:57:09.177246789Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 4232703a5f738db79d5d94bb745a8146a3f45987c1e62d06afca59e922b69f66
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.157.tgz
+    version: v0.1.157
+  - apiVersion: v2
+    appVersion: v0.1.156
+    created: "2025-12-16T20:57:09.176892565Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 5dcff3745c202d4746b126cbf22c62803347691cbfd03b75ae3272382a4e2bb9
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.156.tgz
+    version: v0.1.156
+  - apiVersion: v2
+    appVersion: v0.1.155
+    created: "2025-12-16T20:57:09.176549274Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: fea4cea116bb2f43437f02838e457defa1e68218526b97270fa5ba7d0fdaa3e2
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.155.tgz
+    version: v0.1.155
+  - apiVersion: v2
+    appVersion: v0.1.154
+    created: "2025-12-16T20:57:09.176207103Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: c66b54da17c4c1bfbcc1d4095683bbce99fa7b2da0e7f91f07358eaa269258b3
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.154.tgz
+    version: v0.1.154
+  - apiVersion: v2
+    appVersion: v0.1.153
+    created: "2025-12-16T20:57:09.175831825Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: ba955ad24cd991dacf05e8e7e0f6c6765f419345bbba0def5716b986d1540afd
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.153.tgz
+    version: v0.1.153
+  - apiVersion: v2
+    appVersion: v0.1.152
+    created: "2025-12-16T20:57:09.175483051Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: eaa48b405ae6329a6ec14e5ce3739cbb69bef2093bcd7f93c56355f69a2e4a6e
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.152.tgz
+    version: v0.1.152
+  - apiVersion: v2
+    appVersion: v0.1.151
+    created: "2025-12-16T20:57:09.175141263Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 791bbc0cdcf53214f478a123f7cc952d693f4fd7877c7b7cb98dac0240eff93b
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.151.tgz
+    version: v0.1.151
+  - apiVersion: v2
+    appVersion: v0.1.150
+    created: "2025-12-16T20:57:09.174769312Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 28ecca9021bf2f44d151bfe2fcc8664a7890542165d9ae1e49c8cd10039db2d5
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.150.tgz
+    version: v0.1.150
+  - apiVersion: v2
+    appVersion: v0.1.149
+    created: "2025-12-16T20:57:09.174426973Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: e8ad193f76e1001bc2be0bea02a46c2668b84b09ae2bf09ff71f599197d5cc9e
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.149.tgz
+    version: v0.1.149
+  - apiVersion: v2
+    appVersion: v0.1.148
+    created: "2025-12-16T20:57:09.174074791Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: e1dad739e8e759ab39deb0dc86b89cf4e729f78f89bfc20e10429b054ba6df18
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.148.tgz
+    version: v0.1.148
+  - apiVersion: v2
+    appVersion: v0.1.147
+    created: "2025-12-16T20:57:09.173693573Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: e4f861ae2dba78fc4f23872c8ad131aa5017fa8ef845b939a7bd70a7ccf62bce
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.147.tgz
+    version: v0.1.147
+  - apiVersion: v2
+    appVersion: v0.1.146
+    created: "2025-12-16T20:57:09.173339083Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 68964935039873944320aaf9074ef291f8e4fffd6d54a01dafbec0fa72e34484
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.146.tgz
+    version: v0.1.146
+  - apiVersion: v2
+    appVersion: v0.1.145
+    created: "2025-12-16T20:57:09.1729552Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: e5f83cd267ffcbd22c75c00356a45adb252e113867171f72c398cc9d7124d7d3
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.145.tgz
+    version: v0.1.145
+  - apiVersion: v2
+    appVersion: v0.1.144
+    created: "2025-12-16T20:57:09.17253968Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 04501e702326d64dd71ab4566f444193907015261f075383ac822dbabf104750
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.144.tgz
+    version: v0.1.144
+  - apiVersion: v2
+    appVersion: v0.1.143
+    created: "2025-12-16T20:57:09.171789703Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: e81ecf766f7470e191fe1b64ae98c242b137dce5e0e99dd3fb693d826ea7c821
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.143.tgz
+    version: v0.1.143
+  - apiVersion: v2
+    appVersion: v0.1.142
+    created: "2025-12-16T20:57:09.171324765Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 2fa083241670cdfd8bfe43cfbe31f21a9bd5dbfe14e6959dd377a7856512706f
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.142.tgz
+    version: v0.1.142
+  - apiVersion: v2
+    appVersion: v0.1.141
+    created: "2025-12-16T20:57:09.17094191Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 7ca37f46bc1ad5764f93aa1bc2bb9266e0ae0d3bc6b02b443e2ac02f24d0da04
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.141.tgz
+    version: v0.1.141
+  - apiVersion: v2
+    appVersion: v0.1.140
+    created: "2025-12-16T20:57:09.170537281Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: acbbb7451704bd79620b74b1b9764cefd1e5ccf81bcb91ad16ddcdec43ca9162
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.140.tgz
+    version: v0.1.140
+  - apiVersion: v2
+    appVersion: v0.1.139
+    created: "2025-12-16T20:57:09.17012765Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: d97440942b835c0b49a38f0a7643e2d454dec786cfeae5395ea4ce707261d6e3
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.139.tgz
+    version: v0.1.139
+  - apiVersion: v2
+    appVersion: v0.1.138
+    created: "2025-12-16T20:57:09.169763309Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 700b627e22874bc3afd8d16ac905baa71b8f2d3573ab4e5b896476930384e3e8
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.138.tgz
+    version: v0.1.138
+  - apiVersion: v2
+    appVersion: v0.1.137
+    created: "2025-12-16T20:57:09.169401915Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 0bda2570f795dc40d46028efa4e6304c909b37177d886cee1d3c412d54b298ab
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.137.tgz
+    version: v0.1.137
+  - apiVersion: v2
+    appVersion: v0.1.136
+    created: "2025-12-16T20:57:09.169055577Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 18ce7f340b0b5a7725ef0f3768daac87f646c915c469beecaf15fe4db38f712d
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.136.tgz
+    version: v0.1.136
+  - apiVersion: v2
+    appVersion: v0.1.135
+    created: "2025-12-16T20:57:09.168695817Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: e96a76decd46690324ac81f06c120e70063a3cac9b1cb3a5073cfbe1ac0d0433
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.135.tgz
+    version: v0.1.135
+  - apiVersion: v2
+    appVersion: v0.1.134
+    created: "2025-12-16T20:57:09.168328538Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: a7c7a2abdba512ab6105df25c64cdbd17bf28502623c597c800c11345cafbd79
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.134.tgz
+    version: v0.1.134
+  - apiVersion: v2
+    appVersion: v0.1.133
+    created: "2025-12-16T20:57:09.167965449Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 8b8e3d36eaf52cfe39057ec533b6e0c03bbb91025ea7b3caa88d11598d763fd1
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.133.tgz
+    version: v0.1.133
+  - apiVersion: v2
+    appVersion: v0.1.132
+    created: "2025-12-16T20:57:09.167602698Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 7c0f6076b0af2bd28b7ae9c853964f410ad0da4dd8c988767479b3f01101096c
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.132.tgz
+    version: v0.1.132
+  - apiVersion: v2
+    appVersion: v0.1.131
+    created: "2025-12-16T20:57:09.167231791Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 78a83a038ded5804990d844bc8678fb5dab811e1236a41c662219b5de7eba0d8
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.131.tgz
+    version: v0.1.131
+  - apiVersion: v2
+    appVersion: v0.1.130
+    created: "2025-12-16T20:57:09.166842497Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 8b2a7e353b757db77e68818b814cecdf3a2ae4233a6ea1e97173ba320ed31154
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.130.tgz
+    version: v0.1.130
+  - apiVersion: v2
+    appVersion: v0.1.129
+    created: "2025-12-16T20:57:09.16648573Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: a302ccd89362f2f0cb3c4df4e14688695ffb66963f97e6ac99c42f707a497c55
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.129.tgz
+    version: v0.1.129
+  - apiVersion: v2
+    appVersion: v0.1.128
+    created: "2025-12-16T20:57:09.16610591Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: ea52f3dbe2530b5fedb0f2d433e5e578b27692b1ff5707a24782109d843ef179
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.128.tgz
+    version: v0.1.128
+  - apiVersion: v2
+    appVersion: v0.1.127
+    created: "2025-12-16T20:57:09.165697366Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 51f39cc15b42b49c81e9cf978b66a36c781b30de5ec8b985d775b95f3b5159a5
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.127.tgz
+    version: v0.1.127
+  - apiVersion: v2
+    appVersion: v0.1.126
+    created: "2025-12-16T20:57:09.165234255Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: a4c91eb3f25943db397ef0a1acc8e96a470b5bd386829a82b4a1d6b1f89ef3f0
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.126.tgz
+    version: v0.1.126
+  - apiVersion: v2
+    appVersion: v0.1.125
+    created: "2025-12-16T20:57:09.16440456Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 2c332a7ec4c8bd12b27f6e88a35041d2ac20dfe36178d9c2225f429fcd2f072b
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.125.tgz
+    version: v0.1.125
+  - apiVersion: v2
+    appVersion: v0.1.123
+    created: "2025-12-16T20:57:09.164063967Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: eb2da88a780b2f0e9b08974c6ea1fb37ff462d45af0a71c857d1ead3922a0c8d
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.123.tgz
+    version: v0.1.123
+  - apiVersion: v2
+    appVersion: v0.1.121
+    created: "2025-12-16T20:57:09.16371573Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: a0804841745aba90f4dde813d5f9f4b614e2dacd45cfc8299e00dbbd39e0d1cc
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.121.tgz
+    version: v0.1.121
+  - apiVersion: v2
+    appVersion: v0.1.118
+    created: "2025-12-16T20:57:09.163378014Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 0cdca800ad207d698a0d66f128bd73d309d37743df08d77f506461a2ca78bc04
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.118.tgz
+    version: v0.1.118
+  - apiVersion: v2
+    appVersion: v0.1.112
+    created: "2025-12-16T20:57:09.163045555Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 47cfb188c60cc929fc76ac03c830375fb8abd695cab2eecf2a300927b98a0f58
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.112.tgz
+    version: v0.1.112
+  - apiVersion: v2
+    appVersion: v0.1.109
+    created: "2025-12-16T20:57:09.162702742Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 6972e3208125866d5c59f34cd7516d2a39321af8888b1afe8f08087f31657737
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.109.tgz
+    version: v0.1.109
+  - apiVersion: v2
+    appVersion: v0.1.106
+    created: "2025-12-16T20:57:09.162365665Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 6d0fbde3bf2188af3a243ae2fe24f86c78d637bdf8b2115f0c63d8f6e7d6dbd9
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.106.tgz
+    version: v0.1.106
+  - apiVersion: v2
+    appVersion: v0.1.105
+    created: "2025-12-16T20:57:09.162005663Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 926a60c8d7aa52f68cf1da81d0837c61c2f7a3fffac0b1859f9d89cdf5b8ed7b
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.105.tgz
+    version: v0.1.105
+  - apiVersion: v2
+    appVersion: v0.1.104
+    created: "2025-12-16T20:57:09.161680272Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: a25966779a2cf58035bad33bee4a2d214573d70c23d7b73bb506124dab6e483d
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.104.tgz
+    version: v0.1.104
+  - apiVersion: v2
+    appVersion: v0.1.103
+    created: "2025-12-16T20:57:09.161349514Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 43c029641f52ca0079db85679a1bc363e2e5002400e5cfbd40831a4981f02ca0
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.103.tgz
+    version: v0.1.103
+  - apiVersion: v2
+    appVersion: v0.1.102
+    created: "2025-12-16T20:57:09.161005327Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: b82dd9f7a8d77a7549e749411ab87045a987ee5173797ceef4c13ec0ce0c7e2a
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.102.tgz
+    version: v0.1.102
+  - apiVersion: v2
+    appVersion: v0.1.101
+    created: "2025-12-16T20:57:09.160673453Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: df2efedd3d6f372c6df481d6f08aa210bc9316fc259f1e7d74b38556926e6f43
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.101.tgz
+    version: v0.1.101
+  - apiVersion: v2
+    appVersion: v0.1.100
+    created: "2025-12-16T20:57:09.160332056Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 8050073ad869794e9c5c09492495ff091bcc939df9dd6d251bae00c0a1841dd1
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.100.tgz
+    version: v0.1.100
+  - apiVersion: v2
+    appVersion: v0.1.99
+    created: "2025-12-16T20:57:09.194194219Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 67bbb70ae528b2cfb591033b491efda2f7a5665218f18b4786349767cf3d01c7
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.99.tgz
+    version: v0.1.99
+  - apiVersion: v2
+    appVersion: v0.1.98
+    created: "2025-12-16T20:57:09.193794494Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 23d2709fb7dccb0f776021a6fc29ac9bff78613d468905e37544df640d0452e3
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.98.tgz
+    version: v0.1.98
+  - apiVersion: v2
+    appVersion: v0.1.97
+    created: "2025-12-16T20:57:09.192909145Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: bb1b989aaa358656cb989b04a4073afe454df1f194d0c2fe6ebe13624c2e4db3
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.97.tgz
+    version: v0.1.97
+  - apiVersion: v2
+    appVersion: v0.1.96
+    created: "2025-12-16T20:57:09.192603162Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 7d6c1495b682975cc5cff768918ea5c4812d8486c7e1963bb95b9b463cbdf383
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.96.tgz
+    version: v0.1.96
+  - apiVersion: v2
+    appVersion: v0.1.95
+    created: "2025-12-16T20:57:09.192290283Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 86cf457c358ee4db1df68c6d7b5460cb025bbb15234a9a218821cc829d2bcd05
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.95.tgz
+    version: v0.1.95
+  - apiVersion: v2
+    appVersion: v0.1.94
+    created: "2025-12-16T20:57:09.191950002Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: a5eb6d32f5e810d75b5f980ee0b64a44ff89db5a5ed9f95a09a56f727775b2f3
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.94.tgz
+    version: v0.1.94
+  - apiVersion: v2
+    appVersion: v0.1.93
+    created: "2025-12-16T20:57:09.191619317Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 6b08b302cf7540b2aa78f6d508faa22dea8c35a31d4bc9dd752998ee4b5ed562
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.93.tgz
+    version: v0.1.93
+  - apiVersion: v2
+    appVersion: v0.1.91-gw-c6e260e
+    created: "2025-12-16T20:57:09.191318426Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: a9dc14c6b9ba9c8eb7bbcc1df3a65fd8b729c18ef86b3361df30ea3b7e45ec2e
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.91-gw-c6e260e.tgz
+    version: v0.1.91-gw-c6e260e
+  - apiVersion: v2
+    appVersion: v0.1.90-gw-c6e260e
+    created: "2025-12-16T20:57:09.190993886Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: f61894e391d5fc596b7723520e95933853a2d1dd9f8d97f2be39dc13f61f90f6
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.90-gw-c6e260e.tgz
+    version: v0.1.90-gw-c6e260e
+  - apiVersion: v2
+    appVersion: v0.1.89-gw-37816fc
+    created: "2025-12-16T20:57:09.190672034Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: a997c070373bb56defaf919aeb2b2a89234dbca49367c4f5e3e623c3d0832a9c
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.89-gw-37816fc.tgz
+    version: v0.1.89-gw-37816fc
+  - apiVersion: v2
+    appVersion: v0.1.88-gw-37816fc
+    created: "2025-12-16T20:57:09.190365421Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 7ec32662faa64092a83bce03397157256c1d34ffcf1132605c9a0b6f4c5e016c
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.88-gw-37816fc.tgz
+    version: v0.1.88-gw-37816fc
+  - apiVersion: v2
+    appVersion: v0.1.87
+    created: "2025-12-16T20:57:09.190039324Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 666f1ea28706a8377e5c16bfee93d39cc7a771057b1979b37aa54a85dbaf18c5
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.87.tgz
+    version: v0.1.87
+  - apiVersion: v2
+    appVersion: v0.1.86
+    created: "2025-12-16T20:57:09.189723606Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 0f03114009f216d0ddff78d76b69c99bf47f640391064d8c7cf67717ae1ebe8a
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.86.tgz
+    version: v0.1.86
+  - apiVersion: v2
+    appVersion: v0.1.85
+    created: "2025-12-16T20:57:09.189417556Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: b46eb77b6f879ed43630f4e8838916c8fd70f3847b8c5037fc20c4836a08e25a
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.85.tgz
+    version: v0.1.85
+  - apiVersion: v2
+    appVersion: v0.1.84
+    created: "2025-12-16T20:57:09.189101677Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: a66ef379aac80615445e70a5c794fd34a5e26c038b193a21cb4c251097779d58
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.84.tgz
+    version: v0.1.84
+  - apiVersion: v2
+    appVersion: v0.1.83
+    created: "2025-12-16T20:57:09.188757732Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 09adb51a9574826be85430f0142f48f09aa281538b2ef3cd6df87051f6430e03
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.83.tgz
+    version: v0.1.83
+  - apiVersion: v2
+    appVersion: v0.1.82
+    created: "2025-12-16T20:57:09.188438056Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: d348a3cafa08089e07ab6bdb7ccc296b4dd89f974acf613212ac0da69f826851
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.82.tgz
+    version: v0.1.82
+  - apiVersion: v2
+    appVersion: v0.1.81
+    created: "2025-12-16T20:57:09.188121166Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 91509b19ef306db91d0e60cbc3dfacab732a139e39eeb45580e9dfb87fe81502
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.81.tgz
+    version: v0.1.81
+  - apiVersion: v2
+    appVersion: v0.1.80
+    created: "2025-12-16T20:57:09.187778634Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 5cdeb7d0cb33fcd1139bb48d741b93051d3ad0bc8f905fc7d4461daedbcb6377
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.80.tgz
+    version: v0.1.80
+  - apiVersion: v2
+    appVersion: v0.1.79
+    created: "2025-12-16T20:57:09.18744232Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: a195955497ffc764d611cc582f71fd7301c264b686722558b4b62cc19df614ad
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.79.tgz
+    version: v0.1.79
+  - apiVersion: v2
+    appVersion: v0.1.78
+    created: "2025-12-16T20:57:09.18708161Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: c7093319730d96e224d992b754207ceb59d0b28f0a93761d3dc7ffaa00f90c26
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.78.tgz
+    version: v0.1.78
+  - apiVersion: v2
+    appVersion: v0.1.77
+    created: "2025-12-16T20:57:09.186679008Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 4ca4b3f6e5740f3d8ec5b4324eae88ccc2fe2b342108a9e51e1d5411451bb9a1
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.77.tgz
+    version: v0.1.77
+  - apiVersion: v2
+    appVersion: v0.1.76
+    created: "2025-12-16T20:57:09.185831999Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 4856f1146432af5051c1bcebd99e1021fa6e59924f743a161978008597fb5718
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.76.tgz
+    version: v0.1.76
+  - apiVersion: v2
+    appVersion: 0.0.0-nightly
+    created: "2025-12-16T20:57:09.159951987Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: ee229ede7e5fd54f811577b8b3055faf0bbf550f9e9b2f0d66fdfea3e8a8815e
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-0.0.0-nightly.tgz
+    version: 0.0.0-nightly
+  sglang:
+  - apiVersion: v2
+    appVersion: v0.1.178
+    created: "2025-12-16T20:57:09.809844932Z"
+    description: Minimal Helm chart to deploy an SGLang OpenAI-compatible server
+    digest: c53aed0e52a621102b39d875713b149bdf0df5a57f601df14f26f71440f76803
+    name: sglang
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/sglang-v0.1.178.tgz
+    version: v0.1.178
+  - apiVersion: v2
+    appVersion: v0.1.177
+    created: "2025-12-16T20:57:09.809544907Z"
+    description: Minimal Helm chart to deploy an SGLang OpenAI-compatible server
+    digest: 7a4a64033cc01023cb9c705cdbc4d0261872614ae7a7297948a6de7eb22478ef
+    name: sglang
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/sglang-v0.1.177.tgz
+    version: v0.1.177
+  - apiVersion: v2
+    appVersion: v0.1.176
+    created: "2025-12-16T20:57:09.809237283Z"
+    description: Minimal Helm chart to deploy an SGLang OpenAI-compatible server
+    digest: 36aac0e1404a987c4695a700d6a53e4971c1c75d823e2542701cc577c3c2767c
+    name: sglang
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/sglang-v0.1.176.tgz
+    version: v0.1.176
+  - apiVersion: v2
+    appVersion: v0.1.175
+    created: "2025-12-16T20:57:09.808935171Z"
+    description: Minimal Helm chart to deploy an SGLang OpenAI-compatible server
+    digest: 0ff93b404b2ff1440035cb8d369d74071c0af56520ff084419f3a0ba83e1293c
+    name: sglang
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/sglang-v0.1.175.tgz
+    version: v0.1.175
+  - apiVersion: v2
+    appVersion: 0.0.0-nightly
+    created: "2025-12-16T20:57:09.80857064Z"
+    description: Minimal Helm chart to deploy an SGLang OpenAI-compatible server
+    digest: 2d76c900c906c36df69cd726a4e88c150445dce33b26e07b0ee4d04e979697fc
+    name: sglang
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/sglang-0.0.0-nightly.tgz
+    version: 0.0.0-nightly
+  vllm:
+  - apiVersion: v2
+    appVersion: v0.1.178
+    created: "2025-12-16T20:57:09.822267681Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: dbd9c99cb9601690f2a085433257fa900bde8bb71c46018e6762664b412b1d36
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.178.tgz
+    version: v0.1.178
+  - apiVersion: v2
+    appVersion: v0.1.177
+    created: "2025-12-16T20:57:09.821941764Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: 876ba54c786fd51cd638b0faf74a77fa462d95582f21e256d3107f49d16cfb92
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.177.tgz
+    version: v0.1.177
+  - apiVersion: v2
+    appVersion: v0.1.176
+    created: "2025-12-16T20:57:09.821644397Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: 903d8c5e9f992c6eff233deba5009fd0f7de02b64b383369313f91b139deabd0
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.176.tgz
+    version: v0.1.176
+  - apiVersion: v2
+    appVersion: v0.1.175
+    created: "2025-12-16T20:57:09.821343068Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: a2178ba9effd6a564a099fd2b03ade3c49e8c1f2597e696386ef3d8573263633
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.175.tgz
+    version: v0.1.175
+  - apiVersion: v2
+    appVersion: v0.1.174
+    created: "2025-12-16T20:57:09.820985666Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: 373160ef2d6296e85561d8616f2aac7de868b7c2d950ab39e4687fc209a95256
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.174.tgz
+    version: v0.1.174
+  - apiVersion: v2
+    appVersion: v0.1.172
+    created: "2025-12-16T20:57:09.820675136Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: 458dd383e941029c4ff8912fea0e5a1322dce47ddea924085fb9871ab24d117b
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.172.tgz
+    version: v0.1.172
+  - apiVersion: v2
+    appVersion: v0.1.171
+    created: "2025-12-16T20:57:09.820375221Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: 9f53c67084fc831031614b15db3ce39f88ecb4424caff1ae72adfb55afc2a02e
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.171.tgz
+    version: v0.1.171
+  - apiVersion: v2
+    appVersion: v0.1.170
+    created: "2025-12-16T20:57:09.819709848Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: e59c7ddab40bba01469c662bafba00324d78d04fa8d9b8651f1676937d754d84
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.170.tgz
+    version: v0.1.170
+  - apiVersion: v2
+    appVersion: v0.1.169
+    created: "2025-12-16T20:57:09.819527778Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: 4321ff2253db8f841044cd1e63752f20373f807db0dbda7599e86df30d55c1f3
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.169.tgz
+    version: v0.1.169
+  - apiVersion: v2
+    appVersion: v0.1.168
+    created: "2025-12-16T20:57:09.819340419Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: e2bc018807f04623eb232c465b71cf0dcdfe83174d31d771d369f5b327a1d32e
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.168.tgz
+    version: v0.1.168
+  - apiVersion: v2
+    appVersion: v0.1.167
+    created: "2025-12-16T20:57:09.819140061Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: ecd55049df79b30218eb803126f8a46fc87647ea0b2968554841f95ddf0e724b
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.167.tgz
+    version: v0.1.167
+  - apiVersion: v2
+    appVersion: v0.1.166
+    created: "2025-12-16T20:57:09.818945084Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: 558cfbe7104dad3e9f512fb9605eb7db68be7d5b5268aa33df24c2e4b735ed98
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.166.tgz
+    version: v0.1.166
+  - apiVersion: v2
+    appVersion: v0.1.165
+    created: "2025-12-16T20:57:09.818760635Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: d91789617498b506d37e0a6f3608e1f96a2e10e3eff9fe4c498594bf1ad97593
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.165.tgz
+    version: v0.1.165
+  - apiVersion: v2
+    appVersion: v0.1.164
+    created: "2025-12-16T20:57:09.818570762Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: af8ea4a17ee1db09dc0219f9991be1201a7fea1b34d8da9dbcfa94587377d29c
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.164.tgz
+    version: v0.1.164
+  - apiVersion: v2
+    appVersion: v0.1.163
+    created: "2025-12-16T20:57:09.818388109Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: 0d664461b110f883ddbd4bd1919305ca0086d6d0964654ce9067593f4dcbed2e
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.163.tgz
+    version: v0.1.163
+  - apiVersion: v2
+    appVersion: v0.1.162
+    created: "2025-12-16T20:57:09.818193257Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: 90fe885ca6e40b5f928385804c53d7456ba72bacdc28b401172c30e140bd9fb9
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.162.tgz
+    version: v0.1.162
+  - apiVersion: v2
+    appVersion: v0.1.161
+    created: "2025-12-16T20:57:09.817995314Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: 336ae4f658969d8383e173fdd9cbcdc3b5795cd8be5aa6628942183d74c30bee
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.161.tgz
+    version: v0.1.161
+  - apiVersion: v2
+    appVersion: v0.1.160
+    created: "2025-12-16T20:57:09.817804008Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: a8d1f713bb5e02ef5c430b76be022b11f221e81583349af00222cfaf15db7fe6
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.160.tgz
+    version: v0.1.160
+  - apiVersion: v2
+    appVersion: v0.1.159
+    created: "2025-12-16T20:57:09.817606238Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: b9910854b7a477a5702b4bbf67bc273d445e3078a8ab1b0b80173525519b1dcf
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.159.tgz
+    version: v0.1.159
+  - apiVersion: v2
+    appVersion: v0.1.158
+    created: "2025-12-16T20:57:09.817388197Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: 7bf2ad63285addbeb27d2bf100c931a3598750a9117f27b38a979109274fdd70
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.158.tgz
+    version: v0.1.158
+  - apiVersion: v2
+    appVersion: v0.1.157
+    created: "2025-12-16T20:57:09.817203764Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: 5f0f8087634f3e07f7a139d9fa8f7d5c0a6aa855dbd970e6d2e3f6c2bf4fb837
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.157.tgz
+    version: v0.1.157
+  - apiVersion: v2
+    appVersion: v0.1.156
+    created: "2025-12-16T20:57:09.81698523Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: c3d7dea7a812207282ad3e09713303494cd2fae27f7c12406e15a175da889fe3
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.156.tgz
+    version: v0.1.156
+  - apiVersion: v2
+    appVersion: v0.1.155
+    created: "2025-12-16T20:57:09.816802013Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: 8e51193112bed0036c964741981bf9f2dfc16bb8be69acba40f46a1af8bafcfc
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.155.tgz
+    version: v0.1.155
+  - apiVersion: v2
+    appVersion: v0.1.154
+    created: "2025-12-16T20:57:09.816615428Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: bb197210b45f333c67a073dc4e91fc2759a1e99e6fb2c847f072e54855f1410d
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.154.tgz
+    version: v0.1.154
+  - apiVersion: v2
+    appVersion: v0.1.153
+    created: "2025-12-16T20:57:09.816427192Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: 68d100cbe7acd6369bb482a14d8d2515a984fa847520dcf35a862c6c9f98bada
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.153.tgz
+    version: v0.1.153
+  - apiVersion: v2
+    appVersion: v0.1.152
+    created: "2025-12-16T20:57:09.816236933Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: e89f2b948beaa4dc6683a84d49174e59db99d1132839b6364c098e6948d10cea
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.152.tgz
+    version: v0.1.152
+  - apiVersion: v2
+    appVersion: v0.1.151
+    created: "2025-12-16T20:57:09.816032567Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: a6010ced1a4a10ce2a2742ee0a68d2baaaf412c2258e36b33cb7a893368293fa
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.151.tgz
+    version: v0.1.151
+  - apiVersion: v2
+    appVersion: v0.1.150
+    created: "2025-12-16T20:57:09.815830151Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: 6820b073ee3a9a77a506f7d84458030e5db5285cac6ed72e9bfb1c3ff4c381c8
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.150.tgz
+    version: v0.1.150
+  - apiVersion: v2
+    appVersion: v0.1.149
+    created: "2025-12-16T20:57:09.815613349Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: 3be167a488caf48609f2d00a6a04f5f25b835aacd229e0b36923a383877fd5a8
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.149.tgz
+    version: v0.1.149
+  - apiVersion: v2
+    appVersion: v0.1.148
+    created: "2025-12-16T20:57:09.815406611Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: 350d13dda3f72c0c4686bde07cf8edb6458dece5a7cb4445623a873c30e32223
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.148.tgz
+    version: v0.1.148
+  - apiVersion: v2
+    appVersion: v0.1.147
+    created: "2025-12-16T20:57:09.815195845Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: 8656b5ce3cb1b56392c9abb5b2eebfdd69141f2a80e4416bb99199173156792d
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.147.tgz
+    version: v0.1.147
+  - apiVersion: v2
+    appVersion: v0.1.146
+    created: "2025-12-16T20:57:09.814955054Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: 832a3b3d4e579a25d2313f564ff29ae75bde0d10f5a1021151d9a79925167e36
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.146.tgz
+    version: v0.1.146
+  - apiVersion: v2
+    appVersion: v0.1.145
+    created: "2025-12-16T20:57:09.814685161Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: e33ba9a4851e639eda79248396a073900d22e716b4b0caa8e08e5d4c42b63e97
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.145.tgz
+    version: v0.1.145
+  - apiVersion: v2
+    appVersion: v0.1.144
+    created: "2025-12-16T20:57:09.814015514Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: 961e51a26f458a95df5277bc4e6e09e4a0b1a9e233dded52cb94a2064530b2ee
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.144.tgz
+    version: v0.1.144
+  - apiVersion: v2
+    appVersion: v0.1.143
+    created: "2025-12-16T20:57:09.813750867Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: f4b9f909477d7a433d4b8326ada229bee34d0d269e25482258fc900f777aa336
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.143.tgz
+    version: v0.1.143
+  - apiVersion: v2
+    appVersion: v0.1.142
+    created: "2025-12-16T20:57:09.813567943Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: d633fdd41fa5820613b37372b5e21e85e7d99bd0e8772999768e5a47423da78f
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.142.tgz
+    version: v0.1.142
+  - apiVersion: v2
+    appVersion: v0.1.141
+    created: "2025-12-16T20:57:09.813383141Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: c8b2fbabff345425920674edb32861b983e2d5d9129dc6b301f706a1a3a284f2
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.141.tgz
+    version: v0.1.141
+  - apiVersion: v2
+    appVersion: v0.1.140
+    created: "2025-12-16T20:57:09.813196448Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: 0208b35820376159c927a6c20ddff36ff257483394dadf7d5d57e87d1748a609
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.140.tgz
+    version: v0.1.140
+  - apiVersion: v2
+    appVersion: v0.1.139
+    created: "2025-12-16T20:57:09.812996446Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: 94253a3919020e205d3f8aae0470eaeb5d4abbb0f4139693fa66fb0ad8517110
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.139.tgz
+    version: v0.1.139
+  - apiVersion: v2
+    appVersion: v0.1.138
+    created: "2025-12-16T20:57:09.812804372Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: f0454206a6c1908f355b93105d4c1067aac4136913ee0ab559b7574b6ce3fbba
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.138.tgz
+    version: v0.1.138
+  - apiVersion: v2
+    appVersion: v0.1.137
+    created: "2025-12-16T20:57:09.812590933Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: d357a3285763d0f30919ff783429a5e5e83547f6b05cb7907cf66ddf878d42fc
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.137.tgz
+    version: v0.1.137
+  - apiVersion: v2
+    appVersion: v0.1.136
+    created: "2025-12-16T20:57:09.81240314Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: df09d62d1bbacf39bf532e4d2c49aee84dfdf9fd706c54f02f2be4d4bba9e01d
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.136.tgz
+    version: v0.1.136
+  - apiVersion: v2
+    appVersion: v0.1.135
+    created: "2025-12-16T20:57:09.812215237Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: b53b6850f44793df37e3af048dc9a8b48f8f6a418dc1c60420c251681ed15e1e
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.135.tgz
+    version: v0.1.135
+  - apiVersion: v2
+    appVersion: v0.1.134
+    created: "2025-12-16T20:57:09.812007506Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: 93b503644fed8c4c54c92db3e9f29154909bec466556b9ce988c4583792fa3c2
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.134.tgz
+    version: v0.1.134
+  - apiVersion: v2
+    appVersion: v0.1.133
+    created: "2025-12-16T20:57:09.811793913Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: 357081c7e86c0b59c114dee0767347c9e3e84dc95ed2bb8615173f53faf3810f
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.133.tgz
+    version: v0.1.133
+  - apiVersion: v2
+    appVersion: v0.1.132
+    created: "2025-12-16T20:57:09.811596494Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: cca7d60ac866046aa8818de9050e0b5ac59438ff80204a8017e33498d7c62094
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.132.tgz
+    version: v0.1.132
+  - apiVersion: v2
+    appVersion: v0.1.131
+    created: "2025-12-16T20:57:09.811398514Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: 7e0c9784f5df701fd4066e9566e570b443bc11bf7fd2a76fe91bcbacf4c212c5
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.131.tgz
+    version: v0.1.131
+  - apiVersion: v2
+    appVersion: v0.1.130
+    created: "2025-12-16T20:57:09.811208044Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: 944353df0eec35372829440949017c80798c21589bc09ebf0b8200f49e866bb4
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.130.tgz
+    version: v0.1.130
+  - apiVersion: v2
+    appVersion: v0.1.129
+    created: "2025-12-16T20:57:09.810995078Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: a9db4b26232f706bd1b917148481c15698834dde1727bc59479bcb32a0233d18
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.129.tgz
+    version: v0.1.129
+  - apiVersion: v2
+    appVersion: v0.1.128
+    created: "2025-12-16T20:57:09.810798479Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: 3d631275e4f0834c0233c7eb4e26ff407ada3a0b4f3e272088af9c29908254cf
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.128.tgz
+    version: v0.1.128
+  - apiVersion: v2
+    appVersion: v0.1.127
+    created: "2025-12-16T20:57:09.810602351Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: dec4768e9569ca969a0b2083be58881afbb4ca116e69fc580405b496d2204f09
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.127.tgz
+    version: v0.1.127
+  - apiVersion: v2
+    appVersion: v0.1.126
+    created: "2025-12-16T20:57:09.810402728Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: d5a283716d547952a12ea5806bed755707283bdaf67399c51f17979d1dc5fb85
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.126.tgz
+    version: v0.1.126
+  - apiVersion: v2
+    appVersion: 0.0.0-nightly
+    created: "2025-12-16T20:57:09.810188717Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: f9ba7cd7ae66c57ad458fd943db0d69e835c573edf9db302e330122abb10f290
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-0.0.0-nightly.tgz
+    version: 0.0.0-nightly
+generated: "2025-12-16T20:57:08.969156607Z"
