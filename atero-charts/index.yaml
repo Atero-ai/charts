@@ -2,8 +2,34 @@ apiVersion: v1
 entries:
   atero:
   - apiVersion: v2
+    appVersion: v0.1.179
+    created: "2025-12-17T19:21:16.224824357Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: e94f9f811fa5915f0a0939a5bebfa1181a67be15f2f2f959c0449fa5a1fc02f3
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.179.tgz
+    version: v0.1.179
+  - apiVersion: v2
     appVersion: v0.1.178
-    created: "2025-12-16T20:57:09.546740634Z"
+    created: "2025-12-17T19:21:16.219260719Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -29,7 +55,7 @@ entries:
     version: v0.1.178
   - apiVersion: v2
     appVersion: v0.1.177
-    created: "2025-12-16T20:57:09.541579865Z"
+    created: "2025-12-17T19:21:16.21411045Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -55,7 +81,7 @@ entries:
     version: v0.1.177
   - apiVersion: v2
     appVersion: v0.1.176
-    created: "2025-12-16T20:57:09.535609586Z"
+    created: "2025-12-17T19:21:16.208277787Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -81,7 +107,7 @@ entries:
     version: v0.1.176
   - apiVersion: v2
     appVersion: v0.1.175
-    created: "2025-12-16T20:57:09.53046324Z"
+    created: "2025-12-17T19:21:16.200916527Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -107,7 +133,7 @@ entries:
     version: v0.1.175
   - apiVersion: v2
     appVersion: v0.1.174
-    created: "2025-12-16T20:57:09.524771913Z"
+    created: "2025-12-17T19:21:16.194260092Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -133,7 +159,7 @@ entries:
     version: v0.1.174
   - apiVersion: v2
     appVersion: v0.1.172
-    created: "2025-12-16T20:57:09.519586968Z"
+    created: "2025-12-17T19:21:16.188663471Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -159,7 +185,7 @@ entries:
     version: v0.1.172
   - apiVersion: v2
     appVersion: v0.1.171
-    created: "2025-12-16T20:57:09.513988096Z"
+    created: "2025-12-17T19:21:16.183515017Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -185,7 +211,7 @@ entries:
     version: v0.1.171
   - apiVersion: v2
     appVersion: v0.1.170
-    created: "2025-12-16T20:57:09.508221656Z"
+    created: "2025-12-17T19:21:16.176880325Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -211,7 +237,7 @@ entries:
     version: v0.1.170
   - apiVersion: v2
     appVersion: v0.1.169
-    created: "2025-12-16T20:57:09.50310804Z"
+    created: "2025-12-17T19:21:16.169940163Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -237,7 +263,7 @@ entries:
     version: v0.1.169
   - apiVersion: v2
     appVersion: v0.1.168
-    created: "2025-12-16T20:57:09.497402656Z"
+    created: "2025-12-17T19:21:16.164376243Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -263,7 +289,7 @@ entries:
     version: v0.1.168
   - apiVersion: v2
     appVersion: v0.1.167
-    created: "2025-12-16T20:57:09.491615449Z"
+    created: "2025-12-17T19:21:16.158685632Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -289,7 +315,7 @@ entries:
     version: v0.1.167
   - apiVersion: v2
     appVersion: v0.1.166
-    created: "2025-12-16T20:57:09.486646126Z"
+    created: "2025-12-17T19:21:16.153675424Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -315,7 +341,7 @@ entries:
     version: v0.1.166
   - apiVersion: v2
     appVersion: v0.1.165
-    created: "2025-12-16T20:57:09.480661779Z"
+    created: "2025-12-17T19:21:16.147961695Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -341,7 +367,7 @@ entries:
     version: v0.1.165
   - apiVersion: v2
     appVersion: v0.1.164
-    created: "2025-12-16T20:57:09.475540281Z"
+    created: "2025-12-17T19:21:16.142753521Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -367,7 +393,7 @@ entries:
     version: v0.1.164
   - apiVersion: v2
     appVersion: v0.1.163
-    created: "2025-12-16T20:57:09.46973851Z"
+    created: "2025-12-17T19:21:16.135485228Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -393,7 +419,7 @@ entries:
     version: v0.1.163
   - apiVersion: v2
     appVersion: v0.1.162
-    created: "2025-12-16T20:57:09.464671277Z"
+    created: "2025-12-17T19:21:16.127782802Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -419,7 +445,7 @@ entries:
     version: v0.1.162
   - apiVersion: v2
     appVersion: v0.1.161
-    created: "2025-12-16T20:57:09.459282047Z"
+    created: "2025-12-17T19:21:16.12277319Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -445,7 +471,7 @@ entries:
     version: v0.1.161
   - apiVersion: v2
     appVersion: v0.1.160
-    created: "2025-12-16T20:57:09.454140921Z"
+    created: "2025-12-17T19:21:16.117109383Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -471,7 +497,7 @@ entries:
     version: v0.1.160
   - apiVersion: v2
     appVersion: v0.1.159
-    created: "2025-12-16T20:57:09.448529403Z"
+    created: "2025-12-17T19:21:16.111973778Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -497,7 +523,7 @@ entries:
     version: v0.1.159
   - apiVersion: v2
     appVersion: v0.1.158
-    created: "2025-12-16T20:57:09.442736684Z"
+    created: "2025-12-17T19:21:16.106591754Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -523,7 +549,7 @@ entries:
     version: v0.1.158
   - apiVersion: v2
     appVersion: v0.1.157
-    created: "2025-12-16T20:57:09.437643Z"
+    created: "2025-12-17T19:21:16.100872801Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -549,7 +575,7 @@ entries:
     version: v0.1.157
   - apiVersion: v2
     appVersion: v0.1.156
-    created: "2025-12-16T20:57:09.432054936Z"
+    created: "2025-12-17T19:21:16.093416841Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -575,7 +601,7 @@ entries:
     version: v0.1.156
   - apiVersion: v2
     appVersion: v0.1.155
-    created: "2025-12-16T20:57:09.426998994Z"
+    created: "2025-12-17T19:21:16.085955935Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -601,7 +627,7 @@ entries:
     version: v0.1.155
   - apiVersion: v2
     appVersion: v0.1.154
-    created: "2025-12-16T20:57:09.421481721Z"
+    created: "2025-12-17T19:21:16.080939639Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -627,7 +653,7 @@ entries:
     version: v0.1.154
   - apiVersion: v2
     appVersion: v0.1.153
-    created: "2025-12-16T20:57:09.416162572Z"
+    created: "2025-12-17T19:21:16.075194774Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -653,7 +679,7 @@ entries:
     version: v0.1.153
   - apiVersion: v2
     appVersion: v0.1.152
-    created: "2025-12-16T20:57:09.410935933Z"
+    created: "2025-12-17T19:21:16.070087909Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -679,7 +705,7 @@ entries:
     version: v0.1.152
   - apiVersion: v2
     appVersion: v0.1.151
-    created: "2025-12-16T20:57:09.405375495Z"
+    created: "2025-12-17T19:21:16.064449697Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -705,7 +731,7 @@ entries:
     version: v0.1.151
   - apiVersion: v2
     appVersion: v0.1.150
-    created: "2025-12-16T20:57:09.400331473Z"
+    created: "2025-12-17T19:21:16.058947631Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -731,7 +757,7 @@ entries:
     version: v0.1.150
   - apiVersion: v2
     appVersion: v0.1.149
-    created: "2025-12-16T20:57:09.394711911Z"
+    created: "2025-12-17T19:21:16.053972892Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -757,7 +783,7 @@ entries:
     version: v0.1.149
   - apiVersion: v2
     appVersion: v0.1.148
-    created: "2025-12-16T20:57:09.389655415Z"
+    created: "2025-12-17T19:21:16.04824081Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -783,7 +809,7 @@ entries:
     version: v0.1.148
   - apiVersion: v2
     appVersion: v0.1.147
-    created: "2025-12-16T20:57:09.383905984Z"
+    created: "2025-12-17T19:21:16.04310526Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -809,7 +835,7 @@ entries:
     version: v0.1.147
   - apiVersion: v2
     appVersion: v0.1.146
-    created: "2025-12-16T20:57:09.378406023Z"
+    created: "2025-12-17T19:21:16.037434779Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -835,7 +861,7 @@ entries:
     version: v0.1.146
   - apiVersion: v2
     appVersion: v0.1.145
-    created: "2025-12-16T20:57:09.373271992Z"
+    created: "2025-12-17T19:21:16.031322042Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -861,7 +887,7 @@ entries:
     version: v0.1.145
   - apiVersion: v2
     appVersion: v0.1.144
-    created: "2025-12-16T20:57:09.367637405Z"
+    created: "2025-12-17T19:21:16.025059064Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -887,7 +913,7 @@ entries:
     version: v0.1.144
   - apiVersion: v2
     appVersion: v0.1.143
-    created: "2025-12-16T20:57:09.362552895Z"
+    created: "2025-12-17T19:21:16.019523585Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -913,7 +939,7 @@ entries:
     version: v0.1.143
   - apiVersion: v2
     appVersion: v0.1.142
-    created: "2025-12-16T20:57:09.356665711Z"
+    created: "2025-12-17T19:21:16.013378094Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -939,7 +965,7 @@ entries:
     version: v0.1.142
   - apiVersion: v2
     appVersion: v0.1.141
-    created: "2025-12-16T20:57:09.350843973Z"
+    created: "2025-12-17T19:21:16.005828554Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -965,7 +991,7 @@ entries:
     version: v0.1.141
   - apiVersion: v2
     appVersion: v0.1.140
-    created: "2025-12-16T20:57:09.345784623Z"
+    created: "2025-12-17T19:21:15.998888422Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -991,7 +1017,7 @@ entries:
     version: v0.1.140
   - apiVersion: v2
     appVersion: v0.1.139
-    created: "2025-12-16T20:57:09.340178Z"
+    created: "2025-12-17T19:21:15.993186835Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1017,7 +1043,7 @@ entries:
     version: v0.1.139
   - apiVersion: v2
     appVersion: v0.1.138
-    created: "2025-12-16T20:57:09.334592691Z"
+    created: "2025-12-17T19:21:15.988010176Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1043,7 +1069,7 @@ entries:
     version: v0.1.138
   - apiVersion: v2
     appVersion: v0.1.137
-    created: "2025-12-16T20:57:09.329560188Z"
+    created: "2025-12-17T19:21:15.982080138Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1069,7 +1095,7 @@ entries:
     version: v0.1.137
   - apiVersion: v2
     appVersion: v0.1.136
-    created: "2025-12-16T20:57:09.323915043Z"
+    created: "2025-12-17T19:21:15.976997029Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1095,7 +1121,7 @@ entries:
     version: v0.1.136
   - apiVersion: v2
     appVersion: v0.1.135
-    created: "2025-12-16T20:57:09.318827178Z"
+    created: "2025-12-17T19:21:15.971385134Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1121,7 +1147,7 @@ entries:
     version: v0.1.135
   - apiVersion: v2
     appVersion: v0.1.134
-    created: "2025-12-16T20:57:09.313107332Z"
+    created: "2025-12-17T19:21:15.966056087Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1147,7 +1173,7 @@ entries:
     version: v0.1.134
   - apiVersion: v2
     appVersion: v0.1.133
-    created: "2025-12-16T20:57:09.307492115Z"
+    created: "2025-12-17T19:21:15.961036106Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1173,7 +1199,7 @@ entries:
     version: v0.1.133
   - apiVersion: v2
     appVersion: v0.1.132
-    created: "2025-12-16T20:57:09.302127245Z"
+    created: "2025-12-17T19:21:15.955386181Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1199,7 +1225,7 @@ entries:
     version: v0.1.132
   - apiVersion: v2
     appVersion: v0.1.131
-    created: "2025-12-16T20:57:09.296132876Z"
+    created: "2025-12-17T19:21:15.950310962Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1225,7 +1251,7 @@ entries:
     version: v0.1.131
   - apiVersion: v2
     appVersion: v0.1.130
-    created: "2025-12-16T20:57:09.290491376Z"
+    created: "2025-12-17T19:21:15.944536026Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1251,7 +1277,7 @@ entries:
     version: v0.1.130
   - apiVersion: v2
     appVersion: v0.1.129
-    created: "2025-12-16T20:57:09.285502627Z"
+    created: "2025-12-17T19:21:15.938888917Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1277,7 +1303,7 @@ entries:
     version: v0.1.129
   - apiVersion: v2
     appVersion: v0.1.128
-    created: "2025-12-16T20:57:09.280053135Z"
+    created: "2025-12-17T19:21:15.933756337Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1303,7 +1329,7 @@ entries:
     version: v0.1.128
   - apiVersion: v2
     appVersion: v0.1.127
-    created: "2025-12-16T20:57:09.274961406Z"
+    created: "2025-12-17T19:21:15.927965744Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1329,7 +1355,7 @@ entries:
     version: v0.1.127
   - apiVersion: v2
     appVersion: v0.1.126
-    created: "2025-12-16T20:57:09.269318413Z"
+    created: "2025-12-17T19:21:15.92317648Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1355,7 +1381,7 @@ entries:
     version: v0.1.126
   - apiVersion: v2
     appVersion: v0.1.125
-    created: "2025-12-16T20:57:09.26420348Z"
+    created: "2025-12-17T19:21:15.917155942Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1381,7 +1407,7 @@ entries:
     version: v0.1.125
   - apiVersion: v2
     appVersion: v0.1.123
-    created: "2025-12-16T20:57:09.258529499Z"
+    created: "2025-12-17T19:21:15.911608278Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1407,7 +1433,7 @@ entries:
     version: v0.1.123
   - apiVersion: v2
     appVersion: v0.1.121
-    created: "2025-12-16T20:57:09.252803102Z"
+    created: "2025-12-17T19:21:15.90684732Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1433,7 +1459,7 @@ entries:
     version: v0.1.121
   - apiVersion: v2
     appVersion: v0.1.118
-    created: "2025-12-16T20:57:09.247707086Z"
+    created: "2025-12-17T19:21:15.90145044Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1459,7 +1485,7 @@ entries:
     version: v0.1.118
   - apiVersion: v2
     appVersion: v0.1.112
-    created: "2025-12-16T20:57:09.241757435Z"
+    created: "2025-12-17T19:21:15.896535774Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1485,7 +1511,7 @@ entries:
     version: v0.1.112
   - apiVersion: v2
     appVersion: v0.1.109
-    created: "2025-12-16T20:57:09.23679172Z"
+    created: "2025-12-17T19:21:15.890869802Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1511,7 +1537,7 @@ entries:
     version: v0.1.109
   - apiVersion: v2
     appVersion: v0.1.106
-    created: "2025-12-16T20:57:09.231249134Z"
+    created: "2025-12-17T19:21:15.885235978Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1537,7 +1563,7 @@ entries:
     version: v0.1.106
   - apiVersion: v2
     appVersion: v0.1.105
-    created: "2025-12-16T20:57:09.225889072Z"
+    created: "2025-12-17T19:21:15.880173336Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1563,7 +1589,7 @@ entries:
     version: v0.1.105
   - apiVersion: v2
     appVersion: v0.1.104
-    created: "2025-12-16T20:57:09.220873805Z"
+    created: "2025-12-17T19:21:15.874600248Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1589,7 +1615,7 @@ entries:
     version: v0.1.104
   - apiVersion: v2
     appVersion: v0.1.103
-    created: "2025-12-16T20:57:09.215281753Z"
+    created: "2025-12-17T19:21:15.869021838Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1615,7 +1641,7 @@ entries:
     version: v0.1.103
   - apiVersion: v2
     appVersion: v0.1.102
-    created: "2025-12-16T20:57:09.20977936Z"
+    created: "2025-12-17T19:21:15.864076106Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1641,7 +1667,7 @@ entries:
     version: v0.1.102
   - apiVersion: v2
     appVersion: v0.1.101
-    created: "2025-12-16T20:57:09.204791916Z"
+    created: "2025-12-17T19:21:15.856712095Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1667,7 +1693,7 @@ entries:
     version: v0.1.101
   - apiVersion: v2
     appVersion: v0.1.100
-    created: "2025-12-16T20:57:09.199195317Z"
+    created: "2025-12-17T19:21:15.848828574Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1693,7 +1719,7 @@ entries:
     version: v0.1.100
   - apiVersion: v2
     appVersion: v0.1.99
-    created: "2025-12-16T20:57:09.807719966Z"
+    created: "2025-12-17T19:21:16.490379781Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1719,7 +1745,7 @@ entries:
     version: v0.1.99
   - apiVersion: v2
     appVersion: v0.1.98
-    created: "2025-12-16T20:57:09.802701273Z"
+    created: "2025-12-17T19:21:16.48458142Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1745,7 +1771,7 @@ entries:
     version: v0.1.98
   - apiVersion: v2
     appVersion: v0.1.97
-    created: "2025-12-16T20:57:09.797460216Z"
+    created: "2025-12-17T19:21:16.477671583Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1771,7 +1797,7 @@ entries:
     version: v0.1.97
   - apiVersion: v2
     appVersion: v0.1.96
-    created: "2025-12-16T20:57:09.792462291Z"
+    created: "2025-12-17T19:21:16.4715022Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1797,7 +1823,7 @@ entries:
     version: v0.1.96
   - apiVersion: v2
     appVersion: v0.1.95
-    created: "2025-12-16T20:57:09.786620478Z"
+    created: "2025-12-17T19:21:16.466708019Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1823,7 +1849,7 @@ entries:
     version: v0.1.95
   - apiVersion: v2
     appVersion: v0.1.94
-    created: "2025-12-16T20:57:09.781580744Z"
+    created: "2025-12-17T19:21:16.460891144Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1849,7 +1875,7 @@ entries:
     version: v0.1.94
   - apiVersion: v2
     appVersion: v0.1.93
-    created: "2025-12-16T20:57:09.775952953Z"
+    created: "2025-12-17T19:21:16.45580242Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1875,7 +1901,7 @@ entries:
     version: v0.1.93
   - apiVersion: v2
     appVersion: v0.1.91-gw-c6e260e
-    created: "2025-12-16T20:57:09.770891655Z"
+    created: "2025-12-17T19:21:16.450214381Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1901,7 +1927,7 @@ entries:
     version: v0.1.91-gw-c6e260e
   - apiVersion: v2
     appVersion: v0.1.90-gw-c6e260e
-    created: "2025-12-16T20:57:09.765228193Z"
+    created: "2025-12-17T19:21:16.444852994Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1927,7 +1953,7 @@ entries:
     version: v0.1.90-gw-c6e260e
   - apiVersion: v2
     appVersion: v0.1.89-gw-37816fc
-    created: "2025-12-16T20:57:09.759747471Z"
+    created: "2025-12-17T19:21:16.439813531Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1953,7 +1979,7 @@ entries:
     version: v0.1.89-gw-37816fc
   - apiVersion: v2
     appVersion: v0.1.88-gw-37816fc
-    created: "2025-12-16T20:57:09.754775172Z"
+    created: "2025-12-17T19:21:16.434012494Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -1979,7 +2005,7 @@ entries:
     version: v0.1.88-gw-37816fc
   - apiVersion: v2
     appVersion: v0.1.87
-    created: "2025-12-16T20:57:09.749106744Z"
+    created: "2025-12-17T19:21:16.428966683Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2005,7 +2031,7 @@ entries:
     version: v0.1.87
   - apiVersion: v2
     appVersion: v0.1.86
-    created: "2025-12-16T20:57:09.74410352Z"
+    created: "2025-12-17T19:21:16.423311793Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2031,7 +2057,7 @@ entries:
     version: v0.1.86
   - apiVersion: v2
     appVersion: v0.1.85
-    created: "2025-12-16T20:57:09.738511073Z"
+    created: "2025-12-17T19:21:16.417923169Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2057,7 +2083,7 @@ entries:
     version: v0.1.85
   - apiVersion: v2
     appVersion: v0.1.84
-    created: "2025-12-16T20:57:09.733384157Z"
+    created: "2025-12-17T19:21:16.413190211Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2083,7 +2109,7 @@ entries:
     version: v0.1.84
   - apiVersion: v2
     appVersion: v0.1.83
-    created: "2025-12-16T20:57:09.728090357Z"
+    created: "2025-12-17T19:21:16.407935549Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2109,7 +2135,7 @@ entries:
     version: v0.1.83
   - apiVersion: v2
     appVersion: v0.1.82
-    created: "2025-12-16T20:57:09.722616817Z"
+    created: "2025-12-17T19:21:16.403218804Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2135,7 +2161,7 @@ entries:
     version: v0.1.82
   - apiVersion: v2
     appVersion: v0.1.81
-    created: "2025-12-16T20:57:09.717636383Z"
+    created: "2025-12-17T19:21:16.397719236Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2161,7 +2187,7 @@ entries:
     version: v0.1.81
   - apiVersion: v2
     appVersion: v0.1.80
-    created: "2025-12-16T20:57:09.712052211Z"
+    created: "2025-12-17T19:21:16.392190626Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2187,7 +2213,7 @@ entries:
     version: v0.1.80
   - apiVersion: v2
     appVersion: v0.1.79
-    created: "2025-12-16T20:57:09.707009728Z"
+    created: "2025-12-17T19:21:16.387367504Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2213,7 +2239,7 @@ entries:
     version: v0.1.79
   - apiVersion: v2
     appVersion: v0.1.78
-    created: "2025-12-16T20:57:09.701453408Z"
+    created: "2025-12-17T19:21:16.381930722Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2239,7 +2265,7 @@ entries:
     version: v0.1.78
   - apiVersion: v2
     appVersion: v0.1.77
-    created: "2025-12-16T20:57:09.696438445Z"
+    created: "2025-12-17T19:21:16.37723835Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2265,7 +2291,7 @@ entries:
     version: v0.1.77
   - apiVersion: v2
     appVersion: v0.1.76
-    created: "2025-12-16T20:57:09.691028295Z"
+    created: "2025-12-17T19:21:16.371455232Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2291,7 +2317,7 @@ entries:
     version: v0.1.76
   - apiVersion: v2
     appVersion: v0.1.75
-    created: "2025-12-16T20:57:09.685558015Z"
+    created: "2025-12-17T19:21:16.365923048Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2317,7 +2343,7 @@ entries:
     version: v0.1.75
   - apiVersion: v2
     appVersion: v0.1.74
-    created: "2025-12-16T20:57:09.680619896Z"
+    created: "2025-12-17T19:21:16.360334516Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2341,7 +2367,7 @@ entries:
     version: v0.1.74
   - apiVersion: v2
     appVersion: v0.1.73
-    created: "2025-12-16T20:57:09.675193233Z"
+    created: "2025-12-17T19:21:16.355386024Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2365,7 +2391,7 @@ entries:
     version: v0.1.73
   - apiVersion: v2
     appVersion: v0.1.72
-    created: "2025-12-16T20:57:09.670345852Z"
+    created: "2025-12-17T19:21:16.349901186Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2389,7 +2415,7 @@ entries:
     version: v0.1.72
   - apiVersion: v2
     appVersion: v0.1.71
-    created: "2025-12-16T20:57:09.664551655Z"
+    created: "2025-12-17T19:21:16.344526927Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2413,7 +2439,7 @@ entries:
     version: v0.1.71
   - apiVersion: v2
     appVersion: v0.1.70
-    created: "2025-12-16T20:57:09.659659047Z"
+    created: "2025-12-17T19:21:16.339654234Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2437,7 +2463,7 @@ entries:
     version: v0.1.70
   - apiVersion: v2
     appVersion: v0.1.69
-    created: "2025-12-16T20:57:09.654245748Z"
+    created: "2025-12-17T19:21:16.334267293Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2461,7 +2487,7 @@ entries:
     version: v0.1.69
   - apiVersion: v2
     appVersion: v0.1.68
-    created: "2025-12-16T20:57:09.64894756Z"
+    created: "2025-12-17T19:21:16.329467554Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2485,7 +2511,7 @@ entries:
     version: v0.1.68
   - apiVersion: v2
     appVersion: v0.1.67
-    created: "2025-12-16T20:57:09.644137147Z"
+    created: "2025-12-17T19:21:16.323741635Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2509,7 +2535,7 @@ entries:
     version: v0.1.67
   - apiVersion: v2
     appVersion: v0.1.66
-    created: "2025-12-16T20:57:09.638597707Z"
+    created: "2025-12-17T19:21:16.316284619Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2533,7 +2559,7 @@ entries:
     version: v0.1.66
   - apiVersion: v2
     appVersion: v0.1.65
-    created: "2025-12-16T20:57:09.633813026Z"
+    created: "2025-12-17T19:21:16.309644979Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2557,7 +2583,7 @@ entries:
     version: v0.1.65
   - apiVersion: v2
     appVersion: v0.1.64
-    created: "2025-12-16T20:57:09.628586913Z"
+    created: "2025-12-17T19:21:16.30477089Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2581,7 +2607,7 @@ entries:
     version: v0.1.64
   - apiVersion: v2
     appVersion: v0.1.63
-    created: "2025-12-16T20:57:09.623736697Z"
+    created: "2025-12-17T19:21:16.299757178Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2605,7 +2631,7 @@ entries:
     version: v0.1.63
   - apiVersion: v2
     appVersion: v0.1.62
-    created: "2025-12-16T20:57:09.618387309Z"
+    created: "2025-12-17T19:21:16.295284723Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2629,7 +2655,7 @@ entries:
     version: v0.1.62
   - apiVersion: v2
     appVersion: v0.1.61
-    created: "2025-12-16T20:57:09.613602073Z"
+    created: "2025-12-17T19:21:16.289849293Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2653,7 +2679,7 @@ entries:
     version: v0.1.61
   - apiVersion: v2
     appVersion: v0.1.60
-    created: "2025-12-16T20:57:09.607998044Z"
+    created: "2025-12-17T19:21:16.285350669Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2677,7 +2703,7 @@ entries:
     version: v0.1.60
   - apiVersion: v2
     appVersion: v0.1.58
-    created: "2025-12-16T20:57:09.603263304Z"
+    created: "2025-12-17T19:21:16.280018743Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2701,7 +2727,7 @@ entries:
     version: v0.1.58
   - apiVersion: v2
     appVersion: v0.1.57
-    created: "2025-12-16T20:57:09.598108572Z"
+    created: "2025-12-17T19:21:16.274747905Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2725,7 +2751,7 @@ entries:
     version: v0.1.57
   - apiVersion: v2
     appVersion: v0.1.56
-    created: "2025-12-16T20:57:09.592478773Z"
+    created: "2025-12-17T19:21:16.270095774Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -2749,7 +2775,7 @@ entries:
     version: v0.1.56
   - apiVersion: v2
     appVersion: v0.1.55
-    created: "2025-12-16T20:57:09.587657035Z"
+    created: "2025-12-17T19:21:16.26518156Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -2772,7 +2798,7 @@ entries:
     version: v0.1.55
   - apiVersion: v2
     appVersion: v0.1.54
-    created: "2025-12-16T20:57:09.582291854Z"
+    created: "2025-12-17T19:21:16.260204443Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -2795,7 +2821,7 @@ entries:
     version: v0.1.54
   - apiVersion: v2
     appVersion: v0.1.53
-    created: "2025-12-16T20:57:09.577394659Z"
+    created: "2025-12-17T19:21:16.254765007Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -2818,7 +2844,7 @@ entries:
     version: v0.1.53
   - apiVersion: v2
     appVersion: v0.1.52
-    created: "2025-12-16T20:57:09.571859218Z"
+    created: "2025-12-17T19:21:16.250232603Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -2841,7 +2867,7 @@ entries:
     version: v0.1.52
   - apiVersion: v2
     appVersion: v0.1.50
-    created: "2025-12-16T20:57:09.567122826Z"
+    created: "2025-12-17T19:21:16.244955385Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -2864,7 +2890,7 @@ entries:
     version: v0.1.50
   - apiVersion: v2
     appVersion: v0.1.49
-    created: "2025-12-16T20:57:09.561725022Z"
+    created: "2025-12-17T19:21:16.2402157Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -2887,7 +2913,7 @@ entries:
     version: v0.1.49
   - apiVersion: v2
     appVersion: v0.1.47
-    created: "2025-12-16T20:57:09.556670878Z"
+    created: "2025-12-17T19:21:16.234855432Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -2910,7 +2936,7 @@ entries:
     version: v0.1.47
   - apiVersion: v2
     appVersion: v0.1.46
-    created: "2025-12-16T20:57:09.551888697Z"
+    created: "2025-12-17T19:21:16.230144181Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -2933,7 +2959,7 @@ entries:
     version: v0.1.46
   - apiVersion: v2
     appVersion: 0.1.44
-    created: "2025-12-16T20:57:09.159459281Z"
+    created: "2025-12-17T19:21:15.800436951Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -2956,7 +2982,7 @@ entries:
     version: 0.1.44
   - apiVersion: v2
     appVersion: 0.1.43
-    created: "2025-12-16T20:57:09.154109424Z"
+    created: "2025-12-17T19:21:15.793589355Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -2979,7 +3005,7 @@ entries:
     version: 0.1.43
   - apiVersion: v2
     appVersion: 0.1.42
-    created: "2025-12-16T20:57:09.148919804Z"
+    created: "2025-12-17T19:21:15.788327795Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3002,7 +3028,7 @@ entries:
     version: 0.1.42
   - apiVersion: v2
     appVersion: 0.1.41
-    created: "2025-12-16T20:57:09.144221972Z"
+    created: "2025-12-17T19:21:15.782926497Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3025,7 +3051,7 @@ entries:
     version: 0.1.41
   - apiVersion: v2
     appVersion: 0.1.40
-    created: "2025-12-16T20:57:09.138932295Z"
+    created: "2025-12-17T19:21:15.778196718Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3048,7 +3074,7 @@ entries:
     version: 0.1.40
   - apiVersion: v2
     appVersion: 0.1.39
-    created: "2025-12-16T20:57:09.134260464Z"
+    created: "2025-12-17T19:21:15.773033592Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3071,7 +3097,7 @@ entries:
     version: 0.1.39
   - apiVersion: v2
     appVersion: 0.1.38
-    created: "2025-12-16T20:57:09.129010191Z"
+    created: "2025-12-17T19:21:15.767961937Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3094,7 +3120,7 @@ entries:
     version: 0.1.38
   - apiVersion: v2
     appVersion: 0.1.37
-    created: "2025-12-16T20:57:09.124321005Z"
+    created: "2025-12-17T19:21:15.763415637Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3117,7 +3143,7 @@ entries:
     version: 0.1.37
   - apiVersion: v2
     appVersion: 0.1.36
-    created: "2025-12-16T20:57:09.119128541Z"
+    created: "2025-12-17T19:21:15.757746149Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3140,7 +3166,7 @@ entries:
     version: 0.1.36
   - apiVersion: v2
     appVersion: 0.1.35
-    created: "2025-12-16T20:57:09.113954852Z"
+    created: "2025-12-17T19:21:15.750485873Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3163,7 +3189,7 @@ entries:
     version: 0.1.35
   - apiVersion: v2
     appVersion: 0.1.34
-    created: "2025-12-16T20:57:09.109317897Z"
+    created: "2025-12-17T19:21:15.743488397Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3186,7 +3212,7 @@ entries:
     version: 0.1.34
   - apiVersion: v2
     appVersion: 0.1.33
-    created: "2025-12-16T20:57:09.104137105Z"
+    created: "2025-12-17T19:21:15.73874407Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3209,7 +3235,7 @@ entries:
     version: 0.1.33
   - apiVersion: v2
     appVersion: 0.1.32
-    created: "2025-12-16T20:57:09.099629428Z"
+    created: "2025-12-17T19:21:15.733364211Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3232,7 +3258,7 @@ entries:
     version: 0.1.32
   - apiVersion: v2
     appVersion: 0.1.31
-    created: "2025-12-16T20:57:09.094684244Z"
+    created: "2025-12-17T19:21:15.728749184Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3255,7 +3281,7 @@ entries:
     version: 0.1.31
   - apiVersion: v2
     appVersion: 0.1.30
-    created: "2025-12-16T20:57:09.090200933Z"
+    created: "2025-12-17T19:21:15.723616392Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3278,7 +3304,7 @@ entries:
     version: 0.1.30
   - apiVersion: v2
     appVersion: 0.1.29
-    created: "2025-12-16T20:57:09.085008129Z"
+    created: "2025-12-17T19:21:15.718749582Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3301,7 +3327,7 @@ entries:
     version: 0.1.29
   - apiVersion: v2
     appVersion: 0.1.28
-    created: "2025-12-16T20:57:09.080423595Z"
+    created: "2025-12-17T19:21:15.714242154Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3324,7 +3350,7 @@ entries:
     version: 0.1.28
   - apiVersion: v2
     appVersion: 0.1.27
-    created: "2025-12-16T20:57:09.075422602Z"
+    created: "2025-12-17T19:21:15.709116554Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3347,7 +3373,7 @@ entries:
     version: 0.1.27
   - apiVersion: v2
     appVersion: 0.1.26
-    created: "2025-12-16T20:57:09.07030151Z"
+    created: "2025-12-17T19:21:15.704762113Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3370,7 +3396,7 @@ entries:
     version: 0.1.26
   - apiVersion: v2
     appVersion: 0.1.25
-    created: "2025-12-16T20:57:09.065982356Z"
+    created: "2025-12-17T19:21:15.699750426Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3393,7 +3419,7 @@ entries:
     version: 0.1.25
   - apiVersion: v2
     appVersion: 0.1.24
-    created: "2025-12-16T20:57:09.061101149Z"
+    created: "2025-12-17T19:21:15.695317638Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3416,7 +3442,7 @@ entries:
     version: 0.1.24
   - apiVersion: v2
     appVersion: 0.1.23
-    created: "2025-12-16T20:57:09.056560379Z"
+    created: "2025-12-17T19:21:15.690419453Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3439,7 +3465,7 @@ entries:
     version: 0.1.23
   - apiVersion: v2
     appVersion: 0.1.22
-    created: "2025-12-16T20:57:09.051313534Z"
+    created: "2025-12-17T19:21:15.68570178Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3462,7 +3488,7 @@ entries:
     version: 0.1.22
   - apiVersion: v2
     appVersion: 0.1.21
-    created: "2025-12-16T20:57:09.046545516Z"
+    created: "2025-12-17T19:21:15.680036183Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3485,7 +3511,7 @@ entries:
     version: 0.1.21
   - apiVersion: v2
     appVersion: 0.1.20
-    created: "2025-12-16T20:57:09.041723733Z"
+    created: "2025-12-17T19:21:15.674690061Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3508,7 +3534,7 @@ entries:
     version: 0.1.20
   - apiVersion: v2
     appVersion: 0.1.19
-    created: "2025-12-16T20:57:09.037438387Z"
+    created: "2025-12-17T19:21:15.66808638Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3531,7 +3557,7 @@ entries:
     version: 0.1.19
   - apiVersion: v2
     appVersion: 0.1.18
-    created: "2025-12-16T20:57:09.032373701Z"
+    created: "2025-12-17T19:21:15.66071162Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3554,7 +3580,7 @@ entries:
     version: 0.1.18
   - apiVersion: v2
     appVersion: 0.1.17
-    created: "2025-12-16T20:57:09.02804508Z"
+    created: "2025-12-17T19:21:15.65365956Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3577,7 +3603,7 @@ entries:
     version: 0.1.17
   - apiVersion: v2
     appVersion: 0.1.16
-    created: "2025-12-16T20:57:09.022877474Z"
+    created: "2025-12-17T19:21:15.647326201Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3600,7 +3626,7 @@ entries:
     version: 0.1.16
   - apiVersion: v2
     appVersion: 0.1.15
-    created: "2025-12-16T20:57:09.017802717Z"
+    created: "2025-12-17T19:21:15.642738186Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3623,7 +3649,7 @@ entries:
     version: 0.1.15
   - apiVersion: v2
     appVersion: 0.1.14
-    created: "2025-12-16T20:57:09.013255282Z"
+    created: "2025-12-17T19:21:15.637449661Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3646,7 +3672,7 @@ entries:
     version: 0.1.14
   - apiVersion: v2
     appVersion: 0.1.13
-    created: "2025-12-16T20:57:09.008235606Z"
+    created: "2025-12-17T19:21:15.632147008Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3669,7 +3695,7 @@ entries:
     version: 0.1.13
   - apiVersion: v2
     appVersion: 0.1.12
-    created: "2025-12-16T20:57:09.003705698Z"
+    created: "2025-12-17T19:21:15.62751606Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3692,7 +3718,7 @@ entries:
     version: 0.1.12
   - apiVersion: v2
     appVersion: 0.1.11
-    created: "2025-12-16T20:57:08.998812957Z"
+    created: "2025-12-17T19:21:15.622708708Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3715,7 +3741,7 @@ entries:
     version: 0.1.11
   - apiVersion: v2
     appVersion: 0.1.10
-    created: "2025-12-16T20:57:08.994531003Z"
+    created: "2025-12-17T19:21:15.617573498Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3737,7 +3763,7 @@ entries:
     version: 0.1.10
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2025-12-16T20:57:08.989635977Z"
+    created: "2025-12-17T19:21:15.612537942Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -3763,7 +3789,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2025-12-16T20:57:08.984396973Z"
+    created: "2025-12-17T19:21:15.607348942Z"
     dependencies:
     - name: etcd
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3786,7 +3812,7 @@ entries:
     version: 0.0.0
   - apiVersion: v2
     appVersion: 0.0.0-nightly
-    created: "2025-12-16T20:57:08.979655801Z"
+    created: "2025-12-17T19:21:15.597993123Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -3801,7 +3827,7 @@ entries:
       - fluent-bit
       version: 0.48.4
     description: Atero helm chart
-    digest: 1c871142414e6d63ffc6c7cd2b882182f3cd0c625ca5ea6191ef93acd75752ee
+    digest: ac1bb6a39982d15c0d83c49139d44be72f05557e78dba7193370641c6a8288d9
     home: https://atero.ai/
     maintainers:
     - name: Atero
@@ -3812,8 +3838,21 @@ entries:
     version: 0.0.0-nightly
   atero-kvcache-model:
   - apiVersion: v2
+    appVersion: v0.1.179
+    created: "2025-12-17T19:21:15.834354262Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 6ad52e1b84a3ad39429492044ee161b261a3592d28c8b6ec2e692ec62f07170d
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.179.tgz
+    version: v0.1.179
+  - apiVersion: v2
     appVersion: v0.1.178
-    created: "2025-12-16T20:57:09.18551527Z"
+    created: "2025-12-17T19:21:15.833824226Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 031ccd0865b2502ed6c42a1f3610e870a11ae9e4bff54421a8412fd99616352b
     home: https://atero.ai/
@@ -3826,7 +3865,7 @@ entries:
     version: v0.1.178
   - apiVersion: v2
     appVersion: v0.1.177
-    created: "2025-12-16T20:57:09.185044412Z"
+    created: "2025-12-17T19:21:15.832899264Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 67c3d5158d0cb648963a32c3cd6c75c506424ce9a33acf51538b6d31fb8538ac
     home: https://atero.ai/
@@ -3839,7 +3878,7 @@ entries:
     version: v0.1.177
   - apiVersion: v2
     appVersion: v0.1.176
-    created: "2025-12-16T20:57:09.184584142Z"
+    created: "2025-12-17T19:21:15.832474912Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 94fbbafaa319fdeb998c33b64301af7b4c5a78476185e29467c00953c4a24388
     home: https://atero.ai/
@@ -3852,7 +3891,7 @@ entries:
     version: v0.1.176
   - apiVersion: v2
     appVersion: v0.1.175
-    created: "2025-12-16T20:57:09.184183329Z"
+    created: "2025-12-17T19:21:15.832076908Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: ab5f86ae748089ab096a28d6379c205aada727430c92b4704ac0b216e68ba1a6
     home: https://atero.ai/
@@ -3865,7 +3904,7 @@ entries:
     version: v0.1.175
   - apiVersion: v2
     appVersion: v0.1.174
-    created: "2025-12-16T20:57:09.183773378Z"
+    created: "2025-12-17T19:21:15.83167979Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: f1d13ac4e153790585068419ac9d5640a1da82767ce3bcdc284153dde0194d17
     home: https://atero.ai/
@@ -3878,7 +3917,7 @@ entries:
     version: v0.1.174
   - apiVersion: v2
     appVersion: v0.1.172
-    created: "2025-12-16T20:57:09.18337366Z"
+    created: "2025-12-17T19:21:15.831272Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 4371ff527ba50142df3b8b7382ea38a7757a8cfd5a31a5a06c09b05306ddb537
     home: https://atero.ai/
@@ -3891,7 +3930,7 @@ entries:
     version: v0.1.172
   - apiVersion: v2
     appVersion: v0.1.171
-    created: "2025-12-16T20:57:09.182956812Z"
+    created: "2025-12-17T19:21:15.830845026Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: bf0d0145bfd45c732a2d80dd12bda97993fa31506cfe475eb98eb2f395c2b975
     home: https://atero.ai/
@@ -3904,7 +3943,7 @@ entries:
     version: v0.1.171
   - apiVersion: v2
     appVersion: v0.1.170
-    created: "2025-12-16T20:57:09.182614543Z"
+    created: "2025-12-17T19:21:15.83048803Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: df3ba60cdb7696caf5d64d4ec184a866616f829a232052fe1ff0222c335b2ac4
     home: https://atero.ai/
@@ -3917,7 +3956,7 @@ entries:
     version: v0.1.170
   - apiVersion: v2
     appVersion: v0.1.169
-    created: "2025-12-16T20:57:09.18228414Z"
+    created: "2025-12-17T19:21:15.830128789Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 3db47716fbf13b39385b78405dfabe72ddf25cc608f002386867836a681ac885
     home: https://atero.ai/
@@ -3930,7 +3969,7 @@ entries:
     version: v0.1.169
   - apiVersion: v2
     appVersion: v0.1.168
-    created: "2025-12-16T20:57:09.181931244Z"
+    created: "2025-12-17T19:21:15.829780701Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 06e55f3b2a9e9410a2950086d520d8f7195fb7bb71ad9985ecbe6c5559a1294a
     home: https://atero.ai/
@@ -3943,7 +3982,7 @@ entries:
     version: v0.1.168
   - apiVersion: v2
     appVersion: v0.1.167
-    created: "2025-12-16T20:57:09.181601384Z"
+    created: "2025-12-17T19:21:15.829418656Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: a04151f524f203e7f1815660a9eaefdf3162d89c6d0587c48d76f98941952da0
     home: https://atero.ai/
@@ -3956,7 +3995,7 @@ entries:
     version: v0.1.167
   - apiVersion: v2
     appVersion: v0.1.166
-    created: "2025-12-16T20:57:09.181263328Z"
+    created: "2025-12-17T19:21:15.829051092Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 0b15539b2923cc6196ac3488bdfff5adf9047b4bfcff5fc8c97ebfb456d6f79a
     home: https://atero.ai/
@@ -3969,7 +4008,7 @@ entries:
     version: v0.1.166
   - apiVersion: v2
     appVersion: v0.1.165
-    created: "2025-12-16T20:57:09.18087479Z"
+    created: "2025-12-17T19:21:15.828708417Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: de63fbe217b4ff5b3f0fca2c077821959da0527d8ee0427636d34788654d10a9
     home: https://atero.ai/
@@ -3982,7 +4021,7 @@ entries:
     version: v0.1.165
   - apiVersion: v2
     appVersion: v0.1.164
-    created: "2025-12-16T20:57:09.180469Z"
+    created: "2025-12-17T19:21:15.828358244Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 0165d7f280c0f51c51e1d99e2a23e9e5667c6f46f2c32869ec4184eaa8378606
     home: https://atero.ai/
@@ -3995,7 +4034,7 @@ entries:
     version: v0.1.164
   - apiVersion: v2
     appVersion: v0.1.163
-    created: "2025-12-16T20:57:09.180046537Z"
+    created: "2025-12-17T19:21:15.827990814Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: b947817ef594c3e23f75a54f148ed879cd267c2135b9c48b08bb425cc199f036
     home: https://atero.ai/
@@ -4008,7 +4047,7 @@ entries:
     version: v0.1.163
   - apiVersion: v2
     appVersion: v0.1.162
-    created: "2025-12-16T20:57:09.17961866Z"
+    created: "2025-12-17T19:21:15.827617212Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 11ba7ad427a1cc7c344d86ad718609af35ac9a986d1a2ac910a136a76a02a74f
     home: https://atero.ai/
@@ -4021,7 +4060,7 @@ entries:
     version: v0.1.162
   - apiVersion: v2
     appVersion: v0.1.161
-    created: "2025-12-16T20:57:09.179168447Z"
+    created: "2025-12-17T19:21:15.827215545Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: e94256582f197fd8fed51773ca4c98bbb774036997949abff93064a9181c2f75
     home: https://atero.ai/
@@ -4034,7 +4073,7 @@ entries:
     version: v0.1.161
   - apiVersion: v2
     appVersion: v0.1.160
-    created: "2025-12-16T20:57:09.178349195Z"
+    created: "2025-12-17T19:21:15.826761966Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 5026f1eaf9be9142d4c021e4595883161fea63cb940387cc08bde8b2a50ca185
     home: https://atero.ai/
@@ -4047,7 +4086,7 @@ entries:
     version: v0.1.160
   - apiVersion: v2
     appVersion: v0.1.159
-    created: "2025-12-16T20:57:09.177963512Z"
+    created: "2025-12-17T19:21:15.82584123Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: b2ae2f7ecf7f7f11238cb84d31d363c923fea22b502db80ab6acc0af171663ec
     home: https://atero.ai/
@@ -4060,7 +4099,7 @@ entries:
     version: v0.1.159
   - apiVersion: v2
     appVersion: v0.1.158
-    created: "2025-12-16T20:57:09.17759701Z"
+    created: "2025-12-17T19:21:15.82548496Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: e8bd4392f984d45646835faa8526b1e1e4a24437054539be0b764a98fda2f58e
     home: https://atero.ai/
@@ -4073,7 +4112,7 @@ entries:
     version: v0.1.158
   - apiVersion: v2
     appVersion: v0.1.157
-    created: "2025-12-16T20:57:09.177246789Z"
+    created: "2025-12-17T19:21:15.825091583Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 4232703a5f738db79d5d94bb745a8146a3f45987c1e62d06afca59e922b69f66
     home: https://atero.ai/
@@ -4086,7 +4125,7 @@ entries:
     version: v0.1.157
   - apiVersion: v2
     appVersion: v0.1.156
-    created: "2025-12-16T20:57:09.176892565Z"
+    created: "2025-12-17T19:21:15.824738125Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 5dcff3745c202d4746b126cbf22c62803347691cbfd03b75ae3272382a4e2bb9
     home: https://atero.ai/
@@ -4099,7 +4138,7 @@ entries:
     version: v0.1.156
   - apiVersion: v2
     appVersion: v0.1.155
-    created: "2025-12-16T20:57:09.176549274Z"
+    created: "2025-12-17T19:21:15.824368084Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: fea4cea116bb2f43437f02838e457defa1e68218526b97270fa5ba7d0fdaa3e2
     home: https://atero.ai/
@@ -4112,7 +4151,7 @@ entries:
     version: v0.1.155
   - apiVersion: v2
     appVersion: v0.1.154
-    created: "2025-12-16T20:57:09.176207103Z"
+    created: "2025-12-17T19:21:15.823985573Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: c66b54da17c4c1bfbcc1d4095683bbce99fa7b2da0e7f91f07358eaa269258b3
     home: https://atero.ai/
@@ -4125,7 +4164,7 @@ entries:
     version: v0.1.154
   - apiVersion: v2
     appVersion: v0.1.153
-    created: "2025-12-16T20:57:09.175831825Z"
+    created: "2025-12-17T19:21:15.823640167Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: ba955ad24cd991dacf05e8e7e0f6c6765f419345bbba0def5716b986d1540afd
     home: https://atero.ai/
@@ -4138,7 +4177,7 @@ entries:
     version: v0.1.153
   - apiVersion: v2
     appVersion: v0.1.152
-    created: "2025-12-16T20:57:09.175483051Z"
+    created: "2025-12-17T19:21:15.823253441Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: eaa48b405ae6329a6ec14e5ce3739cbb69bef2093bcd7f93c56355f69a2e4a6e
     home: https://atero.ai/
@@ -4151,7 +4190,7 @@ entries:
     version: v0.1.152
   - apiVersion: v2
     appVersion: v0.1.151
-    created: "2025-12-16T20:57:09.175141263Z"
+    created: "2025-12-17T19:21:15.822904266Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 791bbc0cdcf53214f478a123f7cc952d693f4fd7877c7b7cb98dac0240eff93b
     home: https://atero.ai/
@@ -4164,7 +4203,7 @@ entries:
     version: v0.1.151
   - apiVersion: v2
     appVersion: v0.1.150
-    created: "2025-12-16T20:57:09.174769312Z"
+    created: "2025-12-17T19:21:15.822540222Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 28ecca9021bf2f44d151bfe2fcc8664a7890542165d9ae1e49c8cd10039db2d5
     home: https://atero.ai/
@@ -4177,7 +4216,7 @@ entries:
     version: v0.1.150
   - apiVersion: v2
     appVersion: v0.1.149
-    created: "2025-12-16T20:57:09.174426973Z"
+    created: "2025-12-17T19:21:15.822145936Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: e8ad193f76e1001bc2be0bea02a46c2668b84b09ae2bf09ff71f599197d5cc9e
     home: https://atero.ai/
@@ -4190,7 +4229,7 @@ entries:
     version: v0.1.149
   - apiVersion: v2
     appVersion: v0.1.148
-    created: "2025-12-16T20:57:09.174074791Z"
+    created: "2025-12-17T19:21:15.821801493Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: e1dad739e8e759ab39deb0dc86b89cf4e729f78f89bfc20e10429b054ba6df18
     home: https://atero.ai/
@@ -4203,7 +4242,7 @@ entries:
     version: v0.1.148
   - apiVersion: v2
     appVersion: v0.1.147
-    created: "2025-12-16T20:57:09.173693573Z"
+    created: "2025-12-17T19:21:15.821441492Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: e4f861ae2dba78fc4f23872c8ad131aa5017fa8ef845b939a7bd70a7ccf62bce
     home: https://atero.ai/
@@ -4216,7 +4255,7 @@ entries:
     version: v0.1.147
   - apiVersion: v2
     appVersion: v0.1.146
-    created: "2025-12-16T20:57:09.173339083Z"
+    created: "2025-12-17T19:21:15.82107541Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 68964935039873944320aaf9074ef291f8e4fffd6d54a01dafbec0fa72e34484
     home: https://atero.ai/
@@ -4229,7 +4268,7 @@ entries:
     version: v0.1.146
   - apiVersion: v2
     appVersion: v0.1.145
-    created: "2025-12-16T20:57:09.1729552Z"
+    created: "2025-12-17T19:21:15.82071526Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: e5f83cd267ffcbd22c75c00356a45adb252e113867171f72c398cc9d7124d7d3
     home: https://atero.ai/
@@ -4242,7 +4281,7 @@ entries:
     version: v0.1.145
   - apiVersion: v2
     appVersion: v0.1.144
-    created: "2025-12-16T20:57:09.17253968Z"
+    created: "2025-12-17T19:21:15.820355711Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 04501e702326d64dd71ab4566f444193907015261f075383ac822dbabf104750
     home: https://atero.ai/
@@ -4255,7 +4294,7 @@ entries:
     version: v0.1.144
   - apiVersion: v2
     appVersion: v0.1.143
-    created: "2025-12-16T20:57:09.171789703Z"
+    created: "2025-12-17T19:21:15.819914201Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: e81ecf766f7470e191fe1b64ae98c242b137dce5e0e99dd3fb693d826ea7c821
     home: https://atero.ai/
@@ -4268,7 +4307,7 @@ entries:
     version: v0.1.143
   - apiVersion: v2
     appVersion: v0.1.142
-    created: "2025-12-16T20:57:09.171324765Z"
+    created: "2025-12-17T19:21:15.819008525Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 2fa083241670cdfd8bfe43cfbe31f21a9bd5dbfe14e6959dd377a7856512706f
     home: https://atero.ai/
@@ -4281,7 +4320,7 @@ entries:
     version: v0.1.142
   - apiVersion: v2
     appVersion: v0.1.141
-    created: "2025-12-16T20:57:09.17094191Z"
+    created: "2025-12-17T19:21:15.818453761Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 7ca37f46bc1ad5764f93aa1bc2bb9266e0ae0d3bc6b02b443e2ac02f24d0da04
     home: https://atero.ai/
@@ -4294,7 +4333,7 @@ entries:
     version: v0.1.141
   - apiVersion: v2
     appVersion: v0.1.140
-    created: "2025-12-16T20:57:09.170537281Z"
+    created: "2025-12-17T19:21:15.817889717Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: acbbb7451704bd79620b74b1b9764cefd1e5ccf81bcb91ad16ddcdec43ca9162
     home: https://atero.ai/
@@ -4307,7 +4346,7 @@ entries:
     version: v0.1.140
   - apiVersion: v2
     appVersion: v0.1.139
-    created: "2025-12-16T20:57:09.17012765Z"
+    created: "2025-12-17T19:21:15.817311622Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: d97440942b835c0b49a38f0a7643e2d454dec786cfeae5395ea4ce707261d6e3
     home: https://atero.ai/
@@ -4320,7 +4359,7 @@ entries:
     version: v0.1.139
   - apiVersion: v2
     appVersion: v0.1.138
-    created: "2025-12-16T20:57:09.169763309Z"
+    created: "2025-12-17T19:21:15.816752542Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 700b627e22874bc3afd8d16ac905baa71b8f2d3573ab4e5b896476930384e3e8
     home: https://atero.ai/
@@ -4333,7 +4372,7 @@ entries:
     version: v0.1.138
   - apiVersion: v2
     appVersion: v0.1.137
-    created: "2025-12-16T20:57:09.169401915Z"
+    created: "2025-12-17T19:21:15.816172256Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 0bda2570f795dc40d46028efa4e6304c909b37177d886cee1d3c412d54b298ab
     home: https://atero.ai/
@@ -4346,7 +4385,7 @@ entries:
     version: v0.1.137
   - apiVersion: v2
     appVersion: v0.1.136
-    created: "2025-12-16T20:57:09.169055577Z"
+    created: "2025-12-17T19:21:15.815600217Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 18ce7f340b0b5a7725ef0f3768daac87f646c915c469beecaf15fe4db38f712d
     home: https://atero.ai/
@@ -4359,7 +4398,7 @@ entries:
     version: v0.1.136
   - apiVersion: v2
     appVersion: v0.1.135
-    created: "2025-12-16T20:57:09.168695817Z"
+    created: "2025-12-17T19:21:15.814993421Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: e96a76decd46690324ac81f06c120e70063a3cac9b1cb3a5073cfbe1ac0d0433
     home: https://atero.ai/
@@ -4372,7 +4411,7 @@ entries:
     version: v0.1.135
   - apiVersion: v2
     appVersion: v0.1.134
-    created: "2025-12-16T20:57:09.168328538Z"
+    created: "2025-12-17T19:21:15.81441738Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: a7c7a2abdba512ab6105df25c64cdbd17bf28502623c597c800c11345cafbd79
     home: https://atero.ai/
@@ -4385,7 +4424,7 @@ entries:
     version: v0.1.134
   - apiVersion: v2
     appVersion: v0.1.133
-    created: "2025-12-16T20:57:09.167965449Z"
+    created: "2025-12-17T19:21:15.813835644Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 8b8e3d36eaf52cfe39057ec533b6e0c03bbb91025ea7b3caa88d11598d763fd1
     home: https://atero.ai/
@@ -4398,7 +4437,7 @@ entries:
     version: v0.1.133
   - apiVersion: v2
     appVersion: v0.1.132
-    created: "2025-12-16T20:57:09.167602698Z"
+    created: "2025-12-17T19:21:15.813210437Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 7c0f6076b0af2bd28b7ae9c853964f410ad0da4dd8c988767479b3f01101096c
     home: https://atero.ai/
@@ -4411,7 +4450,7 @@ entries:
     version: v0.1.132
   - apiVersion: v2
     appVersion: v0.1.131
-    created: "2025-12-16T20:57:09.167231791Z"
+    created: "2025-12-17T19:21:15.812642058Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 78a83a038ded5804990d844bc8678fb5dab811e1236a41c662219b5de7eba0d8
     home: https://atero.ai/
@@ -4424,7 +4463,7 @@ entries:
     version: v0.1.131
   - apiVersion: v2
     appVersion: v0.1.130
-    created: "2025-12-16T20:57:09.166842497Z"
+    created: "2025-12-17T19:21:15.812033675Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 8b2a7e353b757db77e68818b814cecdf3a2ae4233a6ea1e97173ba320ed31154
     home: https://atero.ai/
@@ -4437,7 +4476,7 @@ entries:
     version: v0.1.130
   - apiVersion: v2
     appVersion: v0.1.129
-    created: "2025-12-16T20:57:09.16648573Z"
+    created: "2025-12-17T19:21:15.811456863Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: a302ccd89362f2f0cb3c4df4e14688695ffb66963f97e6ac99c42f707a497c55
     home: https://atero.ai/
@@ -4450,7 +4489,7 @@ entries:
     version: v0.1.129
   - apiVersion: v2
     appVersion: v0.1.128
-    created: "2025-12-16T20:57:09.16610591Z"
+    created: "2025-12-17T19:21:15.810837253Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: ea52f3dbe2530b5fedb0f2d433e5e578b27692b1ff5707a24782109d843ef179
     home: https://atero.ai/
@@ -4463,7 +4502,7 @@ entries:
     version: v0.1.128
   - apiVersion: v2
     appVersion: v0.1.127
-    created: "2025-12-16T20:57:09.165697366Z"
+    created: "2025-12-17T19:21:15.810127617Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 51f39cc15b42b49c81e9cf978b66a36c781b30de5ec8b985d775b95f3b5159a5
     home: https://atero.ai/
@@ -4476,7 +4515,7 @@ entries:
     version: v0.1.127
   - apiVersion: v2
     appVersion: v0.1.126
-    created: "2025-12-16T20:57:09.165234255Z"
+    created: "2025-12-17T19:21:15.809424895Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: a4c91eb3f25943db397ef0a1acc8e96a470b5bd386829a82b4a1d6b1f89ef3f0
     home: https://atero.ai/
@@ -4489,7 +4528,7 @@ entries:
     version: v0.1.126
   - apiVersion: v2
     appVersion: v0.1.125
-    created: "2025-12-16T20:57:09.16440456Z"
+    created: "2025-12-17T19:21:15.808407433Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 2c332a7ec4c8bd12b27f6e88a35041d2ac20dfe36178d9c2225f429fcd2f072b
     home: https://atero.ai/
@@ -4502,7 +4541,7 @@ entries:
     version: v0.1.125
   - apiVersion: v2
     appVersion: v0.1.123
-    created: "2025-12-16T20:57:09.164063967Z"
+    created: "2025-12-17T19:21:15.80783696Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: eb2da88a780b2f0e9b08974c6ea1fb37ff462d45af0a71c857d1ead3922a0c8d
     home: https://atero.ai/
@@ -4515,7 +4554,7 @@ entries:
     version: v0.1.123
   - apiVersion: v2
     appVersion: v0.1.121
-    created: "2025-12-16T20:57:09.16371573Z"
+    created: "2025-12-17T19:21:15.807231858Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: a0804841745aba90f4dde813d5f9f4b614e2dacd45cfc8299e00dbbd39e0d1cc
     home: https://atero.ai/
@@ -4528,7 +4567,7 @@ entries:
     version: v0.1.121
   - apiVersion: v2
     appVersion: v0.1.118
-    created: "2025-12-16T20:57:09.163378014Z"
+    created: "2025-12-17T19:21:15.806694334Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 0cdca800ad207d698a0d66f128bd73d309d37743df08d77f506461a2ca78bc04
     home: https://atero.ai/
@@ -4541,7 +4580,7 @@ entries:
     version: v0.1.118
   - apiVersion: v2
     appVersion: v0.1.112
-    created: "2025-12-16T20:57:09.163045555Z"
+    created: "2025-12-17T19:21:15.806143562Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 47cfb188c60cc929fc76ac03c830375fb8abd695cab2eecf2a300927b98a0f58
     home: https://atero.ai/
@@ -4554,7 +4593,7 @@ entries:
     version: v0.1.112
   - apiVersion: v2
     appVersion: v0.1.109
-    created: "2025-12-16T20:57:09.162702742Z"
+    created: "2025-12-17T19:21:15.805583955Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 6972e3208125866d5c59f34cd7516d2a39321af8888b1afe8f08087f31657737
     home: https://atero.ai/
@@ -4567,7 +4606,7 @@ entries:
     version: v0.1.109
   - apiVersion: v2
     appVersion: v0.1.106
-    created: "2025-12-16T20:57:09.162365665Z"
+    created: "2025-12-17T19:21:15.805033233Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 6d0fbde3bf2188af3a243ae2fe24f86c78d637bdf8b2115f0c63d8f6e7d6dbd9
     home: https://atero.ai/
@@ -4580,7 +4619,7 @@ entries:
     version: v0.1.106
   - apiVersion: v2
     appVersion: v0.1.105
-    created: "2025-12-16T20:57:09.162005663Z"
+    created: "2025-12-17T19:21:15.804488735Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 926a60c8d7aa52f68cf1da81d0837c61c2f7a3fffac0b1859f9d89cdf5b8ed7b
     home: https://atero.ai/
@@ -4593,7 +4632,7 @@ entries:
     version: v0.1.105
   - apiVersion: v2
     appVersion: v0.1.104
-    created: "2025-12-16T20:57:09.161680272Z"
+    created: "2025-12-17T19:21:15.80395124Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: a25966779a2cf58035bad33bee4a2d214573d70c23d7b73bb506124dab6e483d
     home: https://atero.ai/
@@ -4606,7 +4645,7 @@ entries:
     version: v0.1.104
   - apiVersion: v2
     appVersion: v0.1.103
-    created: "2025-12-16T20:57:09.161349514Z"
+    created: "2025-12-17T19:21:15.803404627Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 43c029641f52ca0079db85679a1bc363e2e5002400e5cfbd40831a4981f02ca0
     home: https://atero.ai/
@@ -4619,7 +4658,7 @@ entries:
     version: v0.1.103
   - apiVersion: v2
     appVersion: v0.1.102
-    created: "2025-12-16T20:57:09.161005327Z"
+    created: "2025-12-17T19:21:15.802885626Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: b82dd9f7a8d77a7549e749411ab87045a987ee5173797ceef4c13ec0ce0c7e2a
     home: https://atero.ai/
@@ -4632,7 +4671,7 @@ entries:
     version: v0.1.102
   - apiVersion: v2
     appVersion: v0.1.101
-    created: "2025-12-16T20:57:09.160673453Z"
+    created: "2025-12-17T19:21:15.802363594Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: df2efedd3d6f372c6df481d6f08aa210bc9316fc259f1e7d74b38556926e6f43
     home: https://atero.ai/
@@ -4645,7 +4684,7 @@ entries:
     version: v0.1.101
   - apiVersion: v2
     appVersion: v0.1.100
-    created: "2025-12-16T20:57:09.160332056Z"
+    created: "2025-12-17T19:21:15.801807054Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 8050073ad869794e9c5c09492495ff091bcc939df9dd6d251bae00c0a1841dd1
     home: https://atero.ai/
@@ -4658,7 +4697,7 @@ entries:
     version: v0.1.100
   - apiVersion: v2
     appVersion: v0.1.99
-    created: "2025-12-16T20:57:09.194194219Z"
+    created: "2025-12-17T19:21:15.84281574Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 67bbb70ae528b2cfb591033b491efda2f7a5665218f18b4786349767cf3d01c7
     home: https://atero.ai/
@@ -4671,7 +4710,7 @@ entries:
     version: v0.1.99
   - apiVersion: v2
     appVersion: v0.1.98
-    created: "2025-12-16T20:57:09.193794494Z"
+    created: "2025-12-17T19:21:15.842428947Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 23d2709fb7dccb0f776021a6fc29ac9bff78613d468905e37544df640d0452e3
     home: https://atero.ai/
@@ -4684,7 +4723,7 @@ entries:
     version: v0.1.98
   - apiVersion: v2
     appVersion: v0.1.97
-    created: "2025-12-16T20:57:09.192909145Z"
+    created: "2025-12-17T19:21:15.842075974Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: bb1b989aaa358656cb989b04a4073afe454df1f194d0c2fe6ebe13624c2e4db3
     home: https://atero.ai/
@@ -4697,7 +4736,7 @@ entries:
     version: v0.1.97
   - apiVersion: v2
     appVersion: v0.1.96
-    created: "2025-12-16T20:57:09.192603162Z"
+    created: "2025-12-17T19:21:15.841710281Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 7d6c1495b682975cc5cff768918ea5c4812d8486c7e1963bb95b9b463cbdf383
     home: https://atero.ai/
@@ -4710,7 +4749,7 @@ entries:
     version: v0.1.96
   - apiVersion: v2
     appVersion: v0.1.95
-    created: "2025-12-16T20:57:09.192290283Z"
+    created: "2025-12-17T19:21:15.841316956Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 86cf457c358ee4db1df68c6d7b5460cb025bbb15234a9a218821cc829d2bcd05
     home: https://atero.ai/
@@ -4723,7 +4762,7 @@ entries:
     version: v0.1.95
   - apiVersion: v2
     appVersion: v0.1.94
-    created: "2025-12-16T20:57:09.191950002Z"
+    created: "2025-12-17T19:21:15.840907824Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: a5eb6d32f5e810d75b5f980ee0b64a44ff89db5a5ed9f95a09a56f727775b2f3
     home: https://atero.ai/
@@ -4736,7 +4775,7 @@ entries:
     version: v0.1.94
   - apiVersion: v2
     appVersion: v0.1.93
-    created: "2025-12-16T20:57:09.191619317Z"
+    created: "2025-12-17T19:21:15.840162109Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 6b08b302cf7540b2aa78f6d508faa22dea8c35a31d4bc9dd752998ee4b5ed562
     home: https://atero.ai/
@@ -4749,7 +4788,7 @@ entries:
     version: v0.1.93
   - apiVersion: v2
     appVersion: v0.1.91-gw-c6e260e
-    created: "2025-12-16T20:57:09.191318426Z"
+    created: "2025-12-17T19:21:15.839565429Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: a9dc14c6b9ba9c8eb7bbcc1df3a65fd8b729c18ef86b3361df30ea3b7e45ec2e
     home: https://atero.ai/
@@ -4762,7 +4801,7 @@ entries:
     version: v0.1.91-gw-c6e260e
   - apiVersion: v2
     appVersion: v0.1.90-gw-c6e260e
-    created: "2025-12-16T20:57:09.190993886Z"
+    created: "2025-12-17T19:21:15.839246441Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: f61894e391d5fc596b7723520e95933853a2d1dd9f8d97f2be39dc13f61f90f6
     home: https://atero.ai/
@@ -4775,7 +4814,7 @@ entries:
     version: v0.1.90-gw-c6e260e
   - apiVersion: v2
     appVersion: v0.1.89-gw-37816fc
-    created: "2025-12-16T20:57:09.190672034Z"
+    created: "2025-12-17T19:21:15.838940815Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: a997c070373bb56defaf919aeb2b2a89234dbca49367c4f5e3e623c3d0832a9c
     home: https://atero.ai/
@@ -4788,7 +4827,7 @@ entries:
     version: v0.1.89-gw-37816fc
   - apiVersion: v2
     appVersion: v0.1.88-gw-37816fc
-    created: "2025-12-16T20:57:09.190365421Z"
+    created: "2025-12-17T19:21:15.838633137Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 7ec32662faa64092a83bce03397157256c1d34ffcf1132605c9a0b6f4c5e016c
     home: https://atero.ai/
@@ -4801,7 +4840,7 @@ entries:
     version: v0.1.88-gw-37816fc
   - apiVersion: v2
     appVersion: v0.1.87
-    created: "2025-12-16T20:57:09.190039324Z"
+    created: "2025-12-17T19:21:15.838316232Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 666f1ea28706a8377e5c16bfee93d39cc7a771057b1979b37aa54a85dbaf18c5
     home: https://atero.ai/
@@ -4814,7 +4853,7 @@ entries:
     version: v0.1.87
   - apiVersion: v2
     appVersion: v0.1.86
-    created: "2025-12-16T20:57:09.189723606Z"
+    created: "2025-12-17T19:21:15.837993006Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 0f03114009f216d0ddff78d76b69c99bf47f640391064d8c7cf67717ae1ebe8a
     home: https://atero.ai/
@@ -4827,7 +4866,7 @@ entries:
     version: v0.1.86
   - apiVersion: v2
     appVersion: v0.1.85
-    created: "2025-12-16T20:57:09.189417556Z"
+    created: "2025-12-17T19:21:15.837660646Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: b46eb77b6f879ed43630f4e8838916c8fd70f3847b8c5037fc20c4836a08e25a
     home: https://atero.ai/
@@ -4840,7 +4879,7 @@ entries:
     version: v0.1.85
   - apiVersion: v2
     appVersion: v0.1.84
-    created: "2025-12-16T20:57:09.189101677Z"
+    created: "2025-12-17T19:21:15.837343523Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: a66ef379aac80615445e70a5c794fd34a5e26c038b193a21cb4c251097779d58
     home: https://atero.ai/
@@ -4853,7 +4892,7 @@ entries:
     version: v0.1.84
   - apiVersion: v2
     appVersion: v0.1.83
-    created: "2025-12-16T20:57:09.188757732Z"
+    created: "2025-12-17T19:21:15.837022462Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 09adb51a9574826be85430f0142f48f09aa281538b2ef3cd6df87051f6430e03
     home: https://atero.ai/
@@ -4866,7 +4905,7 @@ entries:
     version: v0.1.83
   - apiVersion: v2
     appVersion: v0.1.82
-    created: "2025-12-16T20:57:09.188438056Z"
+    created: "2025-12-17T19:21:15.836711169Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: d348a3cafa08089e07ab6bdb7ccc296b4dd89f974acf613212ac0da69f826851
     home: https://atero.ai/
@@ -4879,7 +4918,7 @@ entries:
     version: v0.1.82
   - apiVersion: v2
     appVersion: v0.1.81
-    created: "2025-12-16T20:57:09.188121166Z"
+    created: "2025-12-17T19:21:15.836379003Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 91509b19ef306db91d0e60cbc3dfacab732a139e39eeb45580e9dfb87fe81502
     home: https://atero.ai/
@@ -4892,7 +4931,7 @@ entries:
     version: v0.1.81
   - apiVersion: v2
     appVersion: v0.1.80
-    created: "2025-12-16T20:57:09.187778634Z"
+    created: "2025-12-17T19:21:15.836037457Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 5cdeb7d0cb33fcd1139bb48d741b93051d3ad0bc8f905fc7d4461daedbcb6377
     home: https://atero.ai/
@@ -4905,7 +4944,7 @@ entries:
     version: v0.1.80
   - apiVersion: v2
     appVersion: v0.1.79
-    created: "2025-12-16T20:57:09.18744232Z"
+    created: "2025-12-17T19:21:15.835721163Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: a195955497ffc764d611cc582f71fd7301c264b686722558b4b62cc19df614ad
     home: https://atero.ai/
@@ -4918,7 +4957,7 @@ entries:
     version: v0.1.79
   - apiVersion: v2
     appVersion: v0.1.78
-    created: "2025-12-16T20:57:09.18708161Z"
+    created: "2025-12-17T19:21:15.83537021Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: c7093319730d96e224d992b754207ceb59d0b28f0a93761d3dc7ffaa00f90c26
     home: https://atero.ai/
@@ -4931,7 +4970,7 @@ entries:
     version: v0.1.78
   - apiVersion: v2
     appVersion: v0.1.77
-    created: "2025-12-16T20:57:09.186679008Z"
+    created: "2025-12-17T19:21:15.835022682Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 4ca4b3f6e5740f3d8ec5b4324eae88ccc2fe2b342108a9e51e1d5411451bb9a1
     home: https://atero.ai/
@@ -4944,7 +4983,7 @@ entries:
     version: v0.1.77
   - apiVersion: v2
     appVersion: v0.1.76
-    created: "2025-12-16T20:57:09.185831999Z"
+    created: "2025-12-17T19:21:15.834688824Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
     digest: 4856f1146432af5051c1bcebd99e1021fa6e59924f743a161978008597fb5718
     home: https://atero.ai/
@@ -4957,9 +4996,9 @@ entries:
     version: v0.1.76
   - apiVersion: v2
     appVersion: 0.0.0-nightly
-    created: "2025-12-16T20:57:09.159951987Z"
+    created: "2025-12-17T19:21:15.801195678Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
-    digest: ee229ede7e5fd54f811577b8b3055faf0bbf550f9e9b2f0d66fdfea3e8a8815e
+    digest: 9ff72b8d039a01ba577168400641693f13553a5f4bf895b50cd6167a802cc09a
     home: https://atero.ai/
     maintainers:
     - name: Atero
@@ -4970,8 +5009,18 @@ entries:
     version: 0.0.0-nightly
   sglang:
   - apiVersion: v2
+    appVersion: v0.1.179
+    created: "2025-12-17T19:21:16.492569915Z"
+    description: Minimal Helm chart to deploy an SGLang OpenAI-compatible server
+    digest: 94c34221a6deac779705659343362294b1725d01995703a4a1835038e90d13fd
+    name: sglang
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/sglang-v0.1.179.tgz
+    version: v0.1.179
+  - apiVersion: v2
     appVersion: v0.1.178
-    created: "2025-12-16T20:57:09.809844932Z"
+    created: "2025-12-17T19:21:16.492265704Z"
     description: Minimal Helm chart to deploy an SGLang OpenAI-compatible server
     digest: c53aed0e52a621102b39d875713b149bdf0df5a57f601df14f26f71440f76803
     name: sglang
@@ -4981,7 +5030,7 @@ entries:
     version: v0.1.178
   - apiVersion: v2
     appVersion: v0.1.177
-    created: "2025-12-16T20:57:09.809544907Z"
+    created: "2025-12-17T19:21:16.4919838Z"
     description: Minimal Helm chart to deploy an SGLang OpenAI-compatible server
     digest: 7a4a64033cc01023cb9c705cdbc4d0261872614ae7a7297948a6de7eb22478ef
     name: sglang
@@ -4991,7 +5040,7 @@ entries:
     version: v0.1.177
   - apiVersion: v2
     appVersion: v0.1.176
-    created: "2025-12-16T20:57:09.809237283Z"
+    created: "2025-12-17T19:21:16.49130612Z"
     description: Minimal Helm chart to deploy an SGLang OpenAI-compatible server
     digest: 36aac0e1404a987c4695a700d6a53e4971c1c75d823e2542701cc577c3c2767c
     name: sglang
@@ -5001,7 +5050,7 @@ entries:
     version: v0.1.176
   - apiVersion: v2
     appVersion: v0.1.175
-    created: "2025-12-16T20:57:09.808935171Z"
+    created: "2025-12-17T19:21:16.491019032Z"
     description: Minimal Helm chart to deploy an SGLang OpenAI-compatible server
     digest: 0ff93b404b2ff1440035cb8d369d74071c0af56520ff084419f3a0ba83e1293c
     name: sglang
@@ -5011,9 +5060,9 @@ entries:
     version: v0.1.175
   - apiVersion: v2
     appVersion: 0.0.0-nightly
-    created: "2025-12-16T20:57:09.80857064Z"
+    created: "2025-12-17T19:21:16.490727204Z"
     description: Minimal Helm chart to deploy an SGLang OpenAI-compatible server
-    digest: 2d76c900c906c36df69cd726a4e88c150445dce33b26e07b0ee4d04e979697fc
+    digest: 588ff67c309ef7a0363c5cc8230d3f37bf85265b6c0a88feb180c89bb8173530
     name: sglang
     type: application
     urls:
@@ -5021,8 +5070,18 @@ entries:
     version: 0.0.0-nightly
   vllm:
   - apiVersion: v2
+    appVersion: v0.1.179
+    created: "2025-12-17T19:21:16.511497827Z"
+    description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
+    digest: 3d0d60312931b276a227362a417308760e482247b8c8df4ea11f29b63417901e
+    name: vllm
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vllm-v0.1.179.tgz
+    version: v0.1.179
+  - apiVersion: v2
     appVersion: v0.1.178
-    created: "2025-12-16T20:57:09.822267681Z"
+    created: "2025-12-17T19:21:16.511197333Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: dbd9c99cb9601690f2a085433257fa900bde8bb71c46018e6762664b412b1d36
     name: vllm
@@ -5032,7 +5091,7 @@ entries:
     version: v0.1.178
   - apiVersion: v2
     appVersion: v0.1.177
-    created: "2025-12-16T20:57:09.821941764Z"
+    created: "2025-12-17T19:21:16.510915202Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: 876ba54c786fd51cd638b0faf74a77fa462d95582f21e256d3107f49d16cfb92
     name: vllm
@@ -5042,7 +5101,7 @@ entries:
     version: v0.1.177
   - apiVersion: v2
     appVersion: v0.1.176
-    created: "2025-12-16T20:57:09.821644397Z"
+    created: "2025-12-17T19:21:16.51061708Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: 903d8c5e9f992c6eff233deba5009fd0f7de02b64b383369313f91b139deabd0
     name: vllm
@@ -5052,7 +5111,7 @@ entries:
     version: v0.1.176
   - apiVersion: v2
     appVersion: v0.1.175
-    created: "2025-12-16T20:57:09.821343068Z"
+    created: "2025-12-17T19:21:16.509957282Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: a2178ba9effd6a564a099fd2b03ade3c49e8c1f2597e696386ef3d8573263633
     name: vllm
@@ -5062,7 +5121,7 @@ entries:
     version: v0.1.175
   - apiVersion: v2
     appVersion: v0.1.174
-    created: "2025-12-16T20:57:09.820985666Z"
+    created: "2025-12-17T19:21:16.509648206Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: 373160ef2d6296e85561d8616f2aac7de868b7c2d950ab39e4687fc209a95256
     name: vllm
@@ -5072,7 +5131,7 @@ entries:
     version: v0.1.174
   - apiVersion: v2
     appVersion: v0.1.172
-    created: "2025-12-16T20:57:09.820675136Z"
+    created: "2025-12-17T19:21:16.509364713Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: 458dd383e941029c4ff8912fea0e5a1322dce47ddea924085fb9871ab24d117b
     name: vllm
@@ -5082,7 +5141,7 @@ entries:
     version: v0.1.172
   - apiVersion: v2
     appVersion: v0.1.171
-    created: "2025-12-16T20:57:09.820375221Z"
+    created: "2025-12-17T19:21:16.508955578Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: 9f53c67084fc831031614b15db3ce39f88ecb4424caff1ae72adfb55afc2a02e
     name: vllm
@@ -5092,7 +5151,7 @@ entries:
     version: v0.1.171
   - apiVersion: v2
     appVersion: v0.1.170
-    created: "2025-12-16T20:57:09.819709848Z"
+    created: "2025-12-17T19:21:16.508761995Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: e59c7ddab40bba01469c662bafba00324d78d04fa8d9b8651f1676937d754d84
     name: vllm
@@ -5102,7 +5161,7 @@ entries:
     version: v0.1.170
   - apiVersion: v2
     appVersion: v0.1.169
-    created: "2025-12-16T20:57:09.819527778Z"
+    created: "2025-12-17T19:21:16.507891129Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: 4321ff2253db8f841044cd1e63752f20373f807db0dbda7599e86df30d55c1f3
     name: vllm
@@ -5112,7 +5171,7 @@ entries:
     version: v0.1.169
   - apiVersion: v2
     appVersion: v0.1.168
-    created: "2025-12-16T20:57:09.819340419Z"
+    created: "2025-12-17T19:21:16.507686482Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: e2bc018807f04623eb232c465b71cf0dcdfe83174d31d771d369f5b327a1d32e
     name: vllm
@@ -5122,7 +5181,7 @@ entries:
     version: v0.1.168
   - apiVersion: v2
     appVersion: v0.1.167
-    created: "2025-12-16T20:57:09.819140061Z"
+    created: "2025-12-17T19:21:16.507511002Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: ecd55049df79b30218eb803126f8a46fc87647ea0b2968554841f95ddf0e724b
     name: vllm
@@ -5132,7 +5191,7 @@ entries:
     version: v0.1.167
   - apiVersion: v2
     appVersion: v0.1.166
-    created: "2025-12-16T20:57:09.818945084Z"
+    created: "2025-12-17T19:21:16.507333322Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: 558cfbe7104dad3e9f512fb9605eb7db68be7d5b5268aa33df24c2e4b735ed98
     name: vllm
@@ -5142,7 +5201,7 @@ entries:
     version: v0.1.166
   - apiVersion: v2
     appVersion: v0.1.165
-    created: "2025-12-16T20:57:09.818760635Z"
+    created: "2025-12-17T19:21:16.507139842Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: d91789617498b506d37e0a6f3608e1f96a2e10e3eff9fe4c498594bf1ad97593
     name: vllm
@@ -5152,7 +5211,7 @@ entries:
     version: v0.1.165
   - apiVersion: v2
     appVersion: v0.1.164
-    created: "2025-12-16T20:57:09.818570762Z"
+    created: "2025-12-17T19:21:16.506959645Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: af8ea4a17ee1db09dc0219f9991be1201a7fea1b34d8da9dbcfa94587377d29c
     name: vllm
@@ -5162,7 +5221,7 @@ entries:
     version: v0.1.164
   - apiVersion: v2
     appVersion: v0.1.163
-    created: "2025-12-16T20:57:09.818388109Z"
+    created: "2025-12-17T19:21:16.50676575Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: 0d664461b110f883ddbd4bd1919305ca0086d6d0964654ce9067593f4dcbed2e
     name: vllm
@@ -5172,7 +5231,7 @@ entries:
     version: v0.1.163
   - apiVersion: v2
     appVersion: v0.1.162
-    created: "2025-12-16T20:57:09.818193257Z"
+    created: "2025-12-17T19:21:16.506221948Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: 90fe885ca6e40b5f928385804c53d7456ba72bacdc28b401172c30e140bd9fb9
     name: vllm
@@ -5182,7 +5241,7 @@ entries:
     version: v0.1.162
   - apiVersion: v2
     appVersion: v0.1.161
-    created: "2025-12-16T20:57:09.817995314Z"
+    created: "2025-12-17T19:21:16.506007802Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: 336ae4f658969d8383e173fdd9cbcdc3b5795cd8be5aa6628942183d74c30bee
     name: vllm
@@ -5192,7 +5251,7 @@ entries:
     version: v0.1.161
   - apiVersion: v2
     appVersion: v0.1.160
-    created: "2025-12-16T20:57:09.817804008Z"
+    created: "2025-12-17T19:21:16.505804544Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: a8d1f713bb5e02ef5c430b76be022b11f221e81583349af00222cfaf15db7fe6
     name: vllm
@@ -5202,7 +5261,7 @@ entries:
     version: v0.1.160
   - apiVersion: v2
     appVersion: v0.1.159
-    created: "2025-12-16T20:57:09.817606238Z"
+    created: "2025-12-17T19:21:16.505602024Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: b9910854b7a477a5702b4bbf67bc273d445e3078a8ab1b0b80173525519b1dcf
     name: vllm
@@ -5212,7 +5271,7 @@ entries:
     version: v0.1.159
   - apiVersion: v2
     appVersion: v0.1.158
-    created: "2025-12-16T20:57:09.817388197Z"
+    created: "2025-12-17T19:21:16.505398938Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: 7bf2ad63285addbeb27d2bf100c931a3598750a9117f27b38a979109274fdd70
     name: vllm
@@ -5222,7 +5281,7 @@ entries:
     version: v0.1.158
   - apiVersion: v2
     appVersion: v0.1.157
-    created: "2025-12-16T20:57:09.817203764Z"
+    created: "2025-12-17T19:21:16.505155793Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: 5f0f8087634f3e07f7a139d9fa8f7d5c0a6aa855dbd970e6d2e3f6c2bf4fb837
     name: vllm
@@ -5232,7 +5291,7 @@ entries:
     version: v0.1.157
   - apiVersion: v2
     appVersion: v0.1.156
-    created: "2025-12-16T20:57:09.81698523Z"
+    created: "2025-12-17T19:21:16.504844813Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: c3d7dea7a812207282ad3e09713303494cd2fae27f7c12406e15a175da889fe3
     name: vllm
@@ -5242,7 +5301,7 @@ entries:
     version: v0.1.156
   - apiVersion: v2
     appVersion: v0.1.155
-    created: "2025-12-16T20:57:09.816802013Z"
+    created: "2025-12-17T19:21:16.503976646Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: 8e51193112bed0036c964741981bf9f2dfc16bb8be69acba40f46a1af8bafcfc
     name: vllm
@@ -5252,7 +5311,7 @@ entries:
     version: v0.1.155
   - apiVersion: v2
     appVersion: v0.1.154
-    created: "2025-12-16T20:57:09.816615428Z"
+    created: "2025-12-17T19:21:16.503731926Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: bb197210b45f333c67a073dc4e91fc2759a1e99e6fb2c847f072e54855f1410d
     name: vllm
@@ -5262,7 +5321,7 @@ entries:
     version: v0.1.154
   - apiVersion: v2
     appVersion: v0.1.153
-    created: "2025-12-16T20:57:09.816427192Z"
+    created: "2025-12-17T19:21:16.503360104Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: 68d100cbe7acd6369bb482a14d8d2515a984fa847520dcf35a862c6c9f98bada
     name: vllm
@@ -5272,7 +5331,7 @@ entries:
     version: v0.1.153
   - apiVersion: v2
     appVersion: v0.1.152
-    created: "2025-12-16T20:57:09.816236933Z"
+    created: "2025-12-17T19:21:16.503132955Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: e89f2b948beaa4dc6683a84d49174e59db99d1132839b6364c098e6948d10cea
     name: vllm
@@ -5282,7 +5341,7 @@ entries:
     version: v0.1.152
   - apiVersion: v2
     appVersion: v0.1.151
-    created: "2025-12-16T20:57:09.816032567Z"
+    created: "2025-12-17T19:21:16.502939392Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: a6010ced1a4a10ce2a2742ee0a68d2baaaf412c2258e36b33cb7a893368293fa
     name: vllm
@@ -5292,7 +5351,7 @@ entries:
     version: v0.1.151
   - apiVersion: v2
     appVersion: v0.1.150
-    created: "2025-12-16T20:57:09.815830151Z"
+    created: "2025-12-17T19:21:16.501953887Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: 6820b073ee3a9a77a506f7d84458030e5db5285cac6ed72e9bfb1c3ff4c381c8
     name: vllm
@@ -5302,7 +5361,7 @@ entries:
     version: v0.1.150
   - apiVersion: v2
     appVersion: v0.1.149
-    created: "2025-12-16T20:57:09.815613349Z"
+    created: "2025-12-17T19:21:16.50176288Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: 3be167a488caf48609f2d00a6a04f5f25b835aacd229e0b36923a383877fd5a8
     name: vllm
@@ -5312,7 +5371,7 @@ entries:
     version: v0.1.149
   - apiVersion: v2
     appVersion: v0.1.148
-    created: "2025-12-16T20:57:09.815406611Z"
+    created: "2025-12-17T19:21:16.501531192Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: 350d13dda3f72c0c4686bde07cf8edb6458dece5a7cb4445623a873c30e32223
     name: vllm
@@ -5322,7 +5381,7 @@ entries:
     version: v0.1.148
   - apiVersion: v2
     appVersion: v0.1.147
-    created: "2025-12-16T20:57:09.815195845Z"
+    created: "2025-12-17T19:21:16.501329134Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: 8656b5ce3cb1b56392c9abb5b2eebfdd69141f2a80e4416bb99199173156792d
     name: vllm
@@ -5332,7 +5391,7 @@ entries:
     version: v0.1.147
   - apiVersion: v2
     appVersion: v0.1.146
-    created: "2025-12-16T20:57:09.814955054Z"
+    created: "2025-12-17T19:21:16.500535312Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: 832a3b3d4e579a25d2313f564ff29ae75bde0d10f5a1021151d9a79925167e36
     name: vllm
@@ -5342,7 +5401,7 @@ entries:
     version: v0.1.146
   - apiVersion: v2
     appVersion: v0.1.145
-    created: "2025-12-16T20:57:09.814685161Z"
+    created: "2025-12-17T19:21:16.500320832Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: e33ba9a4851e639eda79248396a073900d22e716b4b0caa8e08e5d4c42b63e97
     name: vllm
@@ -5352,7 +5411,7 @@ entries:
     version: v0.1.145
   - apiVersion: v2
     appVersion: v0.1.144
-    created: "2025-12-16T20:57:09.814015514Z"
+    created: "2025-12-17T19:21:16.500106899Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: 961e51a26f458a95df5277bc4e6e09e4a0b1a9e233dded52cb94a2064530b2ee
     name: vllm
@@ -5362,7 +5421,7 @@ entries:
     version: v0.1.144
   - apiVersion: v2
     appVersion: v0.1.143
-    created: "2025-12-16T20:57:09.813750867Z"
+    created: "2025-12-17T19:21:16.49964577Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: f4b9f909477d7a433d4b8326ada229bee34d0d269e25482258fc900f777aa336
     name: vllm
@@ -5372,7 +5431,7 @@ entries:
     version: v0.1.143
   - apiVersion: v2
     appVersion: v0.1.142
-    created: "2025-12-16T20:57:09.813567943Z"
+    created: "2025-12-17T19:21:16.499426344Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: d633fdd41fa5820613b37372b5e21e85e7d99bd0e8772999768e5a47423da78f
     name: vllm
@@ -5382,7 +5441,7 @@ entries:
     version: v0.1.142
   - apiVersion: v2
     appVersion: v0.1.141
-    created: "2025-12-16T20:57:09.813383141Z"
+    created: "2025-12-17T19:21:16.499219888Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: c8b2fbabff345425920674edb32861b983e2d5d9129dc6b301f706a1a3a284f2
     name: vllm
@@ -5392,7 +5451,7 @@ entries:
     version: v0.1.141
   - apiVersion: v2
     appVersion: v0.1.140
-    created: "2025-12-16T20:57:09.813196448Z"
+    created: "2025-12-17T19:21:16.499021505Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: 0208b35820376159c927a6c20ddff36ff257483394dadf7d5d57e87d1748a609
     name: vllm
@@ -5402,7 +5461,7 @@ entries:
     version: v0.1.140
   - apiVersion: v2
     appVersion: v0.1.139
-    created: "2025-12-16T20:57:09.812996446Z"
+    created: "2025-12-17T19:21:16.49862732Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: 94253a3919020e205d3f8aae0470eaeb5d4abbb0f4139693fa66fb0ad8517110
     name: vllm
@@ -5412,7 +5471,7 @@ entries:
     version: v0.1.139
   - apiVersion: v2
     appVersion: v0.1.138
-    created: "2025-12-16T20:57:09.812804372Z"
+    created: "2025-12-17T19:21:16.498402939Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: f0454206a6c1908f355b93105d4c1067aac4136913ee0ab559b7574b6ce3fbba
     name: vllm
@@ -5422,7 +5481,7 @@ entries:
     version: v0.1.138
   - apiVersion: v2
     appVersion: v0.1.137
-    created: "2025-12-16T20:57:09.812590933Z"
+    created: "2025-12-17T19:21:16.498177664Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: d357a3285763d0f30919ff783429a5e5e83547f6b05cb7907cf66ddf878d42fc
     name: vllm
@@ -5432,7 +5491,7 @@ entries:
     version: v0.1.137
   - apiVersion: v2
     appVersion: v0.1.136
-    created: "2025-12-16T20:57:09.81240314Z"
+    created: "2025-12-17T19:21:16.497237041Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: df09d62d1bbacf39bf532e4d2c49aee84dfdf9fd706c54f02f2be4d4bba9e01d
     name: vllm
@@ -5442,7 +5501,7 @@ entries:
     version: v0.1.136
   - apiVersion: v2
     appVersion: v0.1.135
-    created: "2025-12-16T20:57:09.812215237Z"
+    created: "2025-12-17T19:21:16.497013022Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: b53b6850f44793df37e3af048dc9a8b48f8f6a418dc1c60420c251681ed15e1e
     name: vllm
@@ -5452,7 +5511,7 @@ entries:
     version: v0.1.135
   - apiVersion: v2
     appVersion: v0.1.134
-    created: "2025-12-16T20:57:09.812007506Z"
+    created: "2025-12-17T19:21:16.496810637Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: 93b503644fed8c4c54c92db3e9f29154909bec466556b9ce988c4583792fa3c2
     name: vllm
@@ -5462,7 +5521,7 @@ entries:
     version: v0.1.134
   - apiVersion: v2
     appVersion: v0.1.133
-    created: "2025-12-16T20:57:09.811793913Z"
+    created: "2025-12-17T19:21:16.496589882Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: 357081c7e86c0b59c114dee0767347c9e3e84dc95ed2bb8615173f53faf3810f
     name: vllm
@@ -5472,7 +5531,7 @@ entries:
     version: v0.1.133
   - apiVersion: v2
     appVersion: v0.1.132
-    created: "2025-12-16T20:57:09.811596494Z"
+    created: "2025-12-17T19:21:16.496373144Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: cca7d60ac866046aa8818de9050e0b5ac59438ff80204a8017e33498d7c62094
     name: vllm
@@ -5482,7 +5541,7 @@ entries:
     version: v0.1.132
   - apiVersion: v2
     appVersion: v0.1.131
-    created: "2025-12-16T20:57:09.811398514Z"
+    created: "2025-12-17T19:21:16.496121699Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: 7e0c9784f5df701fd4066e9566e570b443bc11bf7fd2a76fe91bcbacf4c212c5
     name: vllm
@@ -5492,7 +5551,7 @@ entries:
     version: v0.1.131
   - apiVersion: v2
     appVersion: v0.1.130
-    created: "2025-12-16T20:57:09.811208044Z"
+    created: "2025-12-17T19:21:16.495257056Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: 944353df0eec35372829440949017c80798c21589bc09ebf0b8200f49e866bb4
     name: vllm
@@ -5502,7 +5561,7 @@ entries:
     version: v0.1.130
   - apiVersion: v2
     appVersion: v0.1.129
-    created: "2025-12-16T20:57:09.810995078Z"
+    created: "2025-12-17T19:21:16.494336134Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: a9db4b26232f706bd1b917148481c15698834dde1727bc59479bcb32a0233d18
     name: vllm
@@ -5512,7 +5571,7 @@ entries:
     version: v0.1.129
   - apiVersion: v2
     appVersion: v0.1.128
-    created: "2025-12-16T20:57:09.810798479Z"
+    created: "2025-12-17T19:21:16.494128134Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: 3d631275e4f0834c0233c7eb4e26ff407ada3a0b4f3e272088af9c29908254cf
     name: vllm
@@ -5522,7 +5581,7 @@ entries:
     version: v0.1.128
   - apiVersion: v2
     appVersion: v0.1.127
-    created: "2025-12-16T20:57:09.810602351Z"
+    created: "2025-12-17T19:21:16.493922849Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: dec4768e9569ca969a0b2083be58881afbb4ca116e69fc580405b496d2204f09
     name: vllm
@@ -5532,7 +5591,7 @@ entries:
     version: v0.1.127
   - apiVersion: v2
     appVersion: v0.1.126
-    created: "2025-12-16T20:57:09.810402728Z"
+    created: "2025-12-17T19:21:16.493710724Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
     digest: d5a283716d547952a12ea5806bed755707283bdaf67399c51f17979d1dc5fb85
     name: vllm
@@ -5542,12 +5601,12 @@ entries:
     version: v0.1.126
   - apiVersion: v2
     appVersion: 0.0.0-nightly
-    created: "2025-12-16T20:57:09.810188717Z"
+    created: "2025-12-17T19:21:16.492878085Z"
     description: Minimal Helm chart to deploy a vLLM OpenAI-compatible server
-    digest: f9ba7cd7ae66c57ad458fd943db0d69e835c573edf9db302e330122abb10f290
+    digest: 08c547ae4f5bc44bc96497d7e852ae89cae44c632eaae4c682c643cfb1c4d783
     name: vllm
     type: application
     urls:
     - https://atero-ai.github.io/charts/atero-charts/vllm-0.0.0-nightly.tgz
     version: 0.0.0-nightly
-generated: "2025-12-16T20:57:08.969156607Z"
+generated: "2025-12-17T19:21:15.592411538Z"
