@@ -3942,7 +3942,7 @@ entries:
     version: 0.0.0
   - apiVersion: v2
     appVersion: 0.0.0-nightly
-    created: "2025-12-27T00:20:13.69166356Z"
+    created: "2025-12-28T00:20:35.669628903Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -3957,7 +3957,7 @@ entries:
       - fluent-bit
       version: 0.48.4
     description: Atero helm chart
-    digest: 3f0e2d04c7e50c8831d4fdfbf10fdef3cc92d732b78e16f5107ca3453e849930
+    digest: da5e22dffd386d52a4c21503690c207a39e1b02ae6564f8f7a484f3c5cd3d505
     home: https://atero.ai/
     maintainers:
     - name: Atero
@@ -5191,9 +5191,9 @@ entries:
     version: v0.1.76
   - apiVersion: v2
     appVersion: 0.0.0-nightly
-    created: "2025-12-27T00:20:13.692160489Z"
+    created: "2025-12-28T00:20:35.67010845Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
-    digest: d3b37808a103d7a739c56e7d5d066d5276250f375aef1e67d2030156a824b828
+    digest: fa853bbb43dcdcae9e42f66502f5e659a7cd09434f5c56696fc7fefa5a6f1950
     home: https://atero.ai/
     maintainers:
     - name: Atero
@@ -5317,10 +5317,10 @@ entries:
     version: v0.1.185
   - apiVersion: v2
     appVersion: 0.0.0-nightly
-    created: "2025-12-27T00:20:13.692615254Z"
+    created: "2025-12-28T00:20:35.670552494Z"
     description: Unified Helm chart to deploy vLLM or SGLang OpenAI-compatible inference
       servers
-    digest: 14413f77a30d21a7e23d0632f3f5bd6e4ea7b22eec9d2f2732ccc8d6fba83f39
+    digest: 4d368f10d843e41367852f81bdfe897023fef0df6b5b43b2a39a50965bc3d044
     name: vanilla-inference
     type: application
     urls:
@@ -5907,4 +5907,4 @@ entries:
     urls:
     - https://atero-ai.github.io/charts/atero-charts/vllm-0.0.0-nightly.tgz
     version: 0.0.0-nightly
-generated: "2025-12-27T00:20:13.684797469Z"
+generated: "2025-12-28T00:20:35.662594653Z"
