@@ -2,6 +2,32 @@ apiVersion: v1
 entries:
   atero:
   - apiVersion: v2
+    appVersion: v0.1.210-vanilla
+    created: "2026-02-18T19:46:42.202264423Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 44c5fd04b9089be591257fe477c1f22916efa73f116cd74a843608c02ead6c3e
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.210-vanilla.tgz
+    version: v0.1.210-vanilla
+  - apiVersion: v2
     appVersion: v0.1.209-vanilla
     created: "2026-02-17T15:33:51.92578499Z"
     dependencies:
@@ -4540,6 +4566,19 @@ entries:
     version: 0.0.0-nightly
   atero-kvcache-model:
   - apiVersion: v2
+    appVersion: v0.1.210-vanilla
+    created: "2026-02-18T19:46:42.195573267Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: 7a7c9831fca61a94600eba8cf6413a2c8bbcb0c7602b25767f262ab2dc88e294
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.210-vanilla.tgz
+    version: v0.1.210-vanilla
+  - apiVersion: v2
     appVersion: v0.1.209-vanilla
     created: "2026-02-17T15:33:51.919075421Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
@@ -6163,6 +6202,16 @@ entries:
     version: 0.0.0-nightly
   sglang-pd:
   - apiVersion: v2
+    appVersion: v0.1.210-vanilla
+    created: "2026-02-18T19:46:42.203069686Z"
+    description: Helm chart for SGLang Prefill-Decode (PD) disaggregation deployment
+    digest: f5751b595ff706b8a48f7a00c0df35ab6955e201656eb07022610fc573730e26
+    name: sglang-pd
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/sglang-pd-v0.1.210-vanilla.tgz
+    version: v0.1.210-vanilla
+  - apiVersion: v2
     appVersion: v0.1.209-vanilla
     created: "2026-02-17T15:33:51.92655499Z"
     description: Helm chart for SGLang Prefill-Decode (PD) disaggregation deployment
@@ -6393,6 +6442,17 @@ entries:
     - https://atero-ai.github.io/charts/atero-charts/sglang-pd-0.0.0-nightly.tgz
     version: 0.0.0-nightly
   vanilla-inference:
+  - apiVersion: v2
+    appVersion: v0.1.210-vanilla
+    created: "2026-02-18T19:46:42.203633689Z"
+    description: Unified Helm chart to deploy vLLM or SGLang OpenAI-compatible inference
+      servers
+    digest: e58bee88a28bf37ee33ce66e9cf982d472b44b1090ab5da7db2e3f90f4caa57e
+    name: vanilla-inference
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vanilla-inference-v0.1.210-vanilla.tgz
+    version: v0.1.210-vanilla
   - apiVersion: v2
     appVersion: v0.1.209-vanilla
     created: "2026-02-17T15:33:51.927101746Z"
@@ -7238,4 +7298,4 @@ entries:
     urls:
     - https://atero-ai.github.io/charts/atero-charts/vllm-0.0.0-nightly.tgz
     version: 0.0.0-nightly
-generated: "2026-02-18T00:24:03.544110228Z"
+generated: "2026-02-18T19:46:42.194924878Z"
