@@ -4514,7 +4514,7 @@ entries:
     version: 0.0.0
   - apiVersion: v2
     appVersion: 0.0.0-nightly
-    created: "2026-02-16T00:23:05.414337064Z"
+    created: "2026-02-18T00:24:03.551353858Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -4529,7 +4529,7 @@ entries:
       - fluent-bit
       version: 0.48.4
     description: Atero helm chart
-    digest: dd68395f730326f7ffe460a8221a46dbab8eb5d88a20e7c8a52fda16db8d4cd0
+    digest: 1bd3ee1bbe6e19221d4ba0d897438ab1797585c29b5a7ce89bf32d882763efb1
     home: https://atero.ai/
     maintainers:
     - name: Atero
@@ -6049,9 +6049,9 @@ entries:
     version: v0.1.76
   - apiVersion: v2
     appVersion: 0.0.0-nightly
-    created: "2026-02-16T00:23:05.414847828Z"
+    created: "2026-02-18T00:24:03.551927682Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
-    digest: 31f4866ef917acfa451f30826830cd737b6cd2f4659fd8f5da4cd5c0bb0a8d1a
+    digest: 2ab5317795c47af55d24aa2eca6d077da418b757e19e5e3230976cd5ffb9142f
     home: https://atero.ai/
     maintainers:
     - name: Atero
@@ -6384,9 +6384,9 @@ entries:
     version: v0.1.186
   - apiVersion: v2
     appVersion: 0.0.0-nightly
-    created: "2026-02-16T00:23:05.415586233Z"
+    created: "2026-02-18T00:24:03.552675436Z"
     description: Helm chart for SGLang Prefill-Decode (PD) disaggregation deployment
-    digest: bf59d7ffeb6312fec182ac9d2a3bda9aaa2416969b73a9793582f583c7c5dbd5
+    digest: 335097cd8745380dea005c865b248d34d401e886400d7b6c558b8296885807f1
     name: sglang-pd
     type: application
     urls:
@@ -6648,10 +6648,10 @@ entries:
     version: v0.1.185
   - apiVersion: v2
     appVersion: 0.0.0-nightly
-    created: "2026-02-16T00:23:05.416162094Z"
+    created: "2026-02-18T00:24:03.553244083Z"
     description: Unified Helm chart to deploy vLLM or SGLang OpenAI-compatible inference
       servers
-    digest: 98b55f0ae559ba506c0a2c51beedeb2b3458b1b4a802ebb55c6c44b57e92c0d5
+    digest: 21e494eeb3ecbfb5cc2825e428848bf2095d443d1a0cc2d87c947caf52f80eb7
     name: vanilla-inference
     type: application
     urls:
@@ -7238,4 +7238,4 @@ entries:
     urls:
     - https://atero-ai.github.io/charts/atero-charts/vllm-0.0.0-nightly.tgz
     version: 0.0.0-nightly
-generated: "2026-02-17T15:33:51.918476046Z"
+generated: "2026-02-18T00:24:03.544110228Z"
