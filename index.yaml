@@ -6255,6 +6255,23 @@ entries:
     urls:
     - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-0.0.0-nightly.tgz
     version: 0.0.0-nightly
+  benchmark:
+  - apiVersion: v2
+    appVersion: poc-56afaf9
+    created: "2026-02-23T11:56:25.109506319Z"
+    description: Atero LLM Benchmark Deployment - Standardized benchmarking
+    digest: e3480cfa7ffb6a320e7475c3dc02a675f3e12b0d2191d18bc8e6750b3f76c6f7
+    keywords:
+    - benchmark
+    - llm
+    - atero
+    - vllm
+    - sglang
+    name: benchmark
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/benchmark-0.1.0-dev+56afaf9.tgz
+    version: 0.1.0-dev+56afaf9
   sglang:
   - apiVersion: v2
     appVersion: v0.1.184
@@ -7538,4 +7555,4 @@ entries:
     urls:
     - https://atero-ai.github.io/charts/atero-charts/vllm-0.0.0-nightly.tgz
     version: 0.0.0-nightly
-generated: "2026-02-23T07:04:55.47733808Z"
+generated: "2026-02-23T11:56:25.108493493Z"
