@@ -6258,9 +6258,9 @@ entries:
   benchmark:
   - apiVersion: v2
     appVersion: poc-56afaf9
-    created: "2026-02-23T11:56:25.109506319Z"
+    created: "2026-02-23T11:59:47.914521269Z"
     description: Atero LLM Benchmark Deployment - Standardized benchmarking
-    digest: e3480cfa7ffb6a320e7475c3dc02a675f3e12b0d2191d18bc8e6750b3f76c6f7
+    digest: 3974f3083bb5dd3351b562f90bcfa66064b8dccecda98142444c175f9ee004d5
     keywords:
     - benchmark
     - llm
@@ -7555,4 +7555,4 @@ entries:
     urls:
     - https://atero-ai.github.io/charts/atero-charts/vllm-0.0.0-nightly.tgz
     version: 0.0.0-nightly
-generated: "2026-02-23T11:56:25.108493493Z"
+generated: "2026-02-23T11:59:47.913483996Z"
