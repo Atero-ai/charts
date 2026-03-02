@@ -6407,9 +6407,9 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2026-02-23T12:19:12.082903823Z"
+    created: "2026-03-02T09:04:02.687134413Z"
     description: Atero LLM Benchmark Deployment - Standardized benchmarking
-    digest: fed74403e22b2cf467e8cd6053f3d4f2a511d386f1ea09bb089e73865a07c416
+    digest: 438171b30f1bbc9843dec9ed9bb5c7f2c91451ec16ceae99bd9d931219857698
     keywords:
     - benchmark
     - llm
@@ -6419,8 +6419,8 @@ entries:
     name: benchmark
     type: application
     urls:
-    - https://atero-ai.github.io/charts/atero-charts/benchmark-v0.0.1.tgz
-    version: v0.0.1
+    - https://atero-ai.github.io/charts/atero-charts/benchmark-0.0.1.tgz
+    version: 0.0.1
   sglang:
   - apiVersion: v2
     appVersion: v0.1.184
@@ -7767,4 +7767,4 @@ entries:
     urls:
     - https://atero-ai.github.io/charts/atero-charts/vllm-0.0.0-nightly.tgz
     version: 0.0.0-nightly
-generated: "2026-03-02T00:21:41.975363569Z"
+generated: "2026-03-02T09:04:02.684578067Z"
