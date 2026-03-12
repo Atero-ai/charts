@@ -4826,7 +4826,7 @@ entries:
     version: 0.0.0
   - apiVersion: v2
     appVersion: 0.0.0-nightly
-    created: "2026-03-08T00:23:48.272475625Z"
+    created: "2026-03-12T00:25:37.483554448Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -4841,7 +4841,7 @@ entries:
       - fluent-bit
       version: 0.48.4
     description: Atero helm chart
-    digest: 1425d016b22a755ce4316518d795097ac53454cc584fc014ada4356a1bb4feed
+    digest: 1e35e384208e658509df6de76b8075bb7ffb138b432d0235e729c4c178d17499
     home: https://atero.ai/
     maintainers:
     - name: Atero
@@ -6517,9 +6517,9 @@ entries:
     version: v0.1.76
   - apiVersion: v2
     appVersion: 0.0.0-nightly
-    created: "2026-03-08T00:23:48.272977006Z"
+    created: "2026-03-12T00:25:37.484069758Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
-    digest: d49e9940510bb22c65650967a907cdec4efc017d94c631a5ac39f82d1fa7de9d
+    digest: 071a1a66c68dc576d7fccec8d1a11ab0901f11fa7e4ffdc4083bc236b54d4a6d
     home: https://atero.ai/
     maintainers:
     - name: Atero
@@ -6710,6 +6710,16 @@ entries:
     urls:
     - https://atero-ai.github.io/charts/atero-charts/nemotron-voicechat-v0.1.0.tgz
     version: v0.1.0
+  - apiVersion: v2
+    appVersion: 0.0.0-nightly
+    created: "2026-03-12T00:25:37.485633392Z"
+    description: Nemotron VoiceChat deployment
+    digest: b98ef176ac9785baa21976b19f6d4995303d54cb4eadccf023e2d2bf6f290302
+    name: nemotron-voicechat
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/nemotron-voicechat-0.0.0-nightly.tgz
+    version: 0.0.0-nightly
   sglang:
   - apiVersion: v2
     appVersion: v0.1.184
@@ -7154,9 +7164,9 @@ entries:
     version: v0.1.186
   - apiVersion: v2
     appVersion: 0.0.0-nightly
-    created: "2026-03-08T00:23:48.273798217Z"
+    created: "2026-03-12T00:25:37.486556349Z"
     description: Helm chart for SGLang Prefill-Decode (PD) disaggregation deployment
-    digest: c2030090e0f3de5497a48103c88d8ee011e23a40457cbb70f5f1b9b35c9f33f7
+    digest: f19ef68aa8e4e3340b5346194797d153a875adba2dec43ae34e9de477b17c92a
     name: sglang-pd
     type: application
     urls:
@@ -7550,10 +7560,10 @@ entries:
     version: v0.1.185
   - apiVersion: v2
     appVersion: 0.0.0-nightly
-    created: "2026-03-08T00:23:48.274278998Z"
+    created: "2026-03-12T00:25:37.487094663Z"
     description: Unified Helm chart to deploy vLLM or SGLang OpenAI-compatible inference
       servers
-    digest: eed3db57de309e574f6316b948266a86c189fb3cddfc47b264d2ab8982ece789
+    digest: e0f7ef4c3ebf4cc24c0f9461eab9ad6ba83242e2bb3b47889227f052627b9ed0
     name: vanilla-inference
     type: application
     urls:
@@ -8173,4 +8183,4 @@ entries:
     urls:
     - https://atero-ai.github.io/charts/atero-charts/wrenchmark-v0.1.2.tgz
     version: v0.1.2
-generated: "2026-03-10T16:12:10.559432Z"
+generated: "2026-03-12T00:25:37.476208333Z"
