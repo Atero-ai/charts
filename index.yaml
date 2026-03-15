@@ -6569,6 +6569,22 @@ entries:
     version: 0.0.0-nightly
   benchmark:
   - apiVersion: v2
+    appVersion: v0.1.6
+    created: "2026-03-15T13:34:28.073002065Z"
+    description: Atero LLM Benchmark Deployment - Standardized benchmarking
+    digest: 3785f3b31a48c7c82e3632cc62e7e4be93d3a39afbb061758594c09ad748e169
+    keywords:
+    - benchmark
+    - llm
+    - atero
+    - vllm
+    - sglang
+    name: benchmark
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/benchmark-v0.1.6.tgz
+    version: v0.1.6
+  - apiVersion: v2
     appVersion: v0.1.5
     created: "2026-03-15T11:37:34.172394835Z"
     description: Atero LLM Benchmark Deployment - Standardized benchmarking
@@ -8270,6 +8286,22 @@ entries:
     version: 0.0.0-nightly
   wrenchmark:
   - apiVersion: v2
+    appVersion: v0.1.6
+    created: "2026-03-15T13:34:28.073605567Z"
+    description: Wrenchmark application with frontend, backend, and agent (unified
+      image)
+    digest: e61f8e8e7b4eefcb343aa51b42a291f29caf1667202b9233872bdaccb9236bac
+    keywords:
+    - wrenchmark
+    - benchmark
+    - dashboard
+    - agent
+    name: wrenchmark
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/wrenchmark-v0.1.6.tgz
+    version: v0.1.6
+  - apiVersion: v2
     appVersion: v0.1.5
     created: "2026-03-15T11:37:34.173029411Z"
     description: Wrenchmark application with frontend, backend, and agent (unified
@@ -8349,4 +8381,4 @@ entries:
     urls:
     - https://atero-ai.github.io/charts/atero-charts/wrenchmark-v0.1.2.tgz
     version: v0.1.2
-generated: "2026-03-15T13:06:27.083743037Z"
+generated: "2026-03-15T13:34:28.071732005Z"
