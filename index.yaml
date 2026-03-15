@@ -2,6 +2,32 @@ apiVersion: v1
 entries:
   atero:
   - apiVersion: v2
+    appVersion: v0.1.229
+    created: "2026-03-15T13:06:27.091360618Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - etcd
+      version: 10.7.2
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      tags:
+      - fluent-bit
+      version: 0.48.4
+    description: Atero helm chart
+    digest: 0cd691809e48c3095c81844ea90a06b459f33b4815b91211c6d0cbda0831d8ce
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-v0.1.229.tgz
+    version: v0.1.229
+  - apiVersion: v2
     appVersion: v0.1.228
     created: "2026-03-09T12:36:55.6049978Z"
     dependencies:
@@ -4852,6 +4878,19 @@ entries:
     version: 0.0.0-nightly
   atero-kvcache-model:
   - apiVersion: v2
+    appVersion: v0.1.229
+    created: "2026-03-15T13:06:27.085172709Z"
+    description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
+    digest: a219c71100e0f6eec3e83b99ec13715576870c3d8487636504bf253dea2de89c
+    home: https://atero.ai/
+    maintainers:
+    - name: Atero
+    name: atero-kvcache-model
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/atero-kvcache-model-v0.1.229.tgz
+    version: v0.1.229
+  - apiVersion: v2
     appVersion: v0.1.228
     created: "2026-03-09T12:36:55.597891343Z"
     description: A Helm chart for deploying models using vanilla vllm and atero_kvcache
@@ -6749,6 +6788,16 @@ entries:
     - https://atero-ai.github.io/charts/atero-charts/nemotron-voicechat-v0.2.0.tgz
     version: v0.2.0
   - apiVersion: v2
+    appVersion: v0.1.229
+    created: "2026-03-15T13:06:27.092999362Z"
+    description: Nemotron VoiceChat deployment
+    digest: cf0f13bcf9881b4d14f7ef11e23f67265c17be5e2e4d1e86b0bd553fcce53013
+    name: nemotron-voicechat
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/nemotron-voicechat-v0.1.229.tgz
+    version: v0.1.229
+  - apiVersion: v2
     appVersion: 26.02.4-ea
     created: "2026-03-04T13:01:19.526517Z"
     description: Nemotron VoiceChat deployment
@@ -6870,6 +6919,16 @@ entries:
     - https://atero-ai.github.io/charts/atero-charts/sglang-0.0.0-nightly.tgz
     version: 0.0.0-nightly
   sglang-pd:
+  - apiVersion: v2
+    appVersion: v0.1.229
+    created: "2026-03-15T13:06:27.094056909Z"
+    description: Helm chart for SGLang Prefill-Decode (PD) disaggregation deployment
+    digest: ca5eadda1d50cd451077d6b2b5c2a236c2fcd34c9bdb1b99a69ea09c1c8e5a67
+    name: sglang-pd
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/sglang-pd-v0.1.229.tgz
+    version: v0.1.229
   - apiVersion: v2
     appVersion: v0.1.228
     created: "2026-03-09T12:36:55.605916058Z"
@@ -7221,6 +7280,17 @@ entries:
     - https://atero-ai.github.io/charts/atero-charts/sglang-pd-0.0.0-nightly.tgz
     version: 0.0.0-nightly
   vanilla-inference:
+  - apiVersion: v2
+    appVersion: v0.1.229
+    created: "2026-03-15T13:06:27.094668071Z"
+    description: Unified Helm chart to deploy vLLM or SGLang OpenAI-compatible inference
+      servers
+    digest: 6d1073213c6bb20c718a5a77ee6f3d075c2078a8289796abb65d29eea46e7ebe
+    name: vanilla-inference
+    type: application
+    urls:
+    - https://atero-ai.github.io/charts/atero-charts/vanilla-inference-v0.1.229.tgz
+    version: v0.1.229
   - apiVersion: v2
     appVersion: v0.1.228
     created: "2026-03-09T12:36:55.606413188Z"
@@ -8279,4 +8349,4 @@ entries:
     urls:
     - https://atero-ai.github.io/charts/atero-charts/wrenchmark-v0.1.2.tgz
     version: v0.1.2
-generated: "2026-03-15T11:37:34.171159303Z"
+generated: "2026-03-15T13:06:27.083743037Z"
